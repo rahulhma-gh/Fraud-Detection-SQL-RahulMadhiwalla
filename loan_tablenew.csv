@@ -1,0 +1,3001 @@
+loan_id,customer_id,loan_amount,loan_date,loan_status,repayment_history,interest_rate,loan_purpose,collateral,default_risk
+1,525,481952,9/12/2022,Closed,8,9.4,Medical,House,High
+2,494,58764,8/19/2023,Defaulted,3,9.21,Business Expansion,None,Low
+3,934,356749,1/4/2022,Approved,10,12.35,Home Renovation,House,Medium
+4,352,348100,1/13/2023,Closed,9,4.85,Education,House,Low
+5,650,114287,2/17/2020,Approved,9,4.39,Business Expansion,House,High
+6,274,260273,4/23/2024,Closed,9,6.39,Medical,House,Low
+7,714,176418,5/26/2024,Approved,3,10.78,Education,Car,Low
+8,939,223287,7/23/2021,Rejected,7,6.85,Home Renovation,Car,High
+9,955,428895,1/8/2022,Rejected,10,4.27,Home Renovation,None,High
+10,535,199991,7/12/2021,Approved,6,9.37,Education,House,Low
+11,345,429473,2/22/2023,Rejected,3,4.45,Business Expansion,House,Medium
+12,497,411642,12/21/2022,Approved,2,11.1,Medical,Car,Low
+13,29,174410,12/11/2020,Closed,9,6.84,Home Renovation,House,Medium
+14,662,111955,2/4/2020,Approved,1,11.15,Medical,House,Low
+15,183,116476,9/4/2022,Closed,1,7.67,Education,House,Medium
+16,958,242399,4/11/2023,Approved,7,11.96,Business Expansion,House,High
+17,280,163967,3/26/2021,Approved,9,8.38,Home Renovation,None,High
+18,602,89452,12/20/2021,Defaulted,7,11.39,Education,House,Medium
+19,461,298535,4/16/2022,Defaulted,5,12.42,Business Expansion,None,High
+20,253,332239,3/3/2021,Closed,2,9.66,Home Renovation,None,Medium
+21,701,27941,10/21/2023,Approved,10,9.7,Education,Car,Medium
+22,749,286362,10/28/2021,Approved,5,6.82,Home Renovation,House,Low
+23,663,201812,5/27/2023,Closed,2,5.2,Business Expansion,House,High
+24,934,162640,9/1/2023,Rejected,5,10.4,Business Expansion,None,Low
+25,830,289037,4/14/2022,Approved,9,6.31,Home Renovation,House,Low
+26,432,274015,10/4/2024,Defaulted,7,7.54,Medical,Car,Medium
+27,135,122005,4/5/2021,Closed,6,4.23,Business Expansion,None,High
+28,140,144321,1/16/2020,Rejected,1,5.06,Home Renovation,House,High
+29,920,308041,9/19/2023,Defaulted,8,4.25,Business Expansion,None,Low
+30,329,239317,3/15/2021,Approved,3,5.21,Medical,None,High
+31,509,428189,2/2/2021,Closed,8,4.12,Home Renovation,Car,High
+32,409,291889,10/12/2023,Closed,4,3.78,Business Expansion,Car,Low
+33,539,446126,5/25/2023,Closed,5,7.8,Medical,None,Low
+34,379,458116,7/6/2024,Closed,7,9.07,Medical,Car,High
+35,406,273681,1/31/2020,Closed,9,11.89,Home Renovation,Car,Low
+36,166,169093,7/4/2023,Defaulted,8,8.87,Medical,Car,High
+37,104,186720,9/23/2020,Approved,5,5.11,Home Renovation,Car,Medium
+38,943,232097,12/4/2020,Defaulted,2,10.92,Home Renovation,Car,Medium
+39,913,128715,4/5/2020,Closed,1,5.97,Home Renovation,None,High
+40,856,209410,12/23/2020,Defaulted,7,10.9,Home Renovation,None,Low
+41,783,327125,2/13/2023,Closed,10,9.34,Home Renovation,None,Low
+42,436,480819,6/4/2021,Approved,4,7.84,Home Renovation,None,Medium
+43,998,152226,4/16/2024,Rejected,2,3.69,Education,Car,Low
+44,781,112595,1/1/2020,Closed,2,8.32,Education,Car,Medium
+45,927,226247,6/27/2021,Defaulted,3,5.4,Business Expansion,Car,Low
+46,544,331488,8/19/2021,Defaulted,1,8.84,Education,House,Low
+47,574,13462,4/3/2022,Defaulted,1,7.93,Education,None,Medium
+48,103,59018,10/27/2020,Defaulted,9,9.96,Home Renovation,Car,High
+49,748,54637,6/20/2022,Defaulted,8,8.95,Business Expansion,Car,Medium
+50,378,201059,12/8/2022,Closed,8,11.57,Education,House,High
+51,700,148578,12/29/2022,Defaulted,8,8.25,Education,Car,Low
+52,548,486876,4/10/2024,Defaulted,1,11.68,Business Expansion,House,Low
+53,941,352113,6/13/2023,Defaulted,8,10.45,Education,Car,High
+54,279,439398,3/11/2022,Closed,9,9.32,Medical,House,Medium
+55,751,381861,2/22/2022,Rejected,8,3.74,Home Renovation,Car,Low
+56,173,265064,8/27/2022,Closed,8,5.99,Medical,None,Low
+57,154,291064,2/12/2022,Rejected,9,9.19,Home Renovation,House,High
+58,592,33542,8/9/2023,Rejected,10,6.51,Business Expansion,House,Low
+59,142,480718,9/9/2021,Defaulted,2,6.62,Medical,None,Low
+60,168,435740,10/30/2022,Approved,3,7.09,Home Renovation,Car,Low
+61,135,80581,2/26/2023,Closed,2,11.09,Business Expansion,Car,Medium
+62,560,87333,8/24/2022,Closed,6,3.56,Education,Car,Medium
+63,847,333825,11/7/2024,Approved,9,7,Business Expansion,Car,Medium
+64,304,339000,5/1/2022,Defaulted,3,12.18,Education,None,Low
+65,523,401897,1/24/2023,Rejected,4,6.71,Education,House,Low
+66,604,440860,2/2/2020,Rejected,7,8.87,Medical,House,High
+67,922,144058,2/10/2020,Defaulted,9,10.75,Home Renovation,House,Medium
+68,192,368565,7/26/2020,Closed,4,12.25,Business Expansion,None,High
+69,250,70961,10/7/2023,Closed,7,6.05,Education,None,High
+70,803,422665,9/23/2024,Defaulted,1,8.71,Business Expansion,Car,High
+71,214,356163,11/29/2019,Closed,1,9.73,Business Expansion,House,Medium
+72,363,392762,2/4/2024,Rejected,1,7.83,Business Expansion,House,Low
+73,299,30924,8/15/2024,Closed,7,10.19,Education,Car,Low
+74,525,281533,8/24/2024,Closed,9,8.61,Medical,Car,Medium
+75,528,330361,1/28/2021,Approved,7,5.64,Education,None,High
+76,36,448203,6/24/2021,Rejected,10,12.5,Home Renovation,None,Low
+77,98,394189,10/28/2023,Approved,7,8.43,Business Expansion,Car,Low
+78,101,329642,4/19/2021,Closed,7,5.53,Medical,Car,Medium
+79,563,42938,12/28/2021,Defaulted,7,6.75,Home Renovation,House,Low
+80,102,388843,10/16/2020,Closed,7,9.32,Business Expansion,None,Low
+81,584,74694,4/9/2023,Closed,10,7.68,Education,House,Medium
+82,399,162408,5/7/2024,Defaulted,1,10.88,Home Renovation,Car,Medium
+83,590,222842,9/21/2021,Rejected,3,4.85,Medical,House,High
+84,219,14168,2/19/2024,Closed,3,5.05,Medical,House,High
+85,699,99700,11/7/2020,Rejected,7,4.45,Education,House,High
+86,783,198479,1/11/2024,Approved,4,11.44,Education,None,Low
+87,234,384255,6/18/2024,Closed,3,5.23,Home Renovation,Car,Low
+88,611,303059,3/24/2024,Approved,3,12.35,Education,House,High
+89,186,285987,8/10/2023,Closed,8,11.22,Medical,House,High
+90,458,199008,5/1/2021,Defaulted,3,3.84,Home Renovation,Car,High
+91,612,292808,6/25/2023,Defaulted,7,4.31,Business Expansion,Car,High
+92,860,356258,4/1/2022,Defaulted,7,3.86,Medical,Car,Low
+93,719,385651,11/5/2023,Defaulted,6,5.02,Business Expansion,None,Medium
+94,918,242771,5/23/2022,Closed,4,4.24,Education,House,Low
+95,611,226879,7/25/2022,Closed,7,10.86,Medical,House,Medium
+96,957,371849,7/28/2024,Closed,6,11.03,Education,None,Medium
+97,27,319264,7/20/2024,Closed,10,10.53,Home Renovation,House,High
+98,674,298754,1/21/2021,Rejected,2,5.52,Home Renovation,Car,High
+99,229,119457,3/13/2023,Approved,3,4.83,Medical,House,Low
+100,912,266693,7/15/2024,Rejected,2,11.57,Medical,Car,Medium
+101,751,187100,7/8/2020,Closed,7,10.24,Medical,House,Medium
+102,52,129738,8/12/2024,Rejected,7,9.54,Home Renovation,House,Low
+103,868,159138,3/21/2024,Approved,10,10.5,Business Expansion,None,High
+104,571,259701,5/30/2023,Closed,2,8.98,Home Renovation,House,Medium
+105,452,218522,4/21/2021,Approved,3,7.08,Education,Car,Low
+106,226,7158,3/11/2020,Defaulted,7,4.98,Education,House,High
+107,69,370278,10/25/2022,Defaulted,10,11.84,Medical,Car,Medium
+108,921,255874,6/4/2023,Approved,2,5.83,Medical,Car,High
+109,182,185073,2/17/2022,Rejected,7,7.75,Education,None,Low
+110,843,11761,6/23/2020,Closed,1,6.21,Business Expansion,None,Medium
+111,847,429475,11/21/2023,Defaulted,4,8.1,Home Renovation,Car,Medium
+112,246,448346,1/29/2022,Defaulted,2,7.46,Business Expansion,Car,High
+113,573,65715,12/9/2022,Approved,2,6.13,Home Renovation,Car,High
+114,555,184956,3/31/2023,Rejected,7,10.04,Business Expansion,None,High
+115,213,30145,10/30/2022,Defaulted,8,9.29,Education,House,High
+116,617,329295,9/16/2020,Defaulted,10,9.54,Business Expansion,None,High
+117,858,34193,1/22/2022,Closed,7,3.62,Home Renovation,Car,Medium
+118,449,313820,3/21/2022,Closed,3,11.01,Home Renovation,None,High
+119,684,190602,1/13/2022,Defaulted,3,10.73,Business Expansion,House,High
+120,214,133435,11/24/2020,Approved,7,9.3,Home Renovation,None,Low
+121,665,21122,4/4/2024,Approved,6,10.21,Home Renovation,House,Low
+122,197,425077,2/4/2023,Rejected,2,3.85,Home Renovation,House,High
+123,87,412470,2/12/2020,Closed,4,10.37,Medical,House,Medium
+124,411,15784,8/13/2020,Rejected,8,8.98,Business Expansion,Car,Medium
+125,271,86217,7/23/2023,Defaulted,2,5.54,Business Expansion,Car,Medium
+126,635,486235,4/18/2023,Defaulted,10,6.75,Education,Car,High
+127,43,98124,1/23/2021,Defaulted,2,3.56,Medical,Car,High
+128,871,24525,10/8/2020,Approved,10,9.26,Medical,None,Medium
+129,250,203747,12/13/2020,Defaulted,10,7.26,Medical,None,Low
+130,976,115434,9/8/2021,Rejected,5,8.04,Business Expansion,Car,High
+131,82,54781,8/3/2024,Approved,3,11.44,Education,House,High
+132,842,236693,8/3/2022,Defaulted,1,9.79,Home Renovation,Car,Low
+133,422,468501,6/9/2023,Rejected,6,6.79,Education,House,Medium
+134,335,178881,5/4/2023,Defaulted,9,9.13,Medical,Car,Low
+135,676,174403,2/18/2024,Rejected,4,7.92,Education,House,High
+136,379,307011,7/28/2022,Approved,7,7.8,Business Expansion,House,Low
+137,366,286985,9/23/2024,Rejected,4,4.94,Education,None,Low
+138,920,349215,7/14/2020,Approved,8,3.88,Medical,Car,Low
+139,321,458985,2/11/2022,Defaulted,2,9.48,Education,Car,High
+140,427,381132,3/14/2022,Rejected,10,5.06,Home Renovation,House,High
+141,495,109608,7/2/2020,Approved,4,10.67,Education,None,High
+142,967,154385,11/17/2020,Rejected,5,12.3,Medical,None,High
+143,967,185299,12/6/2023,Closed,4,11.44,Medical,Car,Medium
+144,769,357388,4/8/2022,Approved,4,12.05,Education,Car,Low
+145,2,225024,10/27/2022,Rejected,4,5.52,Business Expansion,None,Low
+146,745,287929,3/2/2020,Closed,10,6.79,Medical,Car,Low
+147,37,477611,12/7/2022,Approved,7,6.17,Medical,Car,High
+148,630,439323,5/12/2024,Defaulted,7,3.77,Business Expansion,House,Low
+149,694,42581,1/10/2023,Rejected,5,4.25,Medical,Car,Low
+150,865,149209,8/12/2023,Approved,4,11.45,Education,House,High
+151,38,320538,12/6/2020,Rejected,6,8.66,Medical,None,Medium
+152,234,287877,10/7/2020,Closed,5,4.23,Home Renovation,None,High
+153,683,493919,3/10/2023,Closed,10,5.77,Business Expansion,None,High
+154,643,226157,4/9/2023,Closed,10,7.26,Medical,House,High
+155,287,84951,11/20/2020,Approved,6,11.42,Home Renovation,None,High
+156,152,357945,6/16/2023,Defaulted,7,11.63,Medical,House,High
+157,426,357408,11/23/2021,Approved,10,8.58,Home Renovation,None,Low
+158,146,227844,3/26/2021,Approved,1,5.35,Home Renovation,None,Low
+159,691,39099,3/30/2021,Approved,3,10.56,Home Renovation,None,Low
+160,361,355434,1/3/2022,Closed,3,4.57,Medical,None,Medium
+161,879,187052,6/18/2020,Defaulted,6,8.16,Medical,None,High
+162,977,352666,8/30/2021,Approved,4,7.11,Medical,House,High
+163,160,80594,9/10/2022,Rejected,6,5.66,Business Expansion,None,Medium
+164,751,139615,7/17/2023,Defaulted,5,12.34,Medical,Car,High
+165,117,498804,11/4/2020,Defaulted,3,11.08,Medical,None,High
+166,5,121586,4/17/2024,Rejected,1,7.63,Education,Car,High
+167,924,74086,6/24/2023,Approved,6,4.86,Home Renovation,None,Medium
+168,728,478723,12/11/2022,Closed,3,6.36,Education,Car,Low
+169,800,422951,4/23/2024,Rejected,6,12.23,Medical,None,Medium
+170,81,303358,8/1/2024,Approved,6,11.62,Business Expansion,House,Low
+171,140,472137,10/21/2020,Approved,8,11.29,Business Expansion,Car,Low
+172,729,121331,6/30/2021,Approved,5,10.3,Home Renovation,House,Low
+173,876,467223,7/31/2023,Closed,10,11.92,Business Expansion,None,Low
+174,220,224162,9/13/2024,Rejected,10,9.71,Education,Car,Low
+175,162,491728,6/19/2021,Rejected,8,9.53,Business Expansion,None,High
+176,985,265467,10/9/2023,Defaulted,4,11.22,Medical,None,Medium
+177,967,377465,6/10/2023,Defaulted,1,5.87,Business Expansion,Car,High
+178,717,331305,1/9/2020,Defaulted,10,10.91,Medical,Car,Medium
+179,662,67991,8/28/2023,Approved,4,9.78,Home Renovation,House,Low
+180,471,488409,11/30/2021,Rejected,7,5.48,Home Renovation,None,Low
+181,662,104448,10/25/2021,Defaulted,8,10.18,Business Expansion,House,Low
+182,418,350365,7/8/2020,Defaulted,6,11.63,Business Expansion,House,High
+183,285,42176,5/6/2021,Closed,7,8.35,Business Expansion,None,Low
+184,944,89147,6/7/2021,Closed,2,11.21,Business Expansion,House,Low
+185,853,69268,6/25/2021,Closed,7,11.51,Education,Car,High
+186,94,92245,2/6/2024,Defaulted,8,12.18,Home Renovation,None,Low
+187,449,229753,9/24/2022,Rejected,8,11.58,Business Expansion,House,High
+188,65,344099,7/31/2023,Closed,8,7.9,Medical,Car,High
+189,525,283559,6/3/2023,Closed,8,5.36,Business Expansion,None,Low
+190,901,143529,3/11/2023,Approved,9,4.09,Home Renovation,Car,High
+191,547,99606,1/27/2024,Approved,4,9.11,Home Renovation,House,Medium
+192,183,82685,9/9/2024,Rejected,6,6.97,Medical,Car,Low
+193,412,112083,5/28/2020,Closed,3,11.07,Home Renovation,House,Low
+194,350,298882,4/6/2023,Approved,8,11.34,Education,Car,Medium
+195,364,155470,1/16/2021,Defaulted,4,9.7,Business Expansion,Car,Medium
+196,151,55709,5/6/2020,Rejected,6,4.37,Education,House,High
+197,33,279224,8/12/2024,Closed,2,11.82,Medical,Car,Medium
+198,447,170867,8/1/2021,Approved,4,8.75,Medical,House,Medium
+199,471,127706,4/21/2024,Rejected,1,7.87,Business Expansion,None,High
+200,418,457642,4/15/2020,Rejected,6,11.67,Business Expansion,None,High
+201,165,397156,2/24/2020,Defaulted,9,12.31,Business Expansion,None,Low
+202,465,133168,3/25/2023,Closed,8,5.73,Home Renovation,Car,Medium
+203,205,150455,10/22/2024,Closed,8,6.1,Business Expansion,None,Medium
+204,51,356228,9/5/2024,Defaulted,2,7.14,Education,Car,High
+205,339,91925,8/18/2020,Closed,9,9.84,Business Expansion,None,High
+206,511,257232,11/8/2023,Approved,1,11.14,Medical,Car,High
+207,218,55395,7/22/2020,Closed,8,7.87,Education,House,High
+208,263,13286,11/5/2024,Closed,3,11.48,Education,Car,Low
+209,297,112661,6/27/2020,Closed,9,12.35,Business Expansion,House,Low
+210,866,491203,9/23/2024,Closed,9,7.59,Business Expansion,None,Medium
+211,70,156862,1/6/2023,Approved,3,8.16,Education,None,High
+212,543,113480,2/5/2022,Defaulted,7,5.42,Education,None,Medium
+213,862,248627,10/14/2022,Rejected,5,6.92,Education,Car,Medium
+214,938,431326,6/16/2022,Defaulted,9,3.65,Business Expansion,Car,High
+215,759,204587,7/27/2020,Defaulted,1,10.67,Education,None,Medium
+216,595,163767,5/3/2022,Closed,6,9.2,Home Renovation,House,Low
+217,362,148651,10/23/2023,Defaulted,4,11.42,Medical,None,High
+218,53,280068,3/3/2024,Approved,10,5.28,Business Expansion,None,Low
+219,443,446019,5/14/2021,Closed,2,10.77,Business Expansion,None,Low
+220,58,417239,12/22/2021,Closed,8,6.82,Home Renovation,House,Low
+221,102,216661,6/18/2023,Closed,3,11.23,Medical,Car,Medium
+222,69,212399,4/1/2022,Closed,9,5.97,Medical,Car,Low
+223,937,259090,10/5/2021,Defaulted,8,8.54,Home Renovation,Car,Medium
+224,833,405412,11/23/2022,Closed,4,12.09,Medical,Car,Low
+225,960,433260,5/13/2020,Rejected,4,4.39,Education,None,Medium
+226,896,485337,8/12/2020,Rejected,6,6.19,Business Expansion,None,Low
+227,322,53881,6/10/2022,Rejected,4,5.37,Medical,None,High
+228,92,56652,2/6/2023,Approved,7,4.72,Medical,House,Medium
+229,324,480644,8/10/2023,Rejected,7,5.33,Home Renovation,Car,Low
+230,191,87500,8/4/2023,Closed,3,10.25,Home Renovation,None,High
+231,43,185689,6/25/2023,Approved,9,4.88,Home Renovation,Car,Medium
+232,139,150164,8/17/2021,Defaulted,5,12,Medical,House,Medium
+233,888,126437,1/30/2022,Defaulted,9,8.3,Medical,None,Medium
+234,349,479609,2/26/2022,Closed,6,4.97,Home Renovation,House,High
+235,201,125478,2/3/2020,Approved,6,4.5,Medical,Car,Low
+236,43,332705,4/11/2023,Closed,10,3.7,Business Expansion,Car,Low
+237,870,492512,11/13/2023,Defaulted,8,8.43,Home Renovation,Car,Low
+238,617,489364,5/10/2021,Rejected,8,9.22,Home Renovation,Car,Low
+239,352,382946,10/8/2022,Approved,3,10.03,Home Renovation,None,High
+240,769,424994,4/12/2020,Approved,1,8.63,Medical,Car,Low
+241,293,469923,2/25/2024,Defaulted,1,10.46,Business Expansion,Car,Medium
+242,234,440850,7/14/2020,Rejected,6,11.32,Education,None,Medium
+243,350,29265,10/22/2023,Defaulted,5,6.38,Medical,None,Low
+244,378,231012,10/14/2021,Approved,3,5.85,Home Renovation,None,Medium
+245,755,6979,2/20/2020,Approved,4,10.06,Business Expansion,House,Medium
+246,788,445732,12/18/2022,Rejected,1,5.63,Education,Car,Low
+247,254,422321,5/31/2023,Defaulted,4,5.26,Home Renovation,Car,High
+248,778,186190,1/1/2021,Rejected,4,4.87,Education,None,Low
+249,687,243602,12/23/2023,Rejected,1,9.09,Medical,None,High
+250,782,448846,2/15/2022,Defaulted,1,10.71,Home Renovation,House,Medium
+251,858,270432,3/9/2024,Rejected,10,10.69,Education,Car,Medium
+252,814,107540,9/15/2022,Defaulted,8,5.35,Home Renovation,House,High
+253,41,171901,10/9/2023,Defaulted,10,9.97,Education,Car,Low
+254,818,411581,11/18/2021,Approved,3,11.15,Home Renovation,Car,Medium
+255,37,131204,12/27/2022,Defaulted,1,3.54,Education,Car,Low
+256,565,236341,5/4/2022,Closed,6,12.11,Education,Car,Medium
+257,310,108674,4/28/2022,Closed,2,4.3,Home Renovation,None,Medium
+258,406,235502,3/24/2023,Approved,8,4.33,Education,Car,Low
+259,981,378148,6/15/2024,Approved,9,11.65,Education,Car,Low
+260,798,181858,9/19/2022,Defaulted,2,11.25,Home Renovation,House,Low
+261,163,492088,1/8/2023,Rejected,5,3.7,Education,House,Medium
+262,374,245831,7/10/2024,Rejected,2,11.46,Home Renovation,None,Low
+263,485,186758,8/22/2024,Approved,10,6.48,Home Renovation,Car,High
+264,436,198542,5/19/2021,Defaulted,9,6.82,Medical,House,Low
+265,271,385207,6/3/2022,Approved,9,7.29,Home Renovation,House,High
+266,620,75071,11/7/2022,Closed,4,10.37,Home Renovation,House,Low
+267,252,355720,6/20/2022,Rejected,10,8.15,Home Renovation,None,Medium
+268,897,195807,6/12/2022,Defaulted,1,4.77,Home Renovation,House,High
+269,784,179508,9/15/2022,Defaulted,8,4.99,Medical,Car,Medium
+270,662,99625,4/28/2024,Closed,6,11.76,Business Expansion,Car,Low
+271,494,38572,12/3/2021,Rejected,5,7.34,Education,None,Low
+272,884,222977,4/25/2024,Approved,3,11.76,Business Expansion,None,Low
+273,42,120121,12/21/2023,Defaulted,2,6.98,Business Expansion,Car,Low
+274,492,159223,10/23/2021,Approved,1,11.14,Home Renovation,House,High
+275,350,390869,7/2/2021,Closed,6,9.09,Home Renovation,House,Low
+276,966,302182,3/17/2022,Approved,6,7.43,Business Expansion,None,High
+277,342,31462,10/24/2021,Defaulted,3,10.41,Education,Car,Low
+278,288,178251,9/18/2020,Approved,8,8.63,Business Expansion,House,Medium
+279,60,391714,11/9/2022,Defaulted,3,10.24,Home Renovation,Car,High
+280,702,83667,3/9/2022,Approved,7,7.13,Medical,House,Medium
+281,585,161389,8/28/2021,Closed,6,4.35,Home Renovation,Car,High
+282,351,39829,12/1/2023,Rejected,7,10.07,Home Renovation,None,High
+283,202,168974,7/3/2022,Rejected,10,7.08,Education,None,Medium
+284,773,482399,3/29/2024,Rejected,4,12.31,Medical,Car,Medium
+285,406,414408,11/20/2022,Defaulted,7,6.74,Education,House,Low
+286,187,257193,11/28/2020,Rejected,9,4.26,Education,None,High
+287,851,132385,9/16/2024,Approved,2,12.06,Home Renovation,House,High
+288,764,334820,1/26/2023,Defaulted,9,6.14,Business Expansion,None,High
+289,693,243325,7/9/2020,Approved,5,10.51,Education,None,Medium
+290,195,61105,5/6/2024,Defaulted,6,12.43,Home Renovation,None,Medium
+291,49,454618,8/21/2021,Approved,8,5.95,Medical,Car,Low
+292,763,46925,3/22/2022,Approved,4,9.2,Medical,Car,Medium
+293,548,276948,2/26/2020,Rejected,3,3.79,Education,House,Low
+294,673,424538,1/13/2023,Approved,8,8.18,Medical,House,Medium
+295,439,362396,6/9/2022,Closed,2,10.8,Medical,House,High
+296,672,266586,1/7/2024,Defaulted,6,7.78,Business Expansion,House,Low
+297,639,308081,6/7/2021,Defaulted,2,4.86,Home Renovation,House,High
+298,39,9597,1/12/2024,Rejected,5,10.28,Medical,House,High
+299,430,164637,12/6/2019,Defaulted,1,6.46,Education,Car,High
+300,412,252601,9/23/2021,Rejected,6,4.47,Medical,None,Low
+301,150,438523,11/20/2024,Closed,3,5.23,Education,House,Medium
+302,962,53573,8/12/2023,Closed,10,5.62,Business Expansion,None,High
+303,157,393454,4/12/2022,Defaulted,6,9.85,Business Expansion,None,Medium
+304,627,293465,2/2/2021,Approved,2,3.92,Business Expansion,None,Low
+305,183,93052,7/30/2020,Closed,1,3.81,Business Expansion,House,Medium
+306,664,238603,10/25/2020,Rejected,10,7.16,Home Renovation,House,High
+307,175,99397,9/19/2021,Rejected,2,9.47,Medical,None,High
+308,159,307835,6/26/2024,Defaulted,9,4.2,Business Expansion,Car,Low
+309,32,150287,5/31/2023,Defaulted,3,12.07,Medical,House,High
+310,636,106522,2/16/2023,Approved,5,6.37,Education,Car,Medium
+311,467,47794,3/17/2021,Rejected,6,9.25,Home Renovation,House,Medium
+312,4,193162,12/3/2023,Approved,3,8.02,Business Expansion,None,Low
+313,525,464761,7/12/2024,Approved,3,7.95,Medical,None,Medium
+314,126,120399,3/16/2020,Closed,8,9.74,Medical,House,Medium
+315,426,217084,8/8/2020,Approved,3,9.49,Business Expansion,Car,Low
+316,280,30253,7/17/2020,Approved,1,9.74,Medical,House,Medium
+317,181,361383,6/22/2023,Defaulted,5,6.17,Business Expansion,None,Medium
+318,948,235041,2/24/2020,Defaulted,6,6.39,Medical,None,Low
+319,26,242606,5/27/2021,Approved,9,3.73,Home Renovation,House,Medium
+320,576,419031,8/17/2021,Rejected,4,6.44,Medical,House,Low
+321,446,91418,8/13/2021,Rejected,4,9.51,Education,None,Medium
+322,399,44064,12/24/2022,Approved,4,5,Education,Car,High
+323,760,24208,7/10/2024,Rejected,6,10.68,Education,None,Low
+324,939,12928,3/2/2023,Closed,7,6.8,Business Expansion,Car,High
+325,543,194380,1/27/2023,Approved,10,6.74,Medical,House,Medium
+326,841,453748,5/3/2023,Defaulted,5,9.47,Home Renovation,None,High
+327,336,420944,9/19/2022,Closed,10,5.73,Business Expansion,Car,Low
+328,632,6280,4/3/2022,Approved,9,11.29,Education,House,High
+329,277,361877,9/11/2020,Approved,4,7.4,Business Expansion,Car,Low
+330,346,51005,7/13/2021,Defaulted,6,7.23,Medical,House,Low
+331,404,364483,1/17/2022,Defaulted,9,8.12,Medical,House,Medium
+332,534,468694,8/2/2022,Closed,5,6.57,Home Renovation,House,High
+333,646,199090,10/8/2022,Approved,10,4.27,Education,Car,Low
+334,728,106752,11/3/2021,Defaulted,3,6.04,Medical,None,High
+335,619,484856,4/9/2022,Closed,1,11.6,Business Expansion,House,High
+336,21,485934,8/23/2023,Approved,7,3.93,Education,House,Medium
+337,860,242189,1/14/2022,Closed,5,7.98,Medical,Car,Medium
+338,183,190835,6/16/2023,Closed,10,3.6,Medical,None,High
+339,15,78179,9/13/2020,Rejected,9,5.35,Education,None,Low
+340,535,461241,2/20/2021,Defaulted,9,9.84,Education,House,High
+341,798,122105,7/14/2024,Defaulted,7,7.18,Education,None,Medium
+342,210,265956,7/27/2021,Closed,9,9.8,Medical,Car,Medium
+343,247,170241,12/23/2023,Defaulted,1,4,Education,House,Medium
+344,461,263134,2/25/2022,Approved,10,12.32,Home Renovation,Car,Low
+345,649,215826,12/20/2022,Rejected,8,4.48,Home Renovation,None,Low
+346,598,222381,11/2/2020,Rejected,10,10.21,Business Expansion,House,Low
+347,196,30606,12/19/2023,Rejected,8,12.15,Business Expansion,None,Medium
+348,3,452161,12/14/2023,Closed,4,9.59,Home Renovation,Car,Low
+349,35,23028,11/1/2020,Closed,2,4.63,Education,Car,Low
+350,644,438787,10/13/2022,Approved,1,3.55,Business Expansion,None,Medium
+351,889,240533,1/10/2023,Rejected,10,4.43,Business Expansion,Car,Low
+352,491,327316,8/29/2023,Defaulted,1,8.25,Medical,House,Low
+353,86,327252,11/20/2020,Rejected,6,5.61,Medical,Car,Medium
+354,780,490948,10/31/2023,Closed,8,4.76,Medical,None,Medium
+355,537,372154,4/26/2022,Rejected,4,4.72,Home Renovation,House,Medium
+356,72,368682,5/6/2021,Defaulted,3,8.42,Education,Car,Low
+357,118,44161,10/19/2021,Defaulted,4,9.6,Education,None,High
+358,28,264144,6/18/2024,Closed,6,9.86,Medical,Car,Medium
+359,936,82970,3/9/2022,Approved,4,11.25,Education,Car,High
+360,920,407904,6/16/2023,Rejected,2,6.14,Medical,Car,High
+361,945,269431,10/3/2020,Rejected,1,12.01,Medical,None,Low
+362,562,28969,9/27/2021,Defaulted,4,9.8,Home Renovation,Car,High
+363,140,293128,12/28/2020,Defaulted,2,5.71,Home Renovation,Car,Medium
+364,669,282109,8/23/2022,Approved,3,12.14,Education,House,Medium
+365,110,266307,2/3/2024,Approved,7,10.76,Medical,Car,High
+366,617,400406,10/28/2022,Rejected,8,8.75,Education,None,Low
+367,188,385752,3/29/2021,Closed,8,6.77,Medical,Car,Medium
+368,518,374510,1/13/2021,Approved,6,11.62,Education,None,Medium
+369,451,274136,1/23/2022,Rejected,8,12.3,Education,House,High
+370,835,461741,9/6/2021,Closed,5,9.95,Education,House,Medium
+371,972,480186,7/1/2021,Approved,10,12.3,Business Expansion,House,Low
+372,167,254555,6/7/2023,Rejected,6,12.35,Medical,House,Medium
+373,104,52302,6/5/2020,Closed,6,6.42,Education,Car,Medium
+374,223,236446,5/14/2023,Defaulted,7,11.51,Medical,None,Low
+375,874,226968,5/11/2024,Defaulted,10,9.96,Business Expansion,House,Low
+376,423,127382,9/4/2024,Rejected,5,3.92,Business Expansion,Car,Medium
+377,341,187680,1/28/2024,Defaulted,1,4.11,Education,None,Low
+378,85,60428,9/5/2021,Rejected,2,4.2,Home Renovation,House,High
+379,961,6085,2/8/2022,Rejected,2,7.05,Business Expansion,None,High
+380,40,459247,8/5/2020,Approved,10,7.06,Home Renovation,House,High
+381,254,60644,1/16/2022,Rejected,7,8.09,Education,None,Medium
+382,341,369572,2/24/2023,Defaulted,4,4.43,Business Expansion,House,Medium
+383,895,494185,11/5/2024,Defaulted,5,6.28,Business Expansion,House,Low
+384,342,212288,8/3/2020,Approved,2,5.96,Education,House,Low
+385,95,349262,11/16/2023,Defaulted,4,11.75,Medical,Car,Medium
+386,387,447083,9/12/2022,Closed,2,5.55,Medical,Car,Low
+387,409,196170,1/5/2020,Defaulted,4,7.13,Medical,Car,High
+388,468,259079,2/27/2024,Closed,8,12.42,Medical,Car,Medium
+389,571,12622,8/28/2021,Rejected,8,11.46,Business Expansion,None,Medium
+390,448,294763,5/27/2021,Defaulted,5,4,Business Expansion,Car,Low
+391,590,271244,10/30/2022,Approved,9,10.76,Business Expansion,Car,Low
+392,422,485639,7/20/2020,Defaulted,7,11.66,Business Expansion,None,High
+393,237,449518,8/10/2020,Defaulted,1,7.73,Education,House,Medium
+394,817,498425,9/3/2020,Rejected,1,10.09,Business Expansion,House,Low
+395,658,389964,5/20/2022,Rejected,1,4.8,Medical,None,High
+396,610,439994,8/8/2022,Approved,6,12.13,Business Expansion,House,Medium
+397,897,493506,7/23/2020,Approved,6,7.59,Education,None,High
+398,107,53429,4/21/2022,Defaulted,7,6.48,Home Renovation,House,High
+399,273,226433,8/3/2020,Defaulted,4,4.04,Education,House,Medium
+400,785,437281,4/14/2024,Defaulted,7,3.62,Education,None,Low
+401,287,61497,10/26/2022,Defaulted,4,11.54,Home Renovation,House,Medium
+402,353,302162,5/31/2021,Closed,1,4.1,Business Expansion,House,High
+403,325,239461,1/27/2022,Defaulted,3,11.28,Home Renovation,House,High
+404,555,324378,5/23/2023,Defaulted,9,9.62,Home Renovation,House,High
+405,666,435870,5/30/2023,Approved,3,7.31,Education,House,High
+406,407,52015,10/26/2022,Defaulted,9,5.39,Education,House,Low
+407,908,16936,4/12/2022,Defaulted,2,4.85,Education,None,High
+408,638,222564,2/14/2021,Closed,9,9.39,Business Expansion,House,Low
+409,519,386598,11/19/2022,Defaulted,9,6.89,Education,House,Medium
+410,540,327158,7/14/2022,Approved,7,12.4,Medical,None,Low
+411,197,273766,4/25/2020,Defaulted,8,11.53,Medical,Car,Low
+412,226,459571,9/18/2021,Defaulted,2,6.69,Business Expansion,None,Low
+413,305,442096,7/24/2024,Defaulted,10,9.3,Business Expansion,None,Low
+414,321,490798,12/20/2022,Defaulted,2,9.13,Home Renovation,None,High
+415,559,443363,2/16/2024,Rejected,1,3.79,Home Renovation,Car,Low
+416,637,129310,1/17/2023,Rejected,1,10.94,Business Expansion,None,Medium
+417,101,367243,10/3/2021,Rejected,9,7.17,Business Expansion,House,Medium
+418,532,7912,3/30/2023,Rejected,10,10.17,Home Renovation,Car,Medium
+419,437,245915,10/24/2024,Closed,8,3.69,Business Expansion,Car,High
+420,849,310380,2/16/2024,Rejected,6,4.42,Education,None,Low
+421,113,248804,10/13/2024,Approved,2,9.83,Education,House,Medium
+422,614,163040,4/22/2022,Closed,10,12.19,Home Renovation,House,Medium
+423,44,94183,3/9/2023,Approved,5,3.91,Business Expansion,House,Medium
+424,818,311360,11/22/2020,Approved,10,4.4,Medical,Car,Medium
+425,865,427693,10/25/2021,Defaulted,5,12.22,Medical,None,Low
+426,595,308121,10/7/2022,Defaulted,1,10.66,Education,House,Low
+427,800,305496,3/24/2022,Defaulted,3,6.98,Education,Car,Medium
+428,252,270867,6/22/2021,Closed,1,9.34,Home Renovation,House,High
+429,326,404832,9/8/2022,Rejected,4,4.03,Home Renovation,None,Low
+430,277,303150,11/25/2023,Defaulted,6,5.37,Home Renovation,House,High
+431,42,498075,12/17/2021,Defaulted,1,9.61,Education,Car,Low
+432,85,67425,3/5/2021,Rejected,3,7.82,Medical,None,High
+433,916,309066,11/6/2021,Closed,3,8.96,Education,Car,High
+434,475,149955,4/8/2024,Rejected,3,8.34,Medical,None,High
+435,265,409408,6/19/2021,Closed,8,4.31,Business Expansion,House,Low
+436,542,486833,12/25/2023,Approved,8,4.27,Medical,None,Medium
+437,444,37050,8/24/2021,Approved,9,3.73,Home Renovation,Car,Medium
+438,223,151711,9/7/2021,Defaulted,10,12.24,Business Expansion,House,Medium
+439,287,146606,7/24/2023,Defaulted,4,3.91,Business Expansion,Car,High
+440,349,442141,10/22/2022,Defaulted,4,7.33,Business Expansion,None,Medium
+441,28,443402,9/9/2024,Approved,1,12.33,Education,House,High
+442,511,117431,12/18/2021,Closed,9,5.89,Medical,House,Low
+443,772,236181,1/1/2022,Closed,1,5.43,Education,House,Medium
+444,871,158626,7/29/2023,Approved,4,7.34,Business Expansion,None,Medium
+445,697,178893,8/25/2020,Rejected,1,12.02,Home Renovation,Car,High
+446,118,320173,7/29/2021,Closed,4,11.16,Medical,House,High
+447,759,42439,4/12/2021,Defaulted,4,8.71,Home Renovation,House,Low
+448,209,438862,10/16/2023,Closed,6,5.2,Home Renovation,House,Medium
+449,183,396905,6/22/2022,Approved,3,9.95,Education,House,High
+450,984,207748,9/22/2022,Closed,9,9.03,Business Expansion,None,Medium
+451,150,308242,7/8/2022,Defaulted,6,8.95,Home Renovation,Car,Low
+452,715,265237,3/7/2024,Closed,5,8.48,Medical,Car,High
+453,947,277687,2/7/2022,Closed,3,10.99,Home Renovation,House,Low
+454,11,206552,4/29/2020,Approved,10,9.82,Home Renovation,House,Medium
+455,71,52101,12/21/2022,Defaulted,10,7.7,Business Expansion,Car,Low
+456,571,453024,12/5/2021,Closed,7,5.69,Medical,Car,Medium
+457,114,281511,1/17/2020,Rejected,7,5.23,Medical,None,Low
+458,69,260424,11/15/2022,Rejected,10,5.22,Education,House,Medium
+459,474,53433,10/14/2022,Defaulted,9,10.48,Home Renovation,House,Low
+460,27,40480,3/5/2023,Rejected,9,5.86,Education,House,Low
+461,643,259048,3/3/2022,Closed,7,12.26,Business Expansion,House,Low
+462,134,269207,2/25/2024,Rejected,10,9.4,Medical,House,High
+463,201,232038,12/22/2022,Rejected,5,7.92,Medical,Car,Low
+464,709,460254,12/11/2022,Defaulted,9,9.58,Education,House,High
+465,940,424758,1/8/2022,Defaulted,1,11.07,Education,None,Low
+466,477,87995,4/21/2020,Approved,5,4.12,Education,Car,High
+467,647,423223,1/3/2023,Closed,8,3.91,Home Renovation,Car,Medium
+468,223,77737,8/23/2023,Rejected,1,9.73,Medical,Car,Low
+469,103,405751,6/17/2020,Rejected,3,4.87,Business Expansion,None,High
+470,845,497800,4/20/2020,Rejected,7,7.99,Business Expansion,None,Low
+471,955,39317,3/26/2022,Defaulted,2,9.38,Business Expansion,None,High
+472,158,232767,2/17/2023,Defaulted,1,9.89,Home Renovation,None,High
+473,724,391704,11/5/2020,Approved,10,9.59,Education,House,High
+474,96,129143,2/8/2022,Approved,4,5.5,Business Expansion,Car,High
+475,173,342703,5/15/2022,Defaulted,6,4.13,Home Renovation,None,High
+476,378,9440,6/8/2020,Rejected,1,9.31,Education,House,Medium
+477,303,134194,12/19/2021,Closed,5,6.17,Education,Car,Medium
+478,787,19964,3/24/2021,Defaulted,8,5.45,Home Renovation,House,Medium
+479,914,397651,3/23/2022,Approved,6,4.04,Business Expansion,House,Low
+480,953,142915,5/7/2024,Rejected,5,6.14,Education,Car,Medium
+481,677,118214,8/29/2023,Defaulted,8,8.9,Home Renovation,Car,Medium
+482,972,237211,8/8/2023,Defaulted,7,11.09,Home Renovation,House,Low
+483,743,292405,4/24/2022,Defaulted,5,4.43,Education,None,High
+484,394,230378,8/2/2024,Rejected,3,9.48,Medical,House,Low
+485,275,409670,12/11/2023,Rejected,2,6.36,Medical,Car,Medium
+486,865,428281,5/19/2024,Defaulted,7,10.07,Education,Car,Medium
+487,911,430757,2/16/2024,Defaulted,3,10.78,Business Expansion,None,Low
+488,476,407917,4/2/2022,Approved,9,3.82,Home Renovation,None,Medium
+489,45,367645,6/30/2021,Defaulted,7,12.48,Medical,None,Medium
+490,923,264137,1/18/2022,Rejected,6,6.73,Medical,None,Medium
+491,657,395363,10/17/2020,Closed,10,7.1,Home Renovation,None,Medium
+492,550,117126,1/16/2020,Closed,1,5.51,Home Renovation,Car,High
+493,784,258486,1/21/2023,Defaulted,10,3.66,Medical,House,Low
+494,767,222840,4/11/2023,Approved,10,8.68,Medical,House,High
+495,817,102471,12/25/2019,Approved,9,8.04,Medical,House,Medium
+496,615,186696,5/24/2022,Defaulted,1,10.52,Medical,None,Medium
+497,94,31563,12/20/2022,Closed,8,6.81,Education,None,High
+498,842,99386,6/16/2022,Defaulted,3,4.34,Medical,None,Low
+499,324,496434,10/22/2021,Closed,3,3.51,Medical,None,Low
+500,758,496829,7/10/2023,Rejected,2,10.51,Business Expansion,House,High
+501,726,373317,10/29/2021,Defaulted,6,6.54,Home Renovation,House,Medium
+502,761,13149,12/28/2021,Closed,3,5.63,Home Renovation,House,High
+503,271,152766,5/16/2022,Closed,9,5.3,Education,House,High
+504,504,396425,5/12/2021,Approved,6,12.22,Home Renovation,None,High
+505,9,53229,3/14/2020,Defaulted,5,8.58,Education,Car,High
+506,555,142827,2/26/2022,Defaulted,7,6.92,Home Renovation,Car,High
+507,515,216888,1/22/2024,Defaulted,4,5.41,Education,Car,High
+508,62,29994,2/7/2020,Closed,8,5.34,Education,House,High
+509,352,421115,2/15/2023,Approved,3,12.25,Education,Car,High
+510,679,96254,5/23/2022,Closed,9,6.14,Medical,House,Medium
+511,125,329628,3/3/2024,Rejected,5,5.66,Medical,None,Medium
+512,36,489649,1/14/2023,Closed,5,8.28,Medical,Car,Medium
+513,356,227440,12/1/2020,Defaulted,8,3.53,Home Renovation,Car,High
+514,788,153865,2/11/2024,Defaulted,6,6.65,Business Expansion,Car,High
+515,354,169325,10/19/2024,Closed,6,9.22,Business Expansion,None,High
+516,983,402667,2/12/2021,Rejected,10,7.12,Home Renovation,None,Low
+517,184,322594,2/4/2022,Approved,5,8.34,Home Renovation,Car,Medium
+518,366,19092,11/1/2022,Approved,6,7.81,Business Expansion,House,Medium
+519,833,373499,4/28/2023,Defaulted,2,4.51,Medical,House,Medium
+520,535,347208,6/12/2024,Defaulted,9,11.42,Education,House,Low
+521,181,126764,10/2/2024,Approved,9,10.04,Business Expansion,Car,Medium
+522,581,300842,3/28/2023,Rejected,7,5,Home Renovation,House,Medium
+523,28,461314,3/31/2022,Closed,4,10.03,Home Renovation,None,Low
+524,634,285836,6/23/2022,Closed,2,8.93,Education,None,Low
+525,521,47838,11/12/2023,Rejected,10,7.35,Education,House,Medium
+526,483,456823,11/29/2023,Closed,6,10.91,Home Renovation,Car,Low
+527,343,196039,5/14/2023,Defaulted,6,6.21,Education,Car,Low
+528,144,465564,3/18/2023,Defaulted,8,9.21,Education,None,Low
+529,100,339696,3/28/2024,Defaulted,9,7.17,Education,Car,Low
+530,165,415656,1/19/2021,Closed,9,10.33,Medical,House,Medium
+531,262,355392,3/10/2024,Defaulted,6,7.7,Education,Car,Medium
+532,132,70794,10/24/2022,Closed,4,6.2,Education,House,Medium
+533,266,145987,10/18/2023,Defaulted,8,7.34,Education,Car,Medium
+534,567,231537,8/9/2020,Approved,10,10.25,Business Expansion,Car,Medium
+535,636,9641,4/1/2021,Approved,8,5.07,Home Renovation,Car,High
+536,547,479240,7/1/2020,Closed,1,8.76,Education,None,Low
+537,285,400542,11/3/2022,Rejected,6,9.12,Medical,House,Low
+538,398,468739,2/1/2020,Defaulted,6,11.19,Home Renovation,None,Low
+539,945,148895,3/31/2023,Rejected,5,11.89,Medical,House,High
+540,908,126503,12/26/2020,Closed,2,6.24,Business Expansion,Car,Medium
+541,990,453585,8/5/2024,Rejected,9,9.51,Business Expansion,None,Medium
+542,409,28008,11/18/2021,Approved,8,6.53,Business Expansion,None,Medium
+543,71,161576,8/20/2021,Approved,3,10.63,Business Expansion,House,Medium
+544,679,257487,1/16/2023,Rejected,6,7.16,Home Renovation,House,High
+545,780,267353,11/27/2023,Closed,9,5.6,Medical,House,Low
+546,312,99629,5/28/2023,Defaulted,9,4.64,Business Expansion,Car,Low
+547,443,379852,10/19/2021,Defaulted,5,8.86,Medical,None,Medium
+548,654,145138,8/13/2024,Rejected,9,12.38,Business Expansion,None,Low
+549,549,283764,7/27/2024,Rejected,1,4.15,Education,House,Medium
+550,46,252978,1/13/2023,Defaulted,5,8.48,Medical,Car,Low
+551,744,415394,9/21/2020,Closed,5,8.58,Home Renovation,Car,Medium
+552,476,243157,9/27/2022,Closed,5,9.35,Home Renovation,None,Low
+553,110,196416,12/19/2020,Rejected,4,4.38,Education,House,Low
+554,743,348885,9/22/2024,Closed,9,11.14,Business Expansion,None,Low
+555,224,238084,12/26/2021,Approved,8,5.39,Home Renovation,House,Low
+556,852,425434,5/14/2022,Defaulted,8,9.81,Business Expansion,Car,Low
+557,289,361828,12/8/2020,Defaulted,6,6.95,Business Expansion,Car,Medium
+558,492,98317,12/12/2020,Rejected,4,6.28,Education,House,Low
+559,240,63500,1/17/2024,Approved,4,5.29,Medical,Car,Low
+560,1,441994,1/2/2023,Defaulted,4,9.01,Business Expansion,House,Medium
+561,209,468504,12/24/2020,Rejected,10,11.16,Medical,House,Low
+562,245,415184,7/17/2020,Approved,6,11.4,Home Renovation,Car,Medium
+563,392,365988,12/22/2022,Approved,10,5.89,Home Renovation,Car,Low
+564,902,149135,11/19/2024,Closed,9,12.4,Home Renovation,Car,Medium
+565,970,140212,9/28/2020,Closed,1,10.97,Medical,House,Low
+566,722,301138,6/27/2021,Defaulted,2,7.48,Education,Car,High
+567,319,328029,5/29/2022,Rejected,7,6.44,Home Renovation,Car,High
+568,431,337655,3/27/2021,Approved,2,3.63,Medical,House,Low
+569,912,15129,5/27/2024,Approved,7,12.34,Medical,House,Medium
+570,409,418253,6/14/2020,Approved,4,3.79,Education,House,High
+571,935,201557,4/15/2023,Rejected,2,4.71,Education,House,Medium
+572,375,321652,1/7/2023,Closed,9,8.15,Home Renovation,None,Medium
+573,128,196963,6/22/2024,Approved,8,10.1,Education,Car,Low
+574,914,417407,4/2/2024,Closed,10,8.31,Home Renovation,None,Medium
+575,679,8231,8/31/2023,Approved,10,9.63,Education,Car,Medium
+576,25,69806,1/28/2024,Closed,8,9.7,Education,House,Low
+577,988,281006,8/11/2022,Closed,6,4.02,Medical,None,High
+578,620,7593,5/15/2023,Approved,6,7.32,Education,None,High
+579,577,94495,8/7/2021,Defaulted,5,12.25,Business Expansion,Car,High
+580,525,357924,10/9/2024,Rejected,8,3.8,Medical,House,Medium
+581,701,267330,6/13/2021,Rejected,1,5.74,Home Renovation,None,Low
+582,651,219321,5/23/2024,Approved,2,8.52,Business Expansion,House,High
+583,560,111729,10/1/2023,Closed,5,8.03,Business Expansion,None,Medium
+584,893,18466,8/5/2024,Defaulted,1,4.92,Home Renovation,House,Low
+585,472,419558,9/3/2020,Defaulted,2,5.41,Education,House,Medium
+586,500,458430,11/18/2024,Rejected,7,4.51,Home Renovation,None,Low
+587,857,436560,6/18/2023,Closed,6,9.68,Business Expansion,House,Medium
+588,672,236193,7/17/2023,Rejected,5,6.44,Home Renovation,None,Low
+589,679,25189,8/28/2020,Approved,7,5.28,Home Renovation,Car,Medium
+590,852,330930,11/9/2021,Approved,6,10.46,Medical,House,High
+591,11,10677,5/16/2022,Approved,3,9.81,Education,House,Medium
+592,377,113344,3/7/2023,Rejected,10,7.68,Business Expansion,House,Low
+593,590,416395,6/12/2021,Defaulted,1,5.93,Home Renovation,None,High
+594,705,467569,5/29/2024,Closed,10,5.3,Home Renovation,Car,High
+595,310,498515,11/14/2023,Defaulted,5,9.45,Education,None,High
+596,419,43971,11/10/2024,Rejected,8,11.53,Home Renovation,Car,High
+597,203,6677,10/18/2024,Approved,1,12.45,Education,None,Medium
+598,211,7332,5/23/2020,Rejected,2,5.56,Medical,Car,Low
+599,314,385367,4/22/2024,Defaulted,3,12.43,Business Expansion,None,Medium
+600,514,368025,7/28/2022,Defaulted,5,7.17,Home Renovation,Car,High
+601,459,278860,3/17/2020,Approved,4,11.73,Business Expansion,None,Medium
+602,270,298609,1/11/2021,Approved,5,6.76,Medical,House,Medium
+603,200,326951,3/8/2021,Approved,3,8.12,Home Renovation,House,High
+604,123,400604,11/13/2020,Closed,1,11.6,Education,House,Low
+605,392,73451,5/16/2024,Rejected,5,7.79,Home Renovation,House,High
+606,188,12463,6/2/2024,Approved,2,8.24,Medical,None,Low
+607,644,305993,10/18/2022,Defaulted,6,4.17,Home Renovation,None,High
+608,458,393403,5/2/2021,Defaulted,5,7.74,Business Expansion,House,High
+609,841,491048,9/14/2024,Rejected,6,9.15,Medical,None,Medium
+610,783,127261,2/5/2020,Approved,5,9.74,Business Expansion,Car,High
+611,557,61566,4/3/2020,Closed,9,3.57,Medical,Car,High
+612,213,455271,10/1/2022,Closed,8,8.11,Business Expansion,Car,High
+613,842,59646,2/16/2020,Approved,1,12.45,Business Expansion,Car,Low
+614,29,301920,8/20/2021,Defaulted,3,10.66,Medical,Car,Low
+615,654,239921,11/7/2022,Rejected,8,5.32,Home Renovation,Car,Low
+616,48,369317,5/2/2021,Rejected,2,5.4,Education,Car,Low
+617,89,497756,10/6/2023,Approved,3,12.23,Medical,None,High
+618,748,251807,7/30/2021,Closed,5,11.71,Business Expansion,None,Low
+619,207,393207,10/25/2024,Closed,9,5.42,Medical,None,High
+620,893,365684,5/7/2020,Rejected,10,7.44,Education,House,Low
+621,378,189860,8/26/2023,Defaulted,4,7.21,Medical,Car,Low
+622,671,210461,9/18/2023,Closed,10,10.31,Education,Car,High
+623,900,111872,4/3/2023,Rejected,5,9.48,Education,Car,High
+624,252,27794,7/22/2021,Closed,1,11.79,Business Expansion,House,High
+625,378,107563,3/30/2021,Defaulted,5,10.09,Medical,None,High
+626,6,34823,7/15/2021,Approved,9,7.48,Home Renovation,None,High
+627,340,450353,9/7/2021,Defaulted,10,6.37,Home Renovation,House,High
+628,869,64943,6/10/2022,Approved,3,9.08,Medical,House,Medium
+629,579,334763,1/7/2022,Defaulted,10,4.46,Business Expansion,Car,Medium
+630,78,243249,12/17/2020,Defaulted,4,4.3,Home Renovation,House,Medium
+631,991,481403,2/13/2024,Defaulted,4,12.41,Medical,None,Medium
+632,878,337509,4/9/2020,Defaulted,1,5.63,Medical,Car,High
+633,61,248491,11/18/2022,Defaulted,9,8.7,Home Renovation,House,High
+634,669,20548,4/8/2021,Closed,1,9.15,Medical,House,Medium
+635,402,13118,10/15/2022,Defaulted,7,10.38,Medical,None,Medium
+636,383,277402,9/3/2024,Defaulted,10,5.94,Business Expansion,None,High
+637,919,61239,3/9/2020,Defaulted,10,4,Business Expansion,None,Low
+638,841,346839,4/15/2024,Rejected,6,6.56,Home Renovation,House,High
+639,746,64882,11/29/2022,Approved,2,4.82,Education,House,Low
+640,194,309260,7/10/2023,Rejected,8,7.34,Business Expansion,Car,Medium
+641,412,425111,3/23/2021,Defaulted,9,4.48,Home Renovation,House,High
+642,954,84040,7/31/2020,Defaulted,7,8,Business Expansion,None,Medium
+643,228,61978,2/14/2021,Rejected,10,7.86,Business Expansion,House,Medium
+644,426,473330,4/7/2023,Defaulted,1,10.49,Home Renovation,Car,High
+645,109,60841,3/10/2023,Rejected,3,12.34,Education,None,Low
+646,917,373413,4/2/2022,Rejected,3,6.37,Medical,House,High
+647,430,86298,3/10/2024,Defaulted,2,6.89,Medical,Car,High
+648,807,156134,10/13/2024,Approved,8,10.39,Medical,Car,High
+649,891,433068,10/5/2023,Closed,3,5.09,Home Renovation,None,Low
+650,655,136139,11/13/2021,Rejected,1,11.69,Home Renovation,House,Low
+651,874,17509,7/6/2020,Defaulted,9,3.96,Medical,House,Low
+652,103,260404,12/30/2019,Closed,6,11,Education,Car,Low
+653,231,262340,7/28/2022,Approved,4,3.62,Business Expansion,House,Low
+654,743,320591,11/25/2020,Closed,2,5.69,Business Expansion,Car,Low
+655,361,111678,4/13/2021,Defaulted,8,10.48,Education,Car,Low
+656,400,155658,5/7/2023,Approved,9,3.85,Home Renovation,House,Medium
+657,993,355065,9/27/2022,Approved,9,4.06,Business Expansion,None,High
+658,248,222324,6/17/2022,Defaulted,4,3.63,Medical,House,High
+659,571,74847,1/14/2021,Defaulted,3,6.4,Business Expansion,House,Low
+660,630,278968,11/17/2022,Closed,8,9.98,Education,None,Low
+661,243,489980,6/7/2023,Closed,5,9.73,Home Renovation,Car,Low
+662,880,308475,3/27/2021,Approved,4,10.04,Medical,None,Medium
+663,16,46602,7/27/2020,Approved,1,7.97,Education,None,High
+664,604,152023,11/5/2020,Defaulted,6,6.32,Business Expansion,Car,Low
+665,409,455396,8/23/2024,Defaulted,10,12.47,Business Expansion,Car,Low
+666,522,466523,8/18/2023,Defaulted,6,7.62,Medical,None,Medium
+667,834,360645,10/1/2022,Closed,1,5.67,Education,None,Low
+668,640,451498,1/25/2020,Defaulted,3,6.96,Home Renovation,None,Medium
+669,335,417046,8/2/2022,Defaulted,9,5.06,Business Expansion,None,Low
+670,361,331430,7/23/2021,Rejected,5,10.95,Education,None,Low
+671,726,90658,8/23/2021,Approved,7,9.07,Medical,None,Medium
+672,173,210709,9/2/2024,Approved,3,10.8,Home Renovation,None,Low
+673,957,40341,11/27/2020,Defaulted,7,5.56,Business Expansion,None,High
+674,873,483424,12/20/2019,Rejected,8,9.18,Medical,Car,High
+675,381,174060,8/22/2023,Rejected,6,9.8,Business Expansion,None,High
+676,440,26865,3/20/2024,Closed,3,10.04,Home Renovation,Car,Low
+677,952,318769,8/5/2021,Approved,5,11.61,Medical,House,High
+678,716,377975,6/20/2021,Rejected,2,10.71,Medical,None,High
+679,211,216591,6/17/2024,Rejected,8,11.13,Medical,Car,Medium
+680,531,228184,3/6/2023,Closed,5,11.14,Home Renovation,House,High
+681,822,47249,12/3/2022,Closed,10,5.57,Medical,House,Low
+682,232,200228,12/26/2021,Approved,9,5.85,Education,House,Medium
+683,100,245318,11/29/2022,Rejected,8,6.12,Medical,Car,Medium
+684,777,374812,1/20/2023,Approved,3,8.73,Business Expansion,None,Low
+685,959,49839,4/3/2023,Closed,8,7.99,Home Renovation,None,High
+686,979,387892,9/10/2022,Approved,5,4.71,Business Expansion,Car,Low
+687,289,254237,4/27/2024,Defaulted,4,10.44,Education,None,High
+688,596,419613,7/23/2020,Rejected,6,4.02,Home Renovation,None,Medium
+689,872,174845,5/15/2022,Closed,1,5.94,Education,House,Medium
+690,823,427935,2/26/2023,Closed,1,7.19,Medical,Car,High
+691,818,437518,11/22/2020,Rejected,7,12.36,Business Expansion,House,High
+692,218,185871,2/18/2022,Defaulted,8,7.65,Business Expansion,House,Low
+693,564,158968,8/16/2022,Approved,2,11.45,Education,Car,High
+694,610,195888,7/23/2023,Approved,6,7.78,Medical,House,High
+695,428,396214,9/4/2023,Approved,1,9.68,Medical,House,High
+696,417,144894,4/2/2023,Defaulted,10,5.01,Business Expansion,House,Medium
+697,635,371312,12/24/2019,Approved,1,11.61,Home Renovation,None,Medium
+698,444,371123,6/6/2023,Rejected,9,9.65,Home Renovation,House,Medium
+699,183,367969,7/26/2022,Defaulted,7,9.33,Home Renovation,House,Low
+700,616,290909,3/30/2021,Closed,8,4.79,Medical,None,Low
+701,386,328826,3/14/2024,Closed,4,6.38,Home Renovation,House,Low
+702,501,287290,9/10/2020,Closed,3,6.93,Business Expansion,None,High
+703,975,468411,5/15/2024,Closed,4,11.5,Education,None,Low
+704,858,11964,6/22/2024,Defaulted,6,8.91,Business Expansion,Car,High
+705,638,36045,6/4/2021,Rejected,2,7.29,Home Renovation,Car,Low
+706,598,335010,6/17/2023,Defaulted,6,10.82,Business Expansion,None,High
+707,679,139082,9/5/2022,Closed,7,7.28,Medical,House,Medium
+708,893,302299,2/18/2021,Defaulted,10,3.97,Home Renovation,Car,Medium
+709,252,468124,9/16/2023,Rejected,7,5.25,Business Expansion,Car,High
+710,511,275484,2/18/2023,Defaulted,8,7.42,Medical,House,Low
+711,945,65480,7/26/2023,Rejected,6,4.59,Medical,House,Medium
+712,548,342991,1/31/2021,Approved,2,7.04,Home Renovation,Car,Low
+713,684,338201,1/26/2021,Approved,2,7.26,Business Expansion,House,Low
+714,429,142418,6/19/2022,Defaulted,9,12.09,Medical,House,Medium
+715,569,153945,11/26/2020,Closed,1,4.1,Home Renovation,None,High
+716,522,380002,6/25/2023,Approved,8,9.39,Education,Car,Low
+717,139,272353,1/24/2024,Rejected,4,10.4,Education,None,Medium
+718,16,374649,1/11/2020,Defaulted,7,5.11,Business Expansion,House,High
+719,411,401855,1/11/2020,Defaulted,10,5.99,Medical,Car,Low
+720,202,151460,7/30/2023,Defaulted,3,7.54,Medical,None,High
+721,71,440406,5/15/2023,Rejected,4,10.82,Medical,None,Medium
+722,533,92790,7/4/2020,Closed,10,11.65,Business Expansion,Car,Medium
+723,490,313370,10/7/2023,Approved,4,10.38,Home Renovation,Car,High
+724,49,273193,5/1/2022,Defaulted,4,12.19,Education,None,Medium
+725,929,392338,11/8/2021,Approved,9,8.98,Home Renovation,Car,High
+726,986,427926,9/23/2023,Rejected,3,5.5,Medical,None,High
+727,266,380514,1/7/2020,Rejected,6,12.3,Medical,House,High
+728,845,272783,4/10/2021,Rejected,1,9.57,Education,Car,Low
+729,503,482937,8/28/2022,Defaulted,10,11.24,Business Expansion,House,Low
+730,245,459310,7/6/2022,Defaulted,5,9.13,Home Renovation,None,High
+731,921,349899,9/29/2021,Defaulted,8,5.65,Education,Car,Medium
+732,506,405993,11/8/2020,Closed,6,4.65,Business Expansion,House,High
+733,475,77858,2/11/2021,Defaulted,9,9.1,Medical,House,Medium
+734,574,39187,7/24/2023,Closed,5,11.03,Medical,None,High
+735,663,264138,7/9/2023,Approved,1,12.07,Business Expansion,House,Medium
+736,544,498246,7/11/2022,Rejected,2,11.29,Home Renovation,House,High
+737,508,41673,7/4/2023,Approved,10,7.09,Home Renovation,Car,Low
+738,918,385836,6/3/2023,Closed,2,12.45,Education,Car,Medium
+739,218,84327,10/30/2021,Closed,6,11.1,Home Renovation,Car,Medium
+740,704,283556,10/22/2020,Rejected,5,5.01,Business Expansion,Car,Low
+741,331,228251,5/3/2020,Approved,2,6.15,Business Expansion,House,High
+742,851,483715,6/16/2023,Approved,4,8.82,Medical,Car,Medium
+743,855,444731,11/25/2021,Approved,9,6.78,Home Renovation,None,Low
+744,872,343643,4/3/2024,Approved,4,5.85,Home Renovation,Car,Low
+745,627,67110,7/30/2021,Approved,2,11.65,Education,Car,Medium
+746,50,105721,4/16/2024,Rejected,8,5.23,Business Expansion,House,Medium
+747,276,119017,2/28/2020,Rejected,7,11.06,Home Renovation,House,Medium
+748,498,35922,10/11/2022,Approved,1,12.12,Medical,Car,Low
+749,729,115635,2/19/2021,Closed,10,4.13,Home Renovation,Car,High
+750,486,39810,3/20/2021,Closed,6,4.1,Medical,Car,Medium
+751,838,428766,12/24/2020,Closed,10,5.24,Business Expansion,None,Low
+752,875,182148,12/22/2022,Rejected,8,10.78,Business Expansion,House,Medium
+753,868,153879,10/22/2021,Closed,4,12.05,Business Expansion,None,Low
+754,815,115974,11/11/2022,Defaulted,10,6.11,Medical,Car,Medium
+755,878,458529,5/16/2023,Closed,2,12.23,Business Expansion,None,Medium
+756,455,239997,12/4/2019,Closed,2,9.55,Medical,None,Medium
+757,94,342563,12/9/2023,Rejected,9,7.85,Home Renovation,Car,High
+758,570,370438,2/28/2021,Closed,10,4.66,Education,House,Low
+759,874,254061,11/23/2021,Defaulted,5,3.62,Business Expansion,House,High
+760,369,310582,10/1/2020,Closed,1,9,Business Expansion,Car,High
+761,265,106366,6/15/2021,Defaulted,7,4.39,Medical,House,Medium
+762,209,140359,4/25/2020,Approved,9,3.8,Medical,House,High
+763,277,83967,11/8/2024,Closed,4,5.28,Business Expansion,Car,Medium
+764,413,491322,9/30/2023,Closed,5,7.76,Home Renovation,House,Low
+765,966,440913,12/22/2019,Approved,7,4.86,Medical,Car,Low
+766,714,210474,1/12/2022,Defaulted,4,12.32,Education,Car,High
+767,109,162736,6/3/2024,Closed,2,12.3,Home Renovation,House,Medium
+768,876,195824,9/5/2020,Approved,5,8.64,Education,House,Low
+769,953,256423,8/16/2020,Closed,8,10.48,Business Expansion,None,Medium
+770,625,492822,6/15/2020,Defaulted,10,7.29,Business Expansion,None,Medium
+771,315,104865,8/12/2022,Rejected,9,7.19,Business Expansion,Car,Medium
+772,528,49177,9/16/2022,Approved,8,9.85,Business Expansion,House,Medium
+773,557,455628,11/16/2021,Approved,3,6.75,Home Renovation,House,Low
+774,484,480026,7/1/2024,Approved,9,12.11,Business Expansion,House,Medium
+775,772,239236,11/28/2021,Approved,2,6.57,Education,House,Low
+776,932,337766,9/26/2022,Closed,5,6.11,Education,None,Medium
+777,802,476285,6/24/2024,Rejected,1,11.37,Education,None,High
+778,420,72533,10/8/2021,Closed,6,11.42,Education,Car,High
+779,38,146222,7/2/2021,Rejected,6,8.46,Home Renovation,None,Medium
+780,474,280010,10/25/2022,Defaulted,6,11.03,Home Renovation,Car,Medium
+781,12,259829,5/8/2023,Defaulted,8,3.63,Home Renovation,Car,High
+782,102,147088,6/7/2020,Approved,1,9.05,Business Expansion,Car,High
+783,256,389706,4/21/2021,Closed,4,3.79,Home Renovation,Car,Medium
+784,342,168414,12/18/2022,Closed,2,4.03,Business Expansion,None,Medium
+785,898,28065,10/6/2021,Defaulted,9,10.48,Home Renovation,None,High
+786,816,461937,9/12/2022,Rejected,1,7.04,Education,None,Low
+787,164,436049,2/17/2022,Defaulted,7,6.1,Medical,None,Medium
+788,382,222881,4/7/2021,Rejected,2,8.13,Business Expansion,House,High
+789,621,292703,4/18/2021,Defaulted,9,4.28,Medical,Car,Low
+790,67,445147,5/19/2024,Approved,1,11.71,Medical,Car,Low
+791,115,173617,10/17/2020,Approved,5,7.46,Education,Car,Low
+792,802,179750,10/21/2023,Closed,7,6.55,Education,Car,High
+793,358,160957,12/6/2021,Approved,9,11.07,Business Expansion,None,Medium
+794,789,147098,4/6/2023,Approved,3,3.54,Medical,None,Low
+795,745,301745,10/14/2023,Closed,7,10.09,Medical,None,Low
+796,569,213912,7/9/2024,Defaulted,9,4.53,Medical,House,High
+797,538,348331,10/14/2024,Defaulted,9,8.63,Medical,House,Medium
+798,442,321010,4/21/2020,Approved,6,8.75,Home Renovation,Car,Low
+799,808,81160,8/7/2020,Rejected,2,9.07,Medical,None,Medium
+800,542,154362,8/14/2023,Closed,2,7.37,Home Renovation,House,High
+801,356,184438,4/23/2022,Defaulted,3,6.39,Education,Car,Medium
+802,864,223643,1/7/2020,Rejected,1,7.99,Education,Car,Medium
+803,824,246911,9/14/2020,Defaulted,9,4.44,Business Expansion,House,Medium
+804,634,328337,12/8/2019,Defaulted,5,6.49,Business Expansion,House,High
+805,891,259755,4/4/2024,Rejected,1,10.95,Medical,House,Medium
+806,742,434368,11/1/2024,Closed,9,4.12,Home Renovation,Car,Medium
+807,624,342134,2/23/2022,Rejected,2,10.12,Home Renovation,Car,High
+808,710,31941,4/9/2020,Approved,10,10.51,Business Expansion,House,Medium
+809,460,11539,2/15/2021,Closed,9,6.53,Business Expansion,None,Low
+810,306,325932,2/10/2024,Approved,4,3.92,Medical,None,High
+811,90,275541,4/27/2023,Approved,7,5.27,Home Renovation,None,Medium
+812,739,186461,12/23/2020,Rejected,9,9.97,Business Expansion,None,Low
+813,753,326715,11/13/2023,Defaulted,6,7.52,Home Renovation,None,Low
+814,176,189623,3/1/2022,Approved,3,3.74,Home Renovation,Car,Medium
+815,405,151041,3/5/2023,Closed,1,11.84,Business Expansion,None,Medium
+816,898,445345,9/14/2021,Rejected,9,3.79,Business Expansion,None,Medium
+817,998,21500,5/21/2020,Rejected,10,6.06,Education,None,Low
+818,674,461073,8/10/2024,Closed,3,8.71,Education,None,Low
+819,951,396027,11/13/2022,Rejected,8,7.13,Home Renovation,None,Medium
+820,803,48757,7/10/2021,Closed,8,6.02,Medical,None,Medium
+821,865,229806,6/22/2021,Closed,2,10.14,Home Renovation,House,High
+822,493,235928,6/15/2023,Approved,10,5.23,Business Expansion,None,Low
+823,764,291475,3/5/2024,Defaulted,2,9.98,Medical,House,Medium
+824,869,462145,12/13/2021,Defaulted,2,9.19,Medical,Car,Low
+825,743,120125,1/16/2023,Approved,3,7.23,Business Expansion,House,High
+826,118,85563,6/9/2022,Defaulted,1,6.97,Medical,House,Low
+827,807,41256,8/12/2024,Rejected,5,7.62,Business Expansion,Car,High
+828,67,447505,9/24/2021,Rejected,4,12.13,Education,None,Medium
+829,78,132163,8/6/2023,Closed,5,10.79,Business Expansion,Car,Medium
+830,807,220743,3/9/2020,Rejected,1,11.72,Education,None,Low
+831,693,368973,6/23/2021,Closed,1,8.63,Medical,None,Medium
+832,993,298134,10/13/2020,Rejected,3,9.17,Home Renovation,House,Low
+833,292,128610,5/30/2022,Rejected,10,11.89,Business Expansion,Car,Low
+834,295,462979,2/3/2020,Closed,3,10.46,Business Expansion,None,Low
+835,372,307419,9/21/2024,Rejected,3,11.45,Education,None,Low
+836,422,429344,11/8/2024,Rejected,5,8.99,Home Renovation,Car,High
+837,364,96816,12/9/2021,Defaulted,6,3.52,Home Renovation,House,Low
+838,160,16506,11/5/2024,Approved,6,5.69,Home Renovation,None,High
+839,203,472802,12/27/2020,Approved,4,7.58,Home Renovation,Car,Low
+840,126,433401,3/17/2022,Closed,5,12.18,Business Expansion,Car,High
+841,511,457765,12/19/2022,Closed,8,12.21,Education,Car,High
+842,943,403383,3/6/2022,Closed,2,7.73,Education,Car,Low
+843,336,324931,6/27/2023,Closed,7,10.75,Education,Car,Medium
+844,369,406345,7/16/2022,Rejected,3,5.43,Business Expansion,None,High
+845,664,146514,6/21/2022,Approved,7,4.59,Education,None,High
+846,15,48020,3/28/2022,Closed,3,6.37,Education,House,Medium
+847,63,160317,5/29/2021,Closed,4,10.67,Business Expansion,Car,Low
+848,476,106811,2/1/2022,Closed,7,11.28,Business Expansion,None,High
+849,770,224558,5/16/2021,Approved,2,10.5,Education,None,Medium
+850,976,397719,6/8/2023,Approved,6,9.6,Education,Car,Medium
+851,68,253794,12/15/2021,Rejected,5,3.99,Business Expansion,Car,High
+852,8,447708,6/15/2021,Closed,10,10.57,Education,House,Medium
+853,984,452082,8/2/2023,Closed,10,5.94,Medical,Car,High
+854,608,478437,3/26/2021,Approved,6,9.25,Business Expansion,Car,Medium
+855,205,317748,3/31/2020,Approved,9,11.24,Medical,Car,High
+856,923,210209,4/21/2023,Closed,7,5.06,Education,Car,High
+857,807,383156,4/1/2020,Rejected,8,9.02,Medical,Car,High
+858,688,230315,10/10/2022,Defaulted,3,10.19,Education,None,High
+859,199,130181,4/21/2020,Closed,9,11.05,Medical,None,Medium
+860,303,364517,3/7/2021,Rejected,4,5.13,Business Expansion,House,High
+861,51,125285,7/12/2023,Defaulted,5,4.07,Medical,House,Low
+862,879,357250,1/9/2021,Approved,8,7.79,Medical,Car,Medium
+863,899,327232,8/3/2023,Defaulted,1,9.12,Medical,House,High
+864,373,215110,6/26/2020,Approved,4,6.93,Medical,None,High
+865,776,316228,9/23/2023,Defaulted,9,12.15,Education,Car,Medium
+866,869,471311,1/8/2022,Closed,7,5.81,Medical,None,Low
+867,953,453886,5/30/2024,Rejected,8,8.36,Medical,None,Low
+868,348,133614,1/29/2023,Closed,2,5.95,Home Renovation,Car,Medium
+869,1000,127034,2/6/2021,Rejected,9,9.14,Education,Car,Medium
+870,662,413312,1/13/2024,Approved,6,5.05,Business Expansion,House,High
+871,511,410617,6/20/2023,Closed,6,5.1,Business Expansion,House,Low
+872,604,8284,1/10/2022,Rejected,10,11.06,Medical,House,Low
+873,261,105267,1/11/2020,Defaulted,3,10.2,Business Expansion,House,Low
+874,113,299663,6/23/2020,Defaulted,7,8.12,Business Expansion,Car,High
+875,770,455394,11/12/2023,Defaulted,7,4.26,Business Expansion,House,Medium
+876,901,486911,8/2/2021,Defaulted,7,9.04,Home Renovation,House,Medium
+877,855,395906,2/25/2024,Rejected,10,4.91,Home Renovation,None,Low
+878,511,154751,7/11/2024,Defaulted,8,9.7,Business Expansion,Car,Low
+879,633,220856,5/28/2022,Rejected,10,5.1,Education,House,High
+880,353,393713,9/20/2020,Approved,8,6.72,Business Expansion,None,Medium
+881,812,212896,8/21/2021,Approved,8,11.44,Education,House,Low
+882,997,251272,6/10/2024,Closed,2,8.61,Medical,None,High
+883,106,169544,5/29/2020,Closed,8,11.1,Education,House,Medium
+884,94,444747,9/10/2023,Defaulted,8,9.88,Education,Car,Low
+885,93,436167,10/4/2020,Approved,10,10.55,Medical,House,High
+886,7,372148,1/20/2020,Defaulted,8,5.32,Business Expansion,House,Medium
+887,767,260516,4/21/2021,Closed,1,10.26,Education,House,Low
+888,788,447055,8/14/2024,Approved,7,10.96,Home Renovation,House,Medium
+889,552,365729,6/6/2020,Closed,7,12.28,Home Renovation,Car,High
+890,179,25743,11/20/2020,Rejected,1,7.84,Home Renovation,House,Low
+891,507,56039,11/12/2020,Closed,9,8.18,Education,None,Medium
+892,452,261279,9/2/2020,Defaulted,3,6.3,Home Renovation,House,Low
+893,937,197631,1/8/2021,Closed,7,9.64,Medical,None,High
+894,464,71484,7/31/2022,Closed,8,8.43,Home Renovation,None,High
+895,423,96353,10/5/2023,Approved,10,12.4,Home Renovation,House,Low
+896,825,101297,5/17/2024,Approved,10,7.75,Business Expansion,None,High
+897,452,366563,12/14/2020,Closed,8,8.39,Business Expansion,Car,Low
+898,525,283095,12/13/2022,Defaulted,4,8.25,Business Expansion,None,Low
+899,744,41905,12/8/2022,Defaulted,8,11.47,Business Expansion,House,Low
+900,618,420506,6/3/2022,Defaulted,7,7.01,Home Renovation,House,Low
+901,860,309029,12/4/2022,Closed,7,7.94,Business Expansion,Car,Low
+902,812,208229,9/27/2023,Approved,2,8.1,Business Expansion,Car,Medium
+903,363,94147,7/11/2022,Rejected,10,7.6,Business Expansion,Car,Medium
+904,393,253974,9/1/2022,Approved,4,12.28,Business Expansion,None,High
+905,859,153214,2/2/2020,Closed,5,7.19,Business Expansion,House,Medium
+906,895,192504,10/25/2021,Defaulted,1,3.54,Business Expansion,Car,Low
+907,221,284233,7/16/2024,Approved,10,11.73,Home Renovation,House,High
+908,338,460558,2/22/2020,Approved,4,10.43,Business Expansion,Car,Low
+909,961,140622,4/14/2020,Rejected,5,4.5,Medical,None,Medium
+910,753,257663,3/6/2024,Approved,6,11.97,Home Renovation,None,High
+911,880,16226,3/25/2021,Approved,9,10.17,Education,None,Low
+912,242,58805,6/20/2022,Approved,6,4.6,Education,Car,Low
+913,235,40186,8/17/2021,Rejected,10,11.61,Business Expansion,None,Medium
+914,965,196851,2/5/2020,Defaulted,8,6.89,Home Renovation,House,Medium
+915,586,449536,8/18/2021,Closed,10,7.4,Home Renovation,Car,Medium
+916,372,480581,3/8/2023,Closed,4,4.5,Business Expansion,None,Low
+917,456,15606,11/18/2022,Approved,4,9.57,Medical,House,Medium
+918,347,62472,6/8/2024,Defaulted,6,6.51,Home Renovation,None,Medium
+919,102,152765,5/26/2020,Defaulted,2,6.02,Home Renovation,None,Low
+920,394,341740,8/10/2021,Closed,7,7.8,Business Expansion,House,Medium
+921,397,83392,9/18/2023,Defaulted,3,11.71,Education,None,Medium
+922,328,282170,1/4/2021,Defaulted,10,9.92,Medical,Car,Medium
+923,630,386424,5/23/2024,Defaulted,7,7.89,Home Renovation,House,Medium
+924,228,472996,3/13/2022,Approved,1,8.56,Medical,House,Medium
+925,272,350075,8/13/2022,Rejected,4,5.12,Medical,Car,Low
+926,64,147250,7/8/2024,Approved,9,6.01,Home Renovation,None,Medium
+927,668,354065,5/29/2024,Rejected,7,9.72,Business Expansion,Car,Medium
+928,551,120274,1/24/2024,Closed,5,4.46,Business Expansion,None,High
+929,910,379172,2/15/2022,Closed,3,11.7,Education,House,Medium
+930,383,394215,6/11/2022,Defaulted,6,6.16,Business Expansion,Car,Medium
+931,437,185429,12/5/2020,Rejected,6,11.87,Business Expansion,None,Medium
+932,397,307932,8/5/2020,Defaulted,7,6.56,Education,House,High
+933,269,250565,8/24/2020,Closed,7,6.9,Home Renovation,Car,Medium
+934,211,360097,1/24/2022,Closed,5,9.83,Medical,Car,High
+935,870,240314,4/6/2024,Rejected,6,8.77,Medical,Car,High
+936,766,129805,6/19/2024,Approved,7,11.83,Home Renovation,None,Medium
+937,513,251838,6/29/2024,Rejected,2,6.26,Business Expansion,None,Medium
+938,250,159312,9/23/2022,Closed,1,11.19,Medical,House,High
+939,80,112807,4/5/2022,Rejected,2,11.31,Business Expansion,Car,High
+940,436,135538,6/14/2020,Defaulted,5,9.23,Medical,None,Low
+941,439,372119,9/2/2022,Approved,8,8.02,Home Renovation,Car,High
+942,640,48925,5/17/2021,Closed,1,10.44,Education,Car,Low
+943,123,380342,10/14/2023,Rejected,3,5.73,Home Renovation,House,High
+944,320,458019,9/2/2021,Approved,9,5.98,Medical,House,Medium
+945,3,7859,5/17/2023,Rejected,3,5.03,Medical,House,Medium
+946,129,448447,11/7/2020,Defaulted,3,12.4,Medical,House,Medium
+947,720,355082,11/30/2019,Rejected,7,3.95,Education,None,Low
+948,392,436800,5/6/2023,Closed,2,6.45,Education,Car,Medium
+949,356,223288,1/16/2022,Closed,8,4.34,Education,None,Medium
+950,601,411599,3/25/2024,Closed,3,9.56,Education,None,Low
+951,483,151100,4/23/2020,Closed,9,9.93,Medical,Car,High
+952,241,383617,4/1/2022,Closed,6,4.45,Education,None,High
+953,274,46838,10/7/2021,Approved,1,9.91,Medical,None,Medium
+954,661,144028,7/2/2021,Rejected,2,9.54,Education,Car,Low
+955,389,54061,1/6/2023,Closed,1,8,Business Expansion,House,Medium
+956,893,411728,9/6/2020,Closed,5,4.33,Business Expansion,None,Low
+957,267,293699,11/3/2020,Approved,5,6.11,Home Renovation,House,Low
+958,893,22455,7/17/2024,Closed,4,7.8,Medical,House,Low
+959,533,338353,6/12/2020,Closed,6,10.59,Home Renovation,None,Medium
+960,616,490609,11/30/2023,Approved,7,9.39,Education,None,Medium
+961,621,345947,9/28/2022,Closed,5,10.16,Medical,House,Medium
+962,319,215781,12/24/2020,Closed,3,12.12,Business Expansion,None,Low
+963,189,155142,12/6/2022,Closed,4,10.58,Education,Car,Medium
+964,703,383127,12/22/2019,Defaulted,7,8.77,Business Expansion,Car,High
+965,713,22287,8/28/2020,Defaulted,9,9.56,Medical,None,High
+966,676,338072,1/21/2023,Defaulted,8,11.19,Medical,None,Low
+967,218,295384,4/25/2021,Closed,5,6.96,Business Expansion,Car,Medium
+968,319,268820,4/6/2022,Defaulted,4,5.3,Business Expansion,House,High
+969,173,112480,3/14/2020,Defaulted,10,12.39,Medical,House,Medium
+970,26,205973,12/29/2019,Rejected,10,6.16,Business Expansion,Car,High
+971,658,283937,1/21/2020,Defaulted,8,8.97,Business Expansion,Car,Low
+972,364,416100,4/3/2020,Approved,9,11.56,Medical,Car,Low
+973,213,171049,7/13/2023,Closed,9,7.5,Medical,House,Low
+974,433,423211,10/19/2021,Defaulted,4,4.16,Business Expansion,Car,Low
+975,190,367987,9/29/2023,Defaulted,4,4.39,Medical,House,Low
+976,464,76634,6/14/2021,Defaulted,8,8.66,Education,None,High
+977,710,40694,3/6/2020,Rejected,10,10.71,Home Renovation,None,Low
+978,40,238161,7/14/2022,Defaulted,9,10.87,Education,House,Low
+979,556,310151,4/26/2022,Defaulted,2,11.1,Home Renovation,Car,Low
+980,591,194638,12/28/2020,Closed,2,8.81,Medical,None,Medium
+981,645,318320,9/19/2022,Closed,2,11.45,Medical,House,High
+982,251,202692,10/10/2022,Approved,5,4.83,Business Expansion,None,Medium
+983,717,350536,7/29/2022,Approved,5,7.23,Education,None,High
+984,18,418403,2/13/2022,Closed,8,6.53,Education,None,Low
+985,458,289928,5/1/2020,Approved,9,6.37,Business Expansion,House,Low
+986,266,352089,2/27/2021,Rejected,1,6.77,Business Expansion,Car,High
+987,111,70552,1/16/2022,Closed,1,8.14,Home Renovation,Car,Low
+988,754,438363,10/30/2020,Approved,9,7.72,Medical,House,High
+989,409,322705,12/18/2019,Defaulted,6,11.59,Education,None,Medium
+990,144,65028,2/27/2020,Rejected,4,8.38,Business Expansion,None,High
+991,450,384378,1/3/2024,Approved,4,8.25,Medical,House,Medium
+992,30,274874,10/23/2020,Approved,7,8.93,Business Expansion,Car,High
+993,407,329259,9/2/2021,Rejected,10,10.59,Business Expansion,House,Medium
+994,807,169507,11/26/2020,Approved,4,8.8,Medical,Car,High
+995,300,456011,2/8/2021,Defaulted,7,10.35,Medical,Car,Low
+996,46,87487,6/3/2020,Approved,7,6.81,Education,House,Medium
+997,254,225601,2/22/2022,Defaulted,1,9.36,Business Expansion,None,Medium
+998,376,409730,3/20/2021,Rejected,6,9.62,Home Renovation,None,High
+999,70,495736,9/25/2020,Rejected,9,9.79,Education,House,Medium
+1000,169,415665,1/27/2022,Rejected,7,9.94,Medical,House,Medium
+1001,784,413849,4/29/2021,Closed,2,7.5,Home Renovation,House,High
+1002,468,491199,8/27/2020,Rejected,3,12.03,Education,House,Medium
+1003,748,81928,10/7/2020,Defaulted,6,6.56,Business Expansion,Car,Medium
+1004,909,367168,1/22/2020,Rejected,10,3.94,Home Renovation,House,Low
+1005,610,301601,4/2/2024,Closed,9,9.88,Home Renovation,None,High
+1006,340,227817,4/5/2021,Defaulted,8,4.53,Medical,House,Medium
+1007,432,100742,6/6/2024,Defaulted,2,8.98,Education,House,High
+1008,252,184345,4/28/2024,Approved,6,8.91,Home Renovation,House,Low
+1009,956,334938,6/10/2021,Defaulted,2,9.9,Business Expansion,Car,Medium
+1010,123,296391,4/24/2024,Rejected,7,8.36,Medical,None,Low
+1011,849,468035,4/16/2021,Defaulted,10,9.61,Home Renovation,Car,High
+1012,6,87028,7/27/2020,Closed,5,5.29,Home Renovation,Car,High
+1013,21,400999,3/18/2021,Rejected,6,9.27,Business Expansion,None,Medium
+1014,696,234315,12/26/2019,Rejected,9,11.85,Education,Car,High
+1015,346,229245,3/7/2023,Approved,6,8.5,Business Expansion,House,Medium
+1016,225,324714,3/24/2024,Approved,2,9.43,Medical,Car,Low
+1017,892,144180,11/28/2019,Rejected,2,7.76,Home Renovation,None,High
+1018,933,112166,6/17/2022,Approved,4,6.48,Home Renovation,House,Medium
+1019,403,199247,9/4/2022,Defaulted,4,7.17,Medical,Car,High
+1020,179,343252,11/24/2023,Defaulted,2,4.76,Education,Car,Low
+1021,50,268776,11/17/2023,Rejected,6,4.53,Business Expansion,None,Low
+1022,518,7232,12/14/2021,Approved,3,8.61,Education,None,Low
+1023,940,436688,8/24/2020,Rejected,10,3.6,Business Expansion,Car,High
+1024,10,245973,3/20/2024,Defaulted,6,5.4,Business Expansion,House,Medium
+1025,582,327124,12/2/2020,Rejected,7,10.89,Home Renovation,Car,High
+1026,699,89272,12/31/2020,Rejected,2,11.8,Home Renovation,House,Low
+1027,916,482021,3/20/2022,Closed,10,12.36,Home Renovation,House,Medium
+1028,32,388721,9/5/2020,Defaulted,9,8.05,Business Expansion,House,High
+1029,655,420224,7/23/2023,Closed,8,7.15,Business Expansion,House,Low
+1030,683,200635,7/23/2021,Defaulted,4,10.42,Home Renovation,Car,Low
+1031,908,311432,7/8/2022,Defaulted,5,7.15,Education,Car,Low
+1032,849,322116,1/29/2022,Approved,5,7.08,Medical,Car,High
+1033,100,429801,2/17/2024,Closed,10,5.13,Home Renovation,None,High
+1034,979,456216,8/6/2020,Approved,2,7.54,Home Renovation,None,Low
+1035,751,283477,1/30/2022,Approved,7,11.8,Education,Car,Low
+1036,430,12907,6/21/2020,Rejected,4,7.13,Home Renovation,None,Low
+1037,976,221371,12/6/2021,Rejected,3,8.88,Home Renovation,None,Medium
+1038,130,224622,6/23/2024,Approved,7,9.38,Medical,House,Medium
+1039,8,231965,11/8/2020,Defaulted,1,8.34,Medical,House,High
+1040,174,22070,3/14/2021,Closed,5,7.26,Medical,Car,High
+1041,73,137230,1/7/2024,Rejected,10,12.27,Business Expansion,Car,Medium
+1042,72,253796,3/4/2023,Rejected,4,4.89,Education,Car,High
+1043,1000,253010,4/2/2023,Closed,5,12.47,Home Renovation,None,Low
+1044,652,248672,12/18/2019,Defaulted,2,8.18,Business Expansion,House,Medium
+1045,491,270638,4/13/2020,Defaulted,3,12.47,Education,None,High
+1046,191,277586,10/9/2023,Defaulted,9,5.53,Business Expansion,House,Low
+1047,222,189469,11/26/2020,Approved,5,11.28,Education,House,Low
+1048,11,440227,9/12/2021,Closed,1,10.62,Home Renovation,Car,Low
+1049,809,302770,10/5/2022,Approved,6,8.49,Education,Car,Low
+1050,844,302152,1/30/2022,Closed,3,3.54,Business Expansion,Car,High
+1051,347,189663,11/4/2024,Approved,7,5.66,Business Expansion,None,Low
+1052,416,170889,7/21/2022,Approved,9,10.62,Business Expansion,Car,High
+1053,361,54907,7/2/2020,Defaulted,3,8.11,Medical,House,Low
+1054,29,43552,3/8/2024,Defaulted,1,6.84,Education,None,High
+1055,105,344007,2/27/2022,Rejected,3,9.54,Home Renovation,None,Low
+1056,588,410843,12/16/2022,Rejected,10,4.71,Home Renovation,None,Medium
+1057,15,469883,1/16/2024,Defaulted,2,5.25,Medical,House,High
+1058,724,436954,5/1/2020,Approved,3,7.24,Business Expansion,House,Low
+1059,464,81350,12/21/2020,Closed,9,8.64,Home Renovation,Car,Low
+1060,875,454665,2/25/2024,Rejected,2,5.18,Business Expansion,None,High
+1061,475,451317,3/26/2020,Rejected,7,5.1,Business Expansion,House,Medium
+1062,548,68849,4/11/2020,Closed,8,9.93,Education,None,Medium
+1063,799,353183,7/12/2023,Defaulted,1,5.51,Business Expansion,None,Medium
+1064,59,27368,7/15/2021,Defaulted,1,7.33,Home Renovation,House,High
+1065,230,348094,8/16/2021,Approved,7,3.52,Medical,Car,Low
+1066,911,41834,12/29/2022,Closed,6,8.77,Medical,House,Medium
+1067,855,315760,8/7/2021,Approved,6,10.66,Medical,House,Low
+1068,905,280013,2/24/2021,Defaulted,4,9.98,Home Renovation,None,Low
+1069,33,432623,3/8/2024,Defaulted,5,5.72,Medical,Car,Medium
+1070,731,425062,2/9/2024,Approved,2,6.9,Medical,None,Medium
+1071,279,495381,2/25/2020,Approved,9,11.76,Business Expansion,Car,Low
+1072,265,68206,4/17/2022,Closed,8,5.46,Medical,None,Low
+1073,984,207412,12/14/2022,Closed,9,8.15,Medical,House,Low
+1074,963,327514,12/26/2022,Approved,4,5.03,Home Renovation,House,Low
+1075,691,271859,11/6/2022,Rejected,5,4.02,Business Expansion,House,High
+1076,519,370080,4/16/2020,Closed,10,6.7,Business Expansion,House,Low
+1077,329,114068,12/11/2022,Defaulted,7,10.31,Education,Car,Medium
+1078,469,60863,10/8/2023,Defaulted,8,12.19,Business Expansion,Car,Medium
+1079,143,222403,5/27/2024,Approved,10,8.15,Medical,Car,Low
+1080,537,135595,10/10/2023,Closed,7,11.67,Business Expansion,House,Low
+1081,522,289191,4/27/2022,Rejected,5,10.08,Home Renovation,None,Medium
+1082,889,112537,5/27/2021,Defaulted,1,3.71,Medical,Car,Medium
+1083,754,323111,12/3/2019,Approved,2,8.15,Business Expansion,House,Medium
+1084,382,343335,8/13/2023,Closed,9,6.72,Business Expansion,House,High
+1085,607,348806,4/26/2020,Defaulted,9,7.76,Business Expansion,House,Medium
+1086,320,96489,6/1/2021,Defaulted,3,3.69,Business Expansion,Car,Low
+1087,648,373055,2/5/2021,Approved,10,4.88,Medical,House,High
+1088,392,285985,11/3/2022,Defaulted,10,7.32,Education,House,High
+1089,157,484684,3/10/2020,Closed,5,12.38,Education,Car,High
+1090,682,82307,1/13/2020,Rejected,2,12.13,Business Expansion,House,Medium
+1091,988,234656,1/20/2022,Rejected,9,9.89,Home Renovation,None,Medium
+1092,61,452828,3/20/2022,Approved,7,8.7,Education,House,Medium
+1093,440,426114,2/2/2023,Approved,4,5.2,Education,Car,High
+1094,948,497618,12/1/2020,Rejected,1,4.72,Medical,Car,Low
+1095,326,110260,6/24/2023,Closed,1,6.98,Home Renovation,Car,High
+1096,696,153270,7/27/2022,Approved,2,12.43,Medical,House,High
+1097,70,462018,5/22/2024,Defaulted,5,7.92,Medical,Car,High
+1098,876,470475,9/18/2022,Closed,8,11.37,Education,House,Low
+1099,311,411812,5/30/2021,Closed,8,5.2,Business Expansion,None,Low
+1100,829,283199,11/19/2024,Closed,4,12.27,Medical,House,Low
+1101,646,97970,11/27/2020,Approved,9,5.84,Medical,Car,High
+1102,663,464399,4/18/2024,Defaulted,2,8.69,Education,None,High
+1103,984,443854,11/7/2023,Rejected,9,7.77,Business Expansion,Car,High
+1104,912,270874,12/3/2023,Approved,9,6.34,Medical,House,Medium
+1105,507,8431,1/28/2024,Defaulted,4,8.08,Home Renovation,Car,Medium
+1106,653,193328,12/28/2022,Rejected,3,11.74,Home Renovation,House,High
+1107,791,183294,3/14/2023,Approved,4,8.75,Home Renovation,House,Medium
+1108,100,226072,5/3/2024,Rejected,7,8.58,Home Renovation,House,Low
+1109,423,480851,9/4/2021,Closed,3,7.46,Medical,House,Low
+1110,637,457269,6/23/2023,Approved,8,6.3,Medical,Car,High
+1111,821,269094,6/24/2024,Closed,1,5.39,Business Expansion,Car,Low
+1112,943,490626,11/24/2024,Closed,8,8.3,Business Expansion,Car,Low
+1113,846,426793,7/27/2022,Defaulted,8,9.89,Medical,Car,High
+1114,238,426912,12/16/2022,Closed,7,12.47,Education,Car,Medium
+1115,430,334018,7/30/2022,Approved,2,8.49,Medical,House,High
+1116,163,155083,8/16/2024,Defaulted,9,11.83,Education,None,Medium
+1117,815,339577,1/9/2020,Approved,3,8.83,Education,House,Low
+1118,354,104291,6/3/2024,Approved,7,7.37,Business Expansion,None,Medium
+1119,9,407361,3/6/2024,Rejected,3,5.58,Business Expansion,Car,Low
+1120,803,263200,9/18/2020,Defaulted,10,8.32,Home Renovation,None,Low
+1121,934,309345,11/3/2023,Closed,2,8.68,Business Expansion,None,High
+1122,770,294745,10/28/2020,Defaulted,5,8.44,Education,None,Low
+1123,515,413672,10/28/2021,Defaulted,8,5.53,Education,Car,Medium
+1124,911,404642,9/7/2023,Defaulted,2,10.56,Home Renovation,Car,Low
+1125,47,66194,10/10/2024,Defaulted,9,5.61,Medical,Car,Medium
+1126,859,435879,12/23/2023,Closed,10,6.77,Business Expansion,None,High
+1127,454,154929,5/26/2020,Defaulted,4,7.92,Medical,House,Low
+1128,82,40307,10/11/2022,Approved,5,5.32,Business Expansion,House,Low
+1129,991,157284,2/1/2022,Rejected,10,11.98,Business Expansion,House,High
+1130,39,311026,11/8/2020,Defaulted,10,9.87,Education,Car,Low
+1131,644,342322,4/15/2023,Rejected,6,10.11,Education,Car,Medium
+1132,502,499127,2/5/2021,Approved,6,3.82,Home Renovation,None,Low
+1133,645,331327,2/6/2020,Approved,8,10.81,Business Expansion,House,Low
+1134,988,197922,3/7/2023,Closed,10,8.82,Education,House,High
+1135,867,159655,4/3/2022,Defaulted,7,4.38,Medical,None,Medium
+1136,694,477934,8/8/2024,Rejected,9,9.59,Business Expansion,None,Medium
+1137,714,268968,5/29/2021,Approved,3,12.17,Education,Car,Medium
+1138,52,240832,12/5/2022,Closed,10,7.62,Business Expansion,House,Medium
+1139,633,335337,1/14/2023,Approved,3,10.46,Business Expansion,None,High
+1140,981,77621,4/7/2023,Defaulted,8,7,Medical,None,Low
+1141,56,344884,4/12/2020,Closed,9,7.32,Medical,None,Low
+1142,56,175751,10/11/2022,Closed,3,7.2,Education,None,Low
+1143,496,389570,8/12/2021,Approved,2,11.69,Home Renovation,None,Low
+1144,130,422010,8/18/2022,Defaulted,1,7.11,Business Expansion,Car,Low
+1145,493,392370,11/19/2021,Closed,9,9.02,Home Renovation,House,Low
+1146,695,336675,9/24/2022,Rejected,1,6.62,Medical,House,Low
+1147,902,422885,2/13/2022,Approved,2,6.32,Education,Car,Low
+1148,251,113415,11/17/2023,Approved,4,4.59,Business Expansion,House,Low
+1149,469,36763,1/27/2023,Approved,10,6.73,Education,None,Medium
+1150,80,337142,2/14/2020,Approved,1,9.88,Business Expansion,House,Medium
+1151,907,297295,7/1/2022,Approved,6,9.51,Home Renovation,House,Low
+1152,528,107314,10/17/2023,Approved,8,5.87,Business Expansion,Car,Low
+1153,307,480061,4/4/2024,Rejected,10,10.47,Medical,House,High
+1154,138,211894,10/5/2020,Closed,8,6.19,Medical,None,Low
+1155,46,171917,12/21/2019,Closed,5,4.55,Medical,Car,Medium
+1156,47,226646,11/28/2023,Approved,3,9.9,Education,None,Medium
+1157,4,497872,2/1/2024,Rejected,4,4.29,Business Expansion,None,Low
+1158,618,109907,3/22/2023,Approved,1,12.39,Home Renovation,House,Medium
+1159,233,312320,2/3/2020,Closed,2,11.83,Medical,Car,Low
+1160,361,161634,12/30/2022,Defaulted,10,11.58,Education,Car,Low
+1161,253,201758,11/16/2020,Closed,9,7.94,Medical,Car,Low
+1162,946,200646,5/28/2021,Defaulted,5,7.42,Education,None,High
+1163,268,286083,11/28/2020,Closed,4,3.58,Business Expansion,House,Medium
+1164,770,192347,11/12/2024,Approved,1,9.97,Medical,None,Medium
+1165,795,134441,10/13/2022,Rejected,7,3.66,Education,Car,High
+1166,224,54217,2/21/2021,Approved,6,5.34,Medical,Car,High
+1167,633,183022,9/5/2020,Closed,9,5.26,Home Renovation,House,Medium
+1168,955,291430,4/24/2021,Closed,9,12.36,Education,None,Low
+1169,566,99977,5/31/2023,Approved,2,10,Medical,Car,High
+1170,264,460480,2/1/2022,Approved,8,4.9,Home Renovation,None,Low
+1171,395,465822,2/14/2022,Closed,6,9.72,Business Expansion,None,Medium
+1172,159,306689,4/21/2022,Rejected,1,7.28,Business Expansion,Car,High
+1173,802,374743,8/29/2020,Rejected,9,6.01,Business Expansion,House,Medium
+1174,405,383295,4/15/2023,Closed,8,12.2,Business Expansion,House,High
+1175,431,223462,5/24/2022,Closed,5,7.65,Business Expansion,House,Low
+1176,272,422430,12/24/2021,Defaulted,6,5.11,Home Renovation,House,Low
+1177,792,208517,6/2/2021,Rejected,7,4.74,Medical,Car,Medium
+1178,858,122549,2/9/2023,Closed,8,8.71,Medical,Car,Medium
+1179,848,29014,5/1/2022,Rejected,3,8.25,Business Expansion,Car,Low
+1180,290,297828,12/15/2022,Defaulted,3,6.95,Medical,House,Low
+1181,761,298661,9/29/2023,Closed,1,6.39,Education,House,Low
+1182,272,481888,7/19/2021,Rejected,2,11.74,Education,Car,High
+1183,977,75115,6/1/2021,Rejected,2,11.24,Medical,Car,Low
+1184,989,171867,12/8/2023,Defaulted,10,5.37,Home Renovation,None,High
+1185,571,337385,7/9/2023,Rejected,7,8.54,Home Renovation,House,Medium
+1186,952,184494,12/14/2019,Approved,7,7.61,Home Renovation,Car,Low
+1187,134,240255,12/12/2021,Defaulted,9,8.58,Medical,House,Low
+1188,850,108516,10/28/2023,Approved,3,4,Education,Car,Low
+1189,899,130627,5/13/2022,Approved,4,8.57,Education,Car,Low
+1190,103,429386,6/9/2022,Rejected,2,7.3,Medical,Car,Medium
+1191,6,241335,8/27/2021,Defaulted,10,9.49,Education,None,Medium
+1192,312,113129,4/6/2020,Rejected,6,11.41,Education,House,Low
+1193,166,451689,3/14/2022,Defaulted,7,10.94,Medical,None,High
+1194,35,49018,11/29/2019,Approved,3,9.74,Education,None,High
+1195,482,44766,5/24/2024,Closed,4,4.39,Business Expansion,None,Low
+1196,902,460347,10/13/2020,Rejected,4,8.49,Business Expansion,House,High
+1197,881,113140,1/16/2024,Defaulted,8,9.09,Medical,None,Low
+1198,55,87579,9/21/2023,Closed,9,9.61,Home Renovation,House,Medium
+1199,200,125415,8/10/2020,Defaulted,5,3.84,Medical,None,High
+1200,629,287616,3/8/2021,Defaulted,10,10.13,Education,None,High
+1201,898,274811,11/19/2022,Approved,3,7.48,Education,Car,Medium
+1202,71,39570,1/21/2022,Defaulted,4,4.74,Business Expansion,None,Medium
+1203,677,358513,4/6/2023,Defaulted,3,11.17,Education,House,Medium
+1204,24,326241,8/1/2022,Approved,10,9.4,Medical,Car,Low
+1205,880,209412,9/24/2020,Defaulted,9,11.59,Medical,None,High
+1206,155,478081,12/1/2023,Closed,1,3.81,Home Renovation,House,Low
+1207,874,51407,11/7/2024,Defaulted,2,7.31,Home Renovation,None,Medium
+1208,674,434128,5/29/2023,Rejected,4,9.8,Education,None,Low
+1209,118,297805,7/4/2022,Defaulted,9,6.06,Education,Car,Low
+1210,863,447449,10/12/2022,Closed,1,11.01,Business Expansion,Car,Medium
+1211,300,16617,3/27/2020,Defaulted,1,4.4,Medical,Car,Low
+1212,588,430666,11/8/2021,Rejected,9,8.51,Business Expansion,Car,Medium
+1213,218,180631,8/10/2023,Rejected,7,4.71,Home Renovation,Car,High
+1214,235,301693,3/4/2023,Closed,1,6.52,Business Expansion,House,High
+1215,682,47105,3/11/2020,Approved,10,7.95,Medical,Car,High
+1216,85,154009,11/17/2020,Rejected,5,3.84,Medical,Car,High
+1217,58,377692,5/7/2021,Approved,10,4.17,Business Expansion,Car,High
+1218,835,195878,11/14/2022,Approved,2,9.82,Business Expansion,None,Low
+1219,84,170730,8/30/2020,Rejected,3,10.07,Home Renovation,Car,High
+1220,427,55707,11/25/2024,Closed,8,6.96,Business Expansion,Car,High
+1221,16,404803,12/12/2020,Defaulted,8,11.8,Medical,House,Medium
+1222,797,301247,5/2/2021,Approved,1,10.27,Business Expansion,Car,Medium
+1223,936,184293,10/27/2022,Approved,1,7.86,Business Expansion,None,Medium
+1224,280,416373,11/7/2020,Defaulted,2,12.42,Home Renovation,None,Low
+1225,141,341535,10/11/2023,Approved,4,5.07,Business Expansion,None,Medium
+1226,151,174189,9/17/2024,Defaulted,7,4,Medical,Car,Low
+1227,148,317074,5/28/2023,Defaulted,2,9.09,Home Renovation,None,High
+1228,299,304088,2/12/2020,Defaulted,7,3.97,Education,None,Low
+1229,570,474940,11/21/2021,Closed,1,5.12,Business Expansion,House,Low
+1230,670,217025,2/19/2024,Approved,3,3.94,Home Renovation,Car,Medium
+1231,121,481701,12/4/2021,Closed,7,4.12,Home Renovation,Car,Medium
+1232,343,50106,11/23/2020,Defaulted,2,6.36,Home Renovation,None,Low
+1233,803,364541,6/6/2020,Defaulted,6,7.67,Medical,None,Medium
+1234,105,414877,10/31/2021,Approved,5,8.66,Medical,Car,High
+1235,762,474014,8/3/2023,Rejected,5,5.79,Education,House,High
+1236,62,277793,12/27/2021,Closed,10,4.64,Business Expansion,House,Low
+1237,73,444798,4/24/2023,Closed,10,4.04,Home Renovation,House,Medium
+1238,743,146395,8/21/2021,Rejected,8,6.83,Education,None,Medium
+1239,143,81274,11/14/2022,Rejected,4,4.46,Home Renovation,House,Low
+1240,961,419340,12/4/2022,Rejected,4,5.77,Medical,House,Medium
+1241,52,313365,4/27/2022,Rejected,1,5.35,Education,House,Medium
+1242,971,439699,3/18/2024,Defaulted,8,8.1,Business Expansion,Car,Medium
+1243,193,444813,3/23/2020,Defaulted,2,6.74,Medical,None,Medium
+1244,719,93944,10/29/2021,Approved,5,10.09,Medical,House,Low
+1245,556,450756,12/9/2022,Closed,6,5.36,Medical,None,Low
+1246,643,202997,4/15/2024,Defaulted,4,8.19,Medical,None,High
+1247,440,422806,11/7/2020,Closed,10,4.58,Education,Car,High
+1248,991,253966,12/3/2020,Closed,1,11.44,Business Expansion,None,Low
+1249,50,72589,12/24/2021,Defaulted,4,8.89,Education,None,High
+1250,172,468723,3/20/2022,Closed,1,11.47,Business Expansion,House,High
+1251,340,201637,12/22/2021,Defaulted,5,6.5,Home Renovation,None,Low
+1252,560,389664,10/23/2021,Closed,10,8.75,Medical,Car,Medium
+1253,231,476419,11/9/2021,Defaulted,6,7.19,Education,Car,High
+1254,909,9169,7/6/2023,Approved,2,10.54,Education,Car,Low
+1255,636,432959,7/7/2020,Closed,6,6.49,Business Expansion,House,Low
+1256,883,33368,1/4/2020,Defaulted,1,11.88,Medical,None,High
+1257,229,52064,7/8/2022,Defaulted,7,4.55,Medical,House,Low
+1258,83,455138,12/3/2019,Approved,1,5.59,Business Expansion,None,Medium
+1259,389,19186,3/3/2021,Defaulted,10,5.5,Medical,Car,Medium
+1260,260,77471,9/17/2023,Defaulted,5,4.99,Medical,None,Low
+1261,267,22388,4/8/2024,Approved,5,7.13,Home Renovation,House,Low
+1262,436,239082,9/20/2020,Approved,4,5.74,Education,None,Low
+1263,164,395243,12/2/2021,Rejected,5,6.92,Education,House,High
+1264,241,293525,11/11/2021,Closed,2,11.94,Home Renovation,None,Medium
+1265,881,123590,8/15/2024,Closed,1,12.04,Medical,None,Low
+1266,798,40974,12/10/2022,Rejected,4,3.63,Business Expansion,House,High
+1267,731,309884,3/17/2021,Rejected,4,6.72,Business Expansion,None,High
+1268,251,282332,3/17/2024,Defaulted,7,9.7,Business Expansion,Car,Medium
+1269,889,138555,8/16/2024,Approved,10,10.69,Home Renovation,House,High
+1270,908,235052,7/29/2023,Defaulted,9,9.27,Education,House,High
+1271,822,442464,10/5/2021,Rejected,4,12.31,Business Expansion,House,Low
+1272,766,328614,3/24/2021,Rejected,6,12.14,Medical,House,Medium
+1273,980,370448,4/21/2023,Approved,9,6.92,Medical,Car,Low
+1274,665,476971,3/2/2023,Closed,10,11.82,Medical,House,High
+1275,569,463089,3/28/2024,Rejected,7,11.11,Business Expansion,Car,Medium
+1276,555,298844,9/6/2023,Closed,6,11.23,Home Renovation,House,Low
+1277,317,291127,12/24/2023,Closed,7,12.37,Education,House,Low
+1278,95,74785,10/25/2020,Defaulted,2,11.7,Education,House,Low
+1279,960,103220,7/27/2023,Closed,1,11.54,Education,Car,Low
+1280,670,153052,5/25/2023,Defaulted,7,10.5,Home Renovation,None,Low
+1281,294,210983,10/27/2021,Rejected,8,6.81,Business Expansion,None,Low
+1282,459,80291,2/14/2020,Closed,7,4.44,Medical,None,Medium
+1283,512,125352,3/21/2020,Defaulted,6,10.08,Medical,House,Low
+1284,432,39557,6/12/2024,Closed,4,5.88,Business Expansion,House,Medium
+1285,814,145946,4/5/2022,Closed,3,6.3,Business Expansion,Car,Medium
+1286,618,248206,8/13/2023,Closed,3,12.14,Medical,Car,Low
+1287,476,130753,3/19/2021,Closed,5,10.49,Home Renovation,None,High
+1288,203,53688,12/18/2020,Approved,8,4.58,Education,Car,Medium
+1289,975,444433,4/7/2020,Closed,2,6.39,Business Expansion,House,Low
+1290,51,111541,5/22/2021,Closed,3,9.83,Home Renovation,House,Low
+1291,671,279313,10/13/2021,Closed,4,4.08,Medical,House,High
+1292,471,215881,11/24/2022,Defaulted,5,4.22,Medical,Car,Medium
+1293,128,121631,9/2/2020,Defaulted,10,5.97,Education,None,Low
+1294,756,201070,9/3/2023,Closed,10,3.92,Home Renovation,House,High
+1295,592,224829,12/5/2021,Defaulted,6,9.22,Medical,House,Low
+1296,677,341144,10/10/2021,Approved,9,8.57,Education,Car,High
+1297,32,349770,2/3/2023,Closed,2,8.05,Business Expansion,Car,High
+1298,649,488129,12/3/2023,Approved,2,6.02,Medical,None,High
+1299,759,307420,12/13/2022,Closed,3,8.09,Business Expansion,House,Medium
+1300,865,106461,6/5/2022,Approved,5,6.38,Home Renovation,None,Medium
+1301,896,122720,6/9/2020,Defaulted,1,4.23,Medical,Car,Medium
+1302,961,56828,8/6/2023,Approved,7,7.22,Business Expansion,House,High
+1303,544,343061,7/20/2022,Rejected,8,5.24,Home Renovation,Car,Medium
+1304,959,463450,11/12/2024,Approved,1,8.65,Medical,Car,Low
+1305,533,240186,1/4/2022,Defaulted,10,7.33,Home Renovation,Car,Medium
+1306,515,96241,11/2/2023,Defaulted,3,7.71,Home Renovation,House,Medium
+1307,636,344164,1/18/2021,Rejected,7,9.8,Education,House,High
+1308,392,354719,9/15/2020,Defaulted,9,9.68,Home Renovation,None,High
+1309,161,100095,8/13/2021,Approved,2,4.44,Medical,None,Medium
+1310,511,321874,6/23/2022,Closed,1,6.02,Medical,Car,Low
+1311,823,147259,5/25/2020,Rejected,7,4.82,Education,Car,Low
+1312,306,79511,11/4/2023,Closed,5,4.64,Business Expansion,Car,Medium
+1313,275,170421,6/14/2023,Defaulted,2,12.3,Medical,House,Medium
+1314,862,155606,8/31/2023,Defaulted,2,7.62,Business Expansion,House,Low
+1315,646,140666,5/14/2021,Rejected,4,5.36,Business Expansion,None,Low
+1316,382,363739,7/7/2023,Defaulted,2,3.76,Medical,Car,Low
+1317,658,140703,9/8/2020,Approved,5,12.41,Medical,None,Low
+1318,767,230510,8/23/2024,Closed,4,9.56,Education,None,High
+1319,890,234350,5/4/2022,Approved,4,12.45,Education,House,Low
+1320,681,291728,5/2/2020,Defaulted,3,3.95,Education,None,Low
+1321,363,68929,2/18/2021,Rejected,7,10.76,Medical,Car,Medium
+1322,20,18445,11/7/2021,Rejected,7,9.47,Home Renovation,None,Medium
+1323,404,59404,11/24/2022,Approved,1,10.9,Home Renovation,Car,Medium
+1324,443,169642,9/2/2021,Closed,1,9.37,Education,Car,Low
+1325,514,409835,9/23/2024,Rejected,3,4.4,Business Expansion,None,Low
+1326,940,306017,4/18/2020,Approved,10,4.02,Business Expansion,Car,Medium
+1327,662,412210,12/26/2020,Approved,8,3.77,Medical,None,Low
+1328,259,117300,4/18/2021,Approved,3,10.69,Education,House,Low
+1329,578,200800,7/22/2024,Defaulted,10,8.66,Home Renovation,None,Low
+1330,861,482708,5/11/2022,Approved,4,4.1,Education,House,High
+1331,297,22196,3/28/2021,Approved,5,8.16,Home Renovation,None,High
+1332,577,362633,3/9/2024,Rejected,10,11.01,Home Renovation,Car,High
+1333,619,432860,8/26/2021,Approved,3,7.82,Education,None,Medium
+1334,468,368522,4/24/2023,Approved,2,7.42,Business Expansion,None,Low
+1335,386,468273,11/5/2023,Defaulted,4,8.02,Education,Car,High
+1336,897,176572,4/2/2022,Rejected,7,9.48,Medical,None,Low
+1337,622,61944,6/3/2023,Approved,2,12.14,Home Renovation,Car,Low
+1338,186,120566,6/2/2024,Closed,9,4.59,Business Expansion,None,Low
+1339,639,7039,10/9/2020,Closed,9,12.09,Medical,Car,High
+1340,128,14200,6/27/2023,Approved,6,9.82,Home Renovation,None,High
+1341,196,8554,1/14/2023,Closed,2,4.43,Medical,None,Medium
+1342,815,470792,1/2/2023,Rejected,8,10.16,Education,None,Medium
+1343,561,395354,8/2/2023,Defaulted,1,3.79,Home Renovation,None,Low
+1344,26,450269,12/16/2019,Rejected,10,12.35,Home Renovation,None,Medium
+1345,102,392733,8/3/2024,Approved,2,11.46,Medical,House,Low
+1346,422,162756,2/14/2021,Closed,7,5.51,Business Expansion,None,Low
+1347,553,8667,6/23/2020,Rejected,9,6.31,Business Expansion,House,High
+1348,508,154407,2/25/2020,Defaulted,8,5,Business Expansion,None,Medium
+1349,128,456023,4/10/2024,Rejected,8,4.31,Business Expansion,Car,Medium
+1350,277,225519,4/14/2020,Approved,8,12.39,Medical,Car,High
+1351,412,226313,10/28/2023,Approved,9,10.28,Business Expansion,None,Low
+1352,563,29614,10/31/2024,Rejected,10,5.42,Home Renovation,Car,Low
+1353,26,264430,7/10/2020,Approved,4,4.08,Medical,House,Medium
+1354,538,189581,9/17/2024,Approved,10,8.23,Medical,None,High
+1355,103,166628,5/5/2020,Rejected,4,9.98,Medical,None,High
+1356,167,68568,5/13/2023,Approved,4,8.94,Business Expansion,None,High
+1357,654,96712,7/27/2023,Defaulted,3,5.62,Medical,None,Medium
+1358,443,332846,2/2/2022,Closed,4,8.05,Medical,House,Low
+1359,570,166967,10/2/2023,Approved,3,10.71,Education,Car,Low
+1360,859,315670,11/8/2023,Approved,7,5.54,Business Expansion,House,Medium
+1361,514,61290,8/31/2023,Defaulted,2,11.71,Home Renovation,House,Low
+1362,189,454003,1/10/2021,Rejected,9,6,Business Expansion,Car,Medium
+1363,755,415459,5/10/2023,Closed,10,3.57,Education,Car,High
+1364,287,420396,2/19/2021,Rejected,4,10.58,Business Expansion,House,Low
+1365,376,427860,11/6/2024,Closed,3,5.19,Business Expansion,None,High
+1366,776,214597,6/16/2022,Closed,2,4.18,Education,None,Medium
+1367,411,465392,8/24/2024,Approved,7,10.62,Home Renovation,House,Low
+1368,413,143822,1/5/2024,Approved,6,11.81,Medical,Car,Medium
+1369,115,254621,5/17/2021,Rejected,10,11.98,Medical,None,Medium
+1370,224,417850,10/16/2021,Defaulted,9,11.61,Home Renovation,Car,Low
+1371,944,136844,3/24/2024,Approved,1,11.83,Business Expansion,House,High
+1372,580,481311,11/21/2023,Defaulted,2,4.6,Medical,House,Low
+1373,275,246311,5/23/2021,Approved,5,4.3,Home Renovation,None,Low
+1374,795,280027,10/10/2023,Closed,10,9.39,Business Expansion,House,Medium
+1375,392,174882,11/24/2022,Approved,4,5.82,Home Renovation,None,Low
+1376,305,310922,1/23/2023,Rejected,4,4.01,Education,Car,Medium
+1377,287,339393,12/4/2021,Defaulted,3,5.09,Education,None,Medium
+1378,478,442169,8/16/2020,Defaulted,10,9.58,Home Renovation,None,Low
+1379,956,419330,8/8/2021,Rejected,10,9.12,Medical,House,Medium
+1380,393,337988,1/18/2021,Defaulted,9,12.47,Home Renovation,House,High
+1381,838,64980,6/26/2022,Rejected,1,8.76,Medical,None,Medium
+1382,546,494084,8/31/2023,Defaulted,4,6.44,Education,House,High
+1383,312,43631,11/19/2023,Approved,7,8.27,Medical,None,Medium
+1384,549,66128,5/28/2021,Rejected,9,5.45,Medical,Car,Low
+1385,766,176866,2/27/2020,Defaulted,3,12.19,Home Renovation,None,Medium
+1386,378,319212,9/2/2021,Defaulted,3,9.18,Business Expansion,House,Low
+1387,343,309128,7/8/2024,Closed,3,11.26,Education,None,High
+1388,302,336440,2/22/2021,Approved,4,6.75,Medical,House,Low
+1389,952,29065,10/28/2022,Approved,1,9.14,Education,None,High
+1390,590,174658,3/5/2024,Closed,1,9.13,Medical,House,High
+1391,857,167254,10/5/2022,Closed,8,5.67,Business Expansion,None,Low
+1392,863,336659,3/3/2023,Approved,2,3.76,Home Renovation,House,High
+1393,622,195554,9/26/2022,Closed,6,7.18,Medical,House,Low
+1394,644,212913,8/6/2022,Closed,7,9.62,Home Renovation,Car,Low
+1395,306,165555,10/22/2024,Approved,1,11.8,Home Renovation,None,Medium
+1396,787,423243,5/11/2020,Defaulted,9,9.51,Business Expansion,Car,Low
+1397,555,277600,12/21/2022,Rejected,7,9.96,Education,None,High
+1398,550,384626,6/4/2023,Approved,5,8.42,Education,Car,Medium
+1399,787,31181,10/13/2021,Approved,8,7.16,Education,Car,High
+1400,171,126781,3/11/2023,Closed,10,6.4,Business Expansion,Car,High
+1401,469,389255,9/25/2024,Approved,4,9.24,Education,House,Medium
+1402,9,26389,7/18/2021,Approved,3,4.21,Education,None,Low
+1403,774,82116,7/24/2023,Defaulted,10,10.87,Business Expansion,None,High
+1404,28,483363,1/30/2020,Rejected,6,7.71,Home Renovation,None,Low
+1405,302,270960,7/9/2021,Rejected,7,8.99,Education,None,Low
+1406,268,395554,9/29/2023,Approved,10,11.5,Business Expansion,House,Low
+1407,435,227882,3/29/2021,Rejected,4,11.1,Education,Car,Low
+1408,321,107419,8/21/2024,Defaulted,7,4.17,Medical,Car,Low
+1409,488,124113,6/8/2020,Approved,2,9.62,Education,Car,Medium
+1410,911,83162,9/28/2023,Closed,2,7.96,Business Expansion,None,Low
+1411,449,320504,1/6/2021,Closed,2,10.47,Medical,None,Low
+1412,825,60050,1/15/2022,Defaulted,3,4.96,Home Renovation,Car,Medium
+1413,588,382761,5/7/2023,Rejected,1,9.82,Home Renovation,House,Low
+1414,663,82767,6/20/2024,Defaulted,10,9.04,Home Renovation,None,Low
+1415,244,164481,1/8/2020,Rejected,5,10.92,Medical,None,High
+1416,126,496197,5/3/2020,Defaulted,8,7.08,Home Renovation,None,Medium
+1417,126,167051,4/15/2021,Approved,9,5.97,Medical,Car,Medium
+1418,807,185978,3/28/2021,Approved,6,6,Home Renovation,None,Medium
+1419,267,425278,8/1/2020,Approved,6,11.99,Medical,House,High
+1420,37,78465,7/29/2021,Defaulted,3,10.53,Home Renovation,None,High
+1421,192,185242,6/2/2023,Defaulted,2,12.07,Education,None,Low
+1422,346,68119,9/18/2020,Approved,8,5.8,Education,House,Medium
+1423,321,388356,12/29/2021,Approved,3,8.01,Education,House,Low
+1424,642,78252,11/21/2024,Approved,1,6.53,Business Expansion,None,High
+1425,906,192903,5/30/2023,Closed,8,4.77,Medical,None,Medium
+1426,325,11000,1/19/2020,Approved,2,4.04,Home Renovation,Car,High
+1427,110,217557,1/13/2020,Defaulted,7,4.73,Education,Car,Medium
+1428,649,199241,7/17/2023,Approved,2,11.41,Business Expansion,None,Medium
+1429,474,14977,12/26/2020,Approved,9,4.84,Business Expansion,Car,High
+1430,717,96633,10/27/2022,Defaulted,6,4.62,Medical,House,Low
+1431,402,337744,10/28/2021,Rejected,5,12.27,Education,House,Low
+1432,420,409684,7/28/2023,Approved,4,9.56,Education,Car,Low
+1433,469,205989,3/20/2022,Rejected,9,8.04,Business Expansion,Car,Low
+1434,812,56880,3/14/2023,Defaulted,6,9.76,Home Renovation,House,High
+1435,187,75716,5/3/2024,Rejected,8,12.48,Education,Car,Low
+1436,565,323033,8/22/2021,Defaulted,8,8.39,Medical,House,High
+1437,296,29491,3/2/2022,Approved,8,7.07,Business Expansion,None,Medium
+1438,666,190351,10/19/2023,Approved,9,12.09,Business Expansion,None,High
+1439,928,37601,12/30/2022,Rejected,8,4.54,Home Renovation,House,High
+1440,336,277356,12/16/2023,Approved,4,4.41,Education,Car,Medium
+1441,931,80192,11/7/2022,Closed,2,7.41,Medical,None,Low
+1442,143,48667,4/16/2023,Approved,5,6.17,Home Renovation,Car,High
+1443,791,415845,8/22/2024,Rejected,10,12.29,Medical,None,Medium
+1444,467,414024,9/16/2021,Closed,5,10.79,Home Renovation,Car,Medium
+1445,730,196615,1/18/2021,Defaulted,4,11.07,Business Expansion,Car,Low
+1446,263,482802,2/28/2023,Approved,1,6.6,Business Expansion,None,High
+1447,609,272069,2/7/2020,Approved,5,10.56,Business Expansion,None,Low
+1448,206,26793,4/23/2023,Closed,6,7.65,Home Renovation,House,High
+1449,558,19800,4/1/2023,Rejected,8,9.78,Education,None,Medium
+1450,870,41400,9/14/2020,Defaulted,3,6.4,Business Expansion,None,High
+1451,489,465961,8/20/2023,Approved,10,11.79,Education,House,High
+1452,541,384936,1/22/2020,Rejected,7,4.54,Business Expansion,House,Medium
+1453,755,45290,9/25/2021,Approved,1,10.12,Home Renovation,None,Low
+1454,746,118934,7/5/2024,Defaulted,5,8.12,Education,House,Medium
+1455,83,220286,3/22/2023,Rejected,4,4.12,Business Expansion,House,Medium
+1456,323,307753,1/22/2021,Approved,9,7.44,Home Renovation,None,High
+1457,187,297093,7/9/2021,Rejected,2,8.22,Medical,Car,High
+1458,537,334723,3/30/2023,Defaulted,5,5.15,Medical,None,Low
+1459,945,19304,3/23/2020,Approved,5,8.19,Business Expansion,Car,Low
+1460,450,394704,4/19/2023,Rejected,5,11.6,Business Expansion,House,Low
+1461,881,470047,5/18/2023,Approved,6,9.42,Business Expansion,Car,Medium
+1462,73,295622,7/11/2022,Approved,1,10.91,Business Expansion,House,Low
+1463,289,82208,8/3/2022,Closed,7,9.14,Home Renovation,Car,Low
+1464,514,117780,3/21/2023,Closed,3,11.94,Home Renovation,Car,High
+1465,343,231338,8/9/2023,Closed,2,8.79,Education,None,High
+1466,434,444271,10/21/2021,Rejected,10,4.04,Medical,Car,Medium
+1467,52,202143,10/2/2021,Approved,10,8.97,Education,None,Medium
+1468,167,25727,11/16/2023,Approved,8,9.41,Education,None,Low
+1469,124,351518,1/14/2021,Rejected,5,12.24,Business Expansion,House,Medium
+1470,186,284401,6/12/2023,Rejected,7,7.21,Medical,Car,Low
+1471,572,326503,7/20/2023,Approved,4,10.28,Business Expansion,House,High
+1472,597,448642,8/11/2021,Defaulted,6,3.79,Home Renovation,None,Low
+1473,540,494274,9/18/2024,Approved,10,8.7,Medical,House,Low
+1474,666,187011,1/7/2024,Closed,1,7.04,Medical,House,Medium
+1475,840,298915,7/1/2024,Closed,2,7.09,Education,Car,Low
+1476,129,180396,8/18/2022,Defaulted,1,8.33,Business Expansion,Car,Low
+1477,908,333610,9/24/2024,Defaulted,5,9.66,Education,None,Medium
+1478,994,479272,3/6/2023,Defaulted,10,10.58,Medical,Car,Medium
+1479,295,240294,3/1/2021,Rejected,6,10.94,Business Expansion,Car,Medium
+1480,709,337182,3/24/2022,Approved,2,8.41,Medical,House,Medium
+1481,220,25933,3/9/2023,Closed,10,8.6,Home Renovation,None,Medium
+1482,339,100712,4/28/2020,Approved,7,9.1,Home Renovation,House,High
+1483,330,96576,10/10/2021,Approved,3,5.73,Education,Car,Low
+1484,537,331330,2/10/2020,Defaulted,7,8.02,Medical,House,Medium
+1485,245,25834,5/10/2021,Defaulted,3,11.35,Business Expansion,Car,High
+1486,6,236209,5/6/2020,Rejected,4,8.25,Business Expansion,None,Low
+1487,826,17265,7/11/2022,Approved,8,7.95,Business Expansion,Car,Medium
+1488,566,45512,7/10/2022,Defaulted,10,9.87,Education,Car,High
+1489,578,12916,9/8/2021,Approved,3,10.78,Home Renovation,House,High
+1490,539,78408,7/28/2020,Rejected,1,4.75,Home Renovation,Car,Medium
+1491,621,443466,10/11/2023,Defaulted,2,7.21,Education,None,Low
+1492,619,226623,4/20/2022,Closed,9,11.63,Home Renovation,Car,Low
+1493,286,406214,12/22/2019,Closed,10,11.51,Education,None,High
+1494,756,450963,7/15/2022,Approved,3,7.93,Education,None,High
+1495,454,160319,10/5/2021,Defaulted,9,9.38,Home Renovation,Car,Medium
+1496,578,52670,4/5/2022,Closed,10,6.27,Education,Car,High
+1497,322,366967,2/9/2023,Defaulted,10,9.35,Home Renovation,Car,High
+1498,543,383956,10/9/2020,Approved,6,9.34,Medical,House,Low
+1499,303,319499,10/31/2024,Approved,9,9.68,Education,Car,Medium
+1500,371,440055,2/22/2020,Rejected,1,4.17,Medical,House,Medium
+1501,2,107613,8/8/2020,Rejected,10,10.2,Business Expansion,None,High
+1502,487,497380,1/27/2022,Rejected,10,5.39,Education,Car,Low
+1503,279,36521,3/27/2023,Approved,6,12.4,Medical,Car,Low
+1504,59,371688,7/4/2022,Closed,6,9.36,Education,House,Low
+1505,972,313699,10/26/2021,Approved,6,7.5,Medical,House,High
+1506,845,254656,8/5/2023,Approved,1,5.28,Education,Car,Medium
+1507,707,113794,1/24/2022,Approved,10,9.18,Medical,Car,Low
+1508,126,133247,5/13/2021,Defaulted,8,7.46,Education,None,Low
+1509,708,270084,4/3/2024,Closed,2,6.42,Education,None,Medium
+1510,306,101678,7/26/2022,Defaulted,2,6.21,Business Expansion,Car,Medium
+1511,846,48315,1/4/2021,Defaulted,4,6.96,Education,House,Low
+1512,527,239444,5/13/2024,Defaulted,9,5.46,Education,Car,Low
+1513,865,67172,9/3/2021,Defaulted,8,9.61,Education,House,Medium
+1514,875,268719,8/6/2021,Approved,7,9.89,Home Renovation,Car,High
+1515,354,113739,9/27/2024,Defaulted,7,9.45,Education,None,Medium
+1516,687,188531,3/20/2023,Rejected,1,6.6,Business Expansion,None,Low
+1517,104,248768,11/30/2023,Defaulted,6,5.08,Medical,Car,Low
+1518,282,456363,6/23/2024,Closed,2,9.62,Education,None,High
+1519,643,89572,1/10/2022,Approved,3,4.39,Business Expansion,None,High
+1520,156,431638,3/9/2023,Approved,3,11.11,Education,None,Low
+1521,574,403051,4/15/2024,Closed,8,3.68,Medical,House,High
+1522,134,211890,1/28/2024,Rejected,8,7.48,Medical,House,High
+1523,500,396559,1/24/2022,Defaulted,1,7.52,Education,House,High
+1524,661,389467,2/19/2021,Rejected,3,8.56,Home Renovation,None,Medium
+1525,156,326011,6/4/2020,Closed,8,6.4,Business Expansion,None,Low
+1526,704,432525,9/26/2022,Defaulted,1,7.11,Home Renovation,None,Low
+1527,656,56756,9/8/2021,Closed,4,4.76,Home Renovation,Car,Medium
+1528,591,86773,3/21/2021,Approved,1,5.27,Home Renovation,House,Medium
+1529,146,47041,6/28/2022,Closed,9,12.23,Business Expansion,None,Medium
+1530,229,356035,10/31/2024,Defaulted,10,8.12,Medical,None,Medium
+1531,42,45578,8/3/2020,Approved,10,8.08,Medical,None,High
+1532,572,185277,12/10/2021,Approved,2,4.97,Business Expansion,House,High
+1533,743,379492,12/26/2022,Approved,10,8.16,Medical,Car,High
+1534,609,448212,6/19/2024,Rejected,4,7.13,Business Expansion,House,Low
+1535,363,369828,4/7/2024,Closed,8,8.09,Medical,Car,High
+1536,468,432564,9/8/2022,Defaulted,5,5.6,Medical,Car,Medium
+1537,728,55321,7/4/2021,Approved,9,8.14,Business Expansion,None,Low
+1538,341,296088,8/8/2021,Defaulted,7,3.51,Home Renovation,House,High
+1539,710,159610,5/3/2021,Defaulted,2,8.26,Medical,Car,Medium
+1540,242,236180,1/7/2022,Closed,3,7.63,Business Expansion,Car,Low
+1541,662,498394,9/2/2023,Rejected,6,6.87,Business Expansion,House,Low
+1542,790,213295,9/11/2020,Approved,5,11.46,Home Renovation,House,Low
+1543,621,129697,4/15/2020,Approved,8,4.06,Business Expansion,Car,Low
+1544,567,491226,5/29/2021,Rejected,4,11,Home Renovation,Car,Low
+1545,426,82750,2/18/2022,Rejected,5,4.11,Education,None,High
+1546,773,428088,3/16/2024,Closed,4,12.08,Medical,None,Medium
+1547,524,43536,10/4/2022,Defaulted,3,8.94,Business Expansion,None,Medium
+1548,527,479199,3/28/2020,Defaulted,5,10.35,Education,Car,Low
+1549,514,433628,7/14/2022,Approved,5,11.83,Medical,Car,Medium
+1550,694,307491,2/16/2023,Closed,2,7.54,Medical,Car,Low
+1551,568,300908,7/15/2020,Defaulted,10,12.42,Education,Car,High
+1552,759,6834,5/9/2024,Closed,8,9.8,Business Expansion,Car,Medium
+1553,876,313766,5/4/2020,Approved,5,3.85,Medical,None,Medium
+1554,482,292911,9/12/2023,Approved,5,10.91,Home Renovation,None,High
+1555,318,103360,2/4/2023,Rejected,5,12.14,Home Renovation,Car,Low
+1556,441,454128,2/20/2021,Approved,2,9.14,Home Renovation,None,High
+1557,927,7846,2/3/2020,Closed,9,3.76,Business Expansion,Car,High
+1558,708,387516,1/3/2024,Defaulted,7,10.95,Home Renovation,House,Low
+1559,749,212896,10/14/2020,Rejected,4,8.04,Business Expansion,None,Medium
+1560,473,314874,11/15/2021,Closed,4,9.08,Medical,None,High
+1561,278,292942,5/13/2022,Defaulted,9,9.59,Home Renovation,Car,Medium
+1562,597,357429,10/16/2022,Defaulted,3,8.7,Education,None,High
+1563,157,386109,10/14/2023,Rejected,10,11.41,Business Expansion,Car,Medium
+1564,288,305604,3/1/2020,Defaulted,6,4.55,Education,None,Medium
+1565,37,409429,11/6/2023,Rejected,7,7.15,Home Renovation,Car,High
+1566,510,277872,9/4/2020,Approved,7,3.64,Medical,Car,Medium
+1567,780,136848,5/8/2021,Defaulted,5,6.24,Business Expansion,None,Medium
+1568,971,386853,10/4/2020,Approved,5,6.36,Education,Car,Low
+1569,309,215567,3/4/2020,Rejected,1,5.93,Medical,House,High
+1570,381,67385,7/6/2021,Closed,2,10.62,Business Expansion,Car,High
+1571,793,323428,3/26/2024,Approved,10,10.56,Medical,None,Low
+1572,884,350756,8/4/2021,Defaulted,7,7.82,Home Renovation,None,Medium
+1573,611,191571,5/12/2020,Rejected,8,10.39,Medical,None,High
+1574,232,362201,10/2/2022,Closed,9,11.6,Education,House,High
+1575,581,314643,6/14/2023,Approved,4,7.12,Medical,None,Medium
+1576,842,55640,8/27/2022,Rejected,6,10.21,Business Expansion,Car,Low
+1577,656,91543,6/17/2022,Approved,9,7.32,Business Expansion,House,Medium
+1578,11,286167,9/15/2021,Closed,1,10.97,Education,None,Low
+1579,440,176445,4/2/2020,Defaulted,4,3.6,Home Renovation,House,Low
+1580,628,61403,2/24/2023,Closed,3,7.43,Home Renovation,Car,Low
+1581,808,436448,10/23/2024,Approved,2,4.91,Home Renovation,House,High
+1582,519,452744,12/6/2020,Closed,4,11.11,Education,House,Medium
+1583,917,50967,2/7/2022,Rejected,8,9.5,Business Expansion,Car,Low
+1584,887,447943,7/23/2022,Approved,6,3.94,Medical,House,Medium
+1585,51,422263,4/8/2021,Rejected,2,9.28,Education,House,Low
+1586,628,242102,5/16/2024,Approved,5,5.72,Home Renovation,Car,Medium
+1587,441,77751,7/20/2023,Approved,2,7.83,Home Renovation,None,Low
+1588,823,204205,10/11/2023,Approved,9,9.56,Business Expansion,None,Medium
+1589,130,365344,10/20/2022,Defaulted,9,7.75,Medical,House,Low
+1590,408,119574,3/7/2021,Rejected,5,6.22,Business Expansion,House,Low
+1591,317,18583,8/9/2024,Closed,7,9.96,Home Renovation,House,Low
+1592,432,252948,9/3/2022,Defaulted,7,9.85,Education,Car,Medium
+1593,300,297857,6/17/2021,Rejected,1,6.36,Home Renovation,None,High
+1594,22,427198,11/2/2021,Defaulted,9,5.77,Education,House,High
+1595,617,408110,10/17/2020,Rejected,7,5.98,Medical,None,High
+1596,296,255733,6/13/2020,Closed,2,8.83,Home Renovation,None,Medium
+1597,404,228068,12/25/2020,Defaulted,4,8.82,Medical,Car,Low
+1598,865,224249,4/1/2020,Defaulted,10,11.24,Home Renovation,House,Medium
+1599,228,220137,1/27/2021,Approved,9,10.83,Education,House,Low
+1600,877,17670,2/16/2023,Approved,5,4.91,Business Expansion,None,High
+1601,764,497819,5/20/2020,Approved,4,3.55,Education,None,High
+1602,306,458769,7/31/2020,Approved,10,7.93,Business Expansion,House,Low
+1603,385,245348,6/4/2024,Defaulted,3,10.29,Medical,Car,Low
+1604,520,297237,6/7/2021,Approved,4,6.05,Home Renovation,House,Medium
+1605,504,372865,2/8/2023,Approved,3,3.95,Education,None,Low
+1606,926,461994,6/24/2024,Defaulted,5,5.3,Education,None,High
+1607,276,315553,4/20/2024,Approved,2,4.98,Business Expansion,House,Low
+1608,235,326920,12/15/2023,Rejected,5,4.08,Home Renovation,None,Medium
+1609,704,404349,3/1/2022,Approved,3,6.13,Business Expansion,None,High
+1610,212,431039,12/5/2019,Rejected,4,11.37,Home Renovation,Car,High
+1611,481,96518,6/28/2024,Approved,8,5.55,Home Renovation,House,High
+1612,328,270814,8/2/2023,Defaulted,4,6.18,Education,Car,Medium
+1613,17,308020,9/1/2021,Approved,6,3.69,Home Renovation,Car,Low
+1614,284,193997,4/12/2024,Approved,6,5.74,Home Renovation,None,High
+1615,922,219972,12/28/2019,Rejected,7,7.86,Education,None,Medium
+1616,979,150939,4/7/2022,Rejected,5,8.8,Education,None,High
+1617,66,491418,8/27/2023,Defaulted,8,6.88,Education,Car,High
+1618,71,493222,3/22/2021,Rejected,10,9.99,Home Renovation,None,Low
+1619,114,384936,12/26/2023,Defaulted,8,11,Home Renovation,Car,Low
+1620,209,83657,9/19/2021,Rejected,6,8.72,Medical,None,Low
+1621,142,430683,1/5/2023,Defaulted,7,3.61,Home Renovation,House,High
+1622,346,125044,10/31/2023,Approved,3,4.94,Education,House,High
+1623,861,349321,7/14/2021,Defaulted,5,8.32,Medical,House,High
+1624,78,76472,2/18/2020,Approved,4,11.51,Medical,Car,Low
+1625,489,156700,4/26/2021,Approved,4,8.49,Business Expansion,None,Low
+1626,216,259112,2/14/2024,Defaulted,5,6.09,Education,Car,Low
+1627,716,381799,5/7/2023,Rejected,4,9.69,Medical,None,Medium
+1628,786,496552,8/16/2020,Closed,8,8.38,Education,None,Low
+1629,386,457475,7/6/2020,Approved,7,9.8,Medical,Car,Medium
+1630,241,468229,11/14/2021,Approved,10,7.09,Business Expansion,House,High
+1631,44,232737,5/10/2023,Closed,7,8.51,Medical,House,Medium
+1632,367,285193,5/31/2023,Rejected,6,9.53,Home Renovation,House,Low
+1633,298,382307,10/11/2024,Approved,6,3.57,Education,Car,Low
+1634,364,387923,9/20/2020,Defaulted,9,4.78,Medical,House,High
+1635,71,254796,3/19/2020,Closed,3,6.32,Education,None,High
+1636,674,494307,6/12/2020,Closed,4,6.72,Education,Car,Low
+1637,911,18665,9/7/2024,Rejected,4,5.32,Education,None,Medium
+1638,705,252927,4/12/2023,Closed,4,11.26,Home Renovation,House,Low
+1639,929,229019,11/15/2024,Rejected,5,6.74,Home Renovation,Car,Medium
+1640,788,116874,6/19/2020,Approved,5,11.4,Medical,Car,Low
+1641,409,90868,12/27/2022,Defaulted,7,11.17,Home Renovation,Car,High
+1642,298,231091,3/6/2024,Defaulted,5,10.21,Home Renovation,None,Low
+1643,992,302825,5/11/2022,Approved,6,9.84,Home Renovation,Car,Medium
+1644,409,118764,11/1/2024,Approved,7,12.03,Business Expansion,House,Medium
+1645,382,6588,3/3/2024,Defaulted,1,7.35,Home Renovation,Car,Medium
+1646,480,64426,3/24/2020,Defaulted,3,10.49,Home Renovation,House,Low
+1647,746,134932,9/11/2024,Approved,7,5.22,Business Expansion,Car,High
+1648,347,325403,3/20/2024,Approved,7,6.3,Education,Car,Medium
+1649,15,36824,2/23/2020,Approved,8,10.34,Home Renovation,House,High
+1650,826,300027,2/3/2024,Approved,5,11.15,Home Renovation,None,High
+1651,36,29034,6/8/2024,Approved,9,10.46,Medical,Car,Low
+1652,70,406277,2/9/2021,Closed,6,9.74,Education,None,Low
+1653,560,467899,6/25/2022,Approved,5,8.21,Education,None,High
+1654,839,141005,6/23/2022,Rejected,6,8.84,Medical,Car,Low
+1655,650,469461,11/23/2022,Approved,4,6.51,Home Renovation,Car,Low
+1656,75,459917,7/22/2023,Approved,6,6.71,Education,None,Low
+1657,830,105244,2/1/2024,Defaulted,7,7.43,Business Expansion,House,Low
+1658,571,337932,6/9/2024,Defaulted,6,4.6,Education,House,Medium
+1659,231,360914,8/4/2023,Approved,3,11.14,Education,Car,High
+1660,811,273907,12/21/2023,Defaulted,3,7.04,Medical,None,Low
+1661,539,191835,9/29/2020,Closed,6,6.69,Home Renovation,Car,High
+1662,426,130372,4/25/2023,Closed,9,7.18,Education,Car,High
+1663,216,186864,6/29/2024,Defaulted,6,6.79,Education,Car,Low
+1664,751,430774,6/4/2024,Approved,9,7.5,Home Renovation,Car,High
+1665,686,39947,10/21/2023,Approved,9,4.58,Medical,House,High
+1666,201,107769,5/4/2020,Approved,3,7.1,Business Expansion,House,High
+1667,644,287235,7/12/2022,Closed,4,7.36,Medical,None,Medium
+1668,408,499266,3/17/2022,Approved,9,5.59,Education,None,Medium
+1669,499,207809,11/2/2024,Approved,2,6.87,Education,None,High
+1670,625,268147,10/22/2021,Approved,3,10.1,Home Renovation,House,High
+1671,686,126008,9/23/2022,Rejected,5,5.54,Medical,None,High
+1672,402,117826,7/2/2024,Defaulted,8,4.35,Business Expansion,None,Medium
+1673,492,90881,2/21/2023,Defaulted,2,6.77,Medical,Car,High
+1674,657,450171,3/23/2023,Rejected,4,4.37,Business Expansion,None,Low
+1675,694,26102,6/22/2021,Defaulted,6,9.18,Education,Car,High
+1676,847,273151,1/31/2022,Defaulted,2,8.34,Medical,House,Medium
+1677,52,56719,7/28/2023,Defaulted,10,7.12,Medical,House,Low
+1678,150,161824,2/22/2024,Approved,1,6.42,Medical,House,Medium
+1679,678,464261,12/25/2022,Defaulted,10,7.3,Education,House,Low
+1680,722,230898,7/3/2021,Approved,5,11.92,Business Expansion,House,Medium
+1681,817,236835,11/1/2023,Defaulted,5,11.96,Medical,None,Medium
+1682,839,261876,12/2/2021,Closed,3,11.66,Medical,House,Medium
+1683,895,192269,3/5/2020,Closed,5,5.07,Home Renovation,Car,Medium
+1684,600,133241,5/6/2022,Approved,5,7.61,Business Expansion,Car,Low
+1685,735,140055,10/1/2022,Rejected,9,3.9,Business Expansion,House,High
+1686,843,36753,12/21/2022,Approved,7,4.84,Medical,Car,Low
+1687,29,36717,1/26/2020,Approved,3,6.94,Business Expansion,House,Medium
+1688,553,189543,8/13/2024,Closed,7,8.13,Education,None,High
+1689,910,54919,5/2/2021,Rejected,3,8.52,Business Expansion,Car,Medium
+1690,643,458893,10/27/2022,Rejected,4,8.99,Home Renovation,None,High
+1691,553,281677,2/7/2024,Rejected,5,11.52,Medical,None,Low
+1692,928,313559,6/3/2020,Defaulted,5,4.71,Home Renovation,Car,Medium
+1693,822,199183,12/11/2020,Closed,1,9.84,Medical,House,High
+1694,74,43322,1/11/2021,Defaulted,5,6.93,Business Expansion,House,Low
+1695,785,35103,3/9/2022,Defaulted,2,10.56,Home Renovation,House,Medium
+1696,108,174673,7/14/2024,Rejected,2,6.72,Education,None,High
+1697,247,238970,10/14/2024,Rejected,3,3.54,Business Expansion,None,Low
+1698,974,252200,3/7/2020,Defaulted,4,5.69,Home Renovation,House,Low
+1699,923,466790,11/21/2024,Defaulted,5,8.81,Medical,House,High
+1700,960,495124,8/28/2023,Rejected,2,6.12,Home Renovation,None,High
+1701,659,269101,2/7/2024,Defaulted,6,5.15,Medical,None,High
+1702,336,247446,8/23/2022,Closed,5,10.18,Business Expansion,Car,Medium
+1703,99,224912,1/9/2020,Defaulted,4,7.57,Home Renovation,None,High
+1704,246,469994,7/24/2021,Closed,5,5.98,Education,Car,Medium
+1705,136,121416,7/22/2023,Closed,4,7.99,Medical,Car,Medium
+1706,422,486425,9/28/2021,Closed,7,4.35,Medical,House,Medium
+1707,567,488917,11/1/2024,Approved,7,11.03,Medical,Car,High
+1708,183,354482,5/15/2022,Rejected,9,9.64,Medical,Car,High
+1709,330,184172,9/24/2020,Rejected,6,7.09,Home Renovation,Car,High
+1710,980,412468,2/21/2020,Defaulted,7,7.62,Home Renovation,Car,High
+1711,508,42320,11/12/2020,Approved,2,10.91,Medical,House,High
+1712,177,412168,2/3/2021,Approved,10,11.99,Business Expansion,Car,Medium
+1713,354,373043,12/20/2019,Approved,6,8.72,Medical,House,Medium
+1714,210,281233,11/20/2021,Rejected,4,10.77,Business Expansion,House,Low
+1715,775,128738,3/28/2023,Defaulted,2,7.49,Home Renovation,Car,High
+1716,149,51042,9/24/2024,Approved,2,10.02,Business Expansion,Car,High
+1717,937,176069,3/13/2023,Approved,9,4.03,Education,None,Medium
+1718,954,259381,4/1/2024,Rejected,2,7.35,Home Renovation,None,Low
+1719,240,479465,3/20/2022,Rejected,10,9.36,Education,Car,High
+1720,911,438704,5/1/2022,Rejected,8,6.51,Education,Car,Medium
+1721,832,78872,6/28/2022,Closed,9,10.77,Medical,Car,Medium
+1722,859,305711,2/1/2022,Rejected,3,9.41,Business Expansion,None,Medium
+1723,291,269708,5/11/2023,Rejected,7,3.57,Business Expansion,Car,High
+1724,266,365567,11/18/2020,Closed,5,8.86,Business Expansion,Car,High
+1725,957,305316,10/28/2021,Rejected,10,11.19,Business Expansion,Car,Low
+1726,1000,202918,7/5/2020,Defaulted,10,7.21,Home Renovation,House,Medium
+1727,398,404329,9/12/2021,Rejected,7,3.68,Business Expansion,House,High
+1728,378,387720,5/6/2020,Rejected,8,4.08,Medical,None,Medium
+1729,556,381033,9/14/2023,Closed,8,12.45,Education,House,Medium
+1730,859,41097,7/29/2021,Rejected,10,11.49,Education,None,High
+1731,302,460812,10/20/2024,Defaulted,7,9.31,Education,House,High
+1732,388,464298,12/22/2019,Defaulted,4,11.88,Home Renovation,Car,High
+1733,170,311658,4/4/2022,Rejected,10,11.32,Medical,House,High
+1734,621,399410,4/1/2021,Rejected,10,9.51,Business Expansion,None,Low
+1735,913,437450,5/19/2023,Rejected,5,4.07,Home Renovation,Car,Low
+1736,111,420513,10/8/2024,Approved,6,4.42,Home Renovation,Car,Low
+1737,65,453813,1/21/2020,Approved,9,8.24,Medical,Car,Medium
+1738,325,431409,4/7/2024,Approved,8,5.13,Medical,None,Medium
+1739,206,304030,7/20/2020,Closed,4,10.32,Home Renovation,None,Low
+1740,204,305084,12/19/2021,Approved,7,6.54,Education,House,High
+1741,669,429659,8/17/2024,Rejected,10,5.73,Business Expansion,House,High
+1742,748,245812,1/17/2021,Approved,8,6,Business Expansion,None,High
+1743,426,334208,11/22/2020,Approved,9,7.54,Medical,Car,Medium
+1744,636,330122,6/18/2024,Rejected,9,11.91,Medical,Car,Low
+1745,46,449691,8/18/2023,Approved,8,12.22,Education,None,Medium
+1746,847,298520,6/22/2023,Closed,7,6.24,Business Expansion,None,Medium
+1747,116,103401,2/6/2022,Closed,5,10.54,Medical,Car,High
+1748,540,299218,2/2/2023,Approved,2,11.46,Medical,Car,Medium
+1749,593,464568,7/17/2022,Rejected,10,5.62,Business Expansion,House,High
+1750,449,97272,7/30/2021,Defaulted,8,7.53,Home Renovation,Car,High
+1751,330,280819,4/13/2023,Rejected,8,7.34,Home Renovation,Car,Medium
+1752,561,262998,12/19/2022,Approved,3,7.9,Medical,None,Medium
+1753,928,170087,2/26/2023,Approved,4,10.08,Education,House,Low
+1754,216,75447,7/5/2024,Rejected,8,8.55,Medical,None,Low
+1755,827,308541,1/25/2022,Rejected,4,10.56,Business Expansion,House,High
+1756,904,254543,1/20/2023,Closed,7,3.86,Business Expansion,Car,Medium
+1757,124,17798,2/6/2023,Rejected,10,10.59,Home Renovation,None,Low
+1758,263,378351,3/10/2023,Defaulted,8,4.19,Medical,None,Medium
+1759,329,70033,5/11/2023,Defaulted,5,6.47,Medical,House,Low
+1760,916,16990,7/8/2023,Closed,4,8.75,Medical,Car,High
+1761,841,96671,4/28/2020,Rejected,2,7.66,Education,House,Low
+1762,124,236076,6/15/2024,Rejected,4,9.49,Education,Car,Low
+1763,306,323539,4/23/2020,Approved,3,12.42,Home Renovation,Car,High
+1764,543,296709,8/9/2022,Closed,5,10.88,Education,None,Medium
+1765,101,113485,12/21/2022,Defaulted,9,5.47,Business Expansion,Car,Low
+1766,377,476165,1/28/2023,Closed,3,8.6,Education,Car,Medium
+1767,970,386889,10/18/2024,Rejected,4,5.41,Education,None,Low
+1768,130,170907,1/31/2020,Closed,4,4.5,Education,House,Low
+1769,389,246479,2/2/2020,Closed,6,4.56,Medical,House,Medium
+1770,318,377649,1/3/2021,Defaulted,4,12.43,Home Renovation,House,Medium
+1771,656,73251,9/28/2020,Defaulted,3,7.81,Business Expansion,House,Medium
+1772,137,365889,12/9/2019,Closed,2,5.85,Home Renovation,Car,Low
+1773,922,95844,5/19/2021,Approved,10,11.36,Home Renovation,Car,High
+1774,553,499243,8/1/2020,Closed,7,7.9,Business Expansion,None,Low
+1775,423,316271,9/14/2021,Closed,3,12.18,Education,House,Medium
+1776,536,294039,5/5/2021,Rejected,3,10.42,Education,None,Low
+1777,490,492821,7/17/2023,Approved,4,9.9,Home Renovation,House,Low
+1778,223,183416,12/4/2021,Defaulted,3,9.56,Business Expansion,None,Low
+1779,277,145474,9/1/2022,Defaulted,10,9.04,Business Expansion,House,Low
+1780,778,444543,8/10/2023,Closed,7,10.84,Business Expansion,Car,High
+1781,615,309754,8/19/2023,Defaulted,5,8.43,Home Renovation,Car,Low
+1782,676,68321,8/3/2022,Rejected,9,8.19,Business Expansion,House,High
+1783,1,113010,5/12/2021,Rejected,2,6.73,Home Renovation,None,Low
+1784,539,82939,5/25/2022,Defaulted,3,12.17,Medical,None,Low
+1785,533,74343,3/28/2024,Defaulted,10,10.1,Medical,None,High
+1786,235,20100,1/18/2021,Closed,4,5.16,Business Expansion,Car,Low
+1787,940,485824,9/13/2021,Closed,5,10.04,Education,Car,Low
+1788,586,432620,1/9/2020,Closed,3,7.63,Education,None,Medium
+1789,477,74189,9/7/2022,Defaulted,7,10.53,Medical,House,Low
+1790,526,100472,3/8/2020,Approved,7,5.52,Home Renovation,House,Medium
+1791,688,478049,5/22/2022,Defaulted,4,5.63,Education,None,High
+1792,770,234636,4/1/2022,Rejected,8,12.47,Medical,None,Low
+1793,799,391409,5/30/2020,Defaulted,1,11.59,Education,Car,Medium
+1794,462,54853,11/11/2020,Closed,5,8.08,Business Expansion,None,Low
+1795,974,182109,3/19/2022,Closed,5,11.14,Medical,House,Low
+1796,952,336024,5/6/2022,Closed,6,11.94,Education,House,High
+1797,766,340698,6/14/2024,Closed,8,9.38,Education,House,High
+1798,186,329599,4/11/2020,Closed,4,10.69,Business Expansion,None,Low
+1799,272,450556,11/12/2020,Rejected,5,5.8,Medical,Car,Medium
+1800,118,453477,9/21/2024,Approved,6,6.45,Education,Car,Low
+1801,525,123665,4/7/2023,Closed,1,5.83,Medical,None,Low
+1802,694,39275,9/3/2022,Approved,6,5.26,Business Expansion,Car,High
+1803,603,135225,7/24/2020,Rejected,2,3.76,Medical,None,Medium
+1804,610,303615,7/31/2022,Defaulted,9,11.88,Home Renovation,Car,Low
+1805,301,303970,6/18/2023,Approved,7,9.09,Medical,Car,Medium
+1806,701,365807,5/9/2023,Closed,5,12.44,Medical,House,Medium
+1807,222,30239,10/11/2022,Closed,2,12.5,Education,None,High
+1808,16,463017,7/21/2024,Rejected,1,8.81,Education,House,Medium
+1809,811,113413,7/18/2023,Closed,7,10.49,Business Expansion,House,Medium
+1810,954,267752,6/6/2022,Defaulted,7,4.25,Education,Car,Low
+1811,439,203883,1/7/2021,Approved,1,10.36,Medical,Car,Low
+1812,899,243080,12/12/2023,Approved,8,11.09,Business Expansion,None,Medium
+1813,814,326146,9/8/2022,Approved,3,6.98,Business Expansion,House,Medium
+1814,355,141253,10/7/2023,Rejected,4,4.1,Medical,House,Medium
+1815,146,386550,7/12/2023,Defaulted,3,4.37,Business Expansion,None,Medium
+1816,68,398036,9/2/2021,Closed,3,3.93,Business Expansion,Car,High
+1817,564,191373,11/6/2024,Defaulted,10,5.57,Business Expansion,House,High
+1818,931,484940,1/6/2020,Closed,4,7.53,Business Expansion,None,Medium
+1819,111,441885,9/25/2021,Defaulted,10,9.18,Medical,House,High
+1820,305,151902,7/22/2023,Rejected,8,8.37,Home Renovation,House,High
+1821,990,160937,2/1/2020,Approved,10,12.2,Business Expansion,House,High
+1822,816,233720,11/6/2021,Approved,8,11.24,Medical,None,Low
+1823,365,374877,4/28/2023,Rejected,7,8.86,Education,None,High
+1824,485,256641,8/23/2024,Defaulted,9,7.12,Medical,Car,Medium
+1825,541,437319,10/29/2024,Rejected,2,9.75,Medical,House,Low
+1826,484,211521,1/24/2023,Closed,9,8.02,Medical,Car,Medium
+1827,36,34990,11/3/2020,Approved,7,8.9,Home Renovation,House,Medium
+1828,664,106292,11/12/2020,Closed,4,5.99,Medical,Car,High
+1829,546,375143,7/1/2020,Approved,1,12.08,Home Renovation,House,Medium
+1830,677,40281,3/3/2020,Rejected,6,5.58,Home Renovation,Car,High
+1831,606,104157,6/7/2023,Closed,9,7.63,Medical,Car,Low
+1832,918,116394,6/19/2020,Closed,10,3.67,Medical,Car,Low
+1833,94,128253,10/19/2022,Rejected,9,9.08,Education,House,Medium
+1834,37,397247,12/4/2023,Approved,9,11.86,Education,Car,High
+1835,884,113883,5/5/2022,Approved,1,12.17,Home Renovation,None,High
+1836,226,278413,7/25/2023,Closed,4,3.79,Medical,Car,High
+1837,417,43330,8/27/2020,Defaulted,3,7.37,Medical,Car,Medium
+1838,904,317898,7/25/2024,Rejected,9,10.68,Home Renovation,House,Low
+1839,395,417123,6/30/2020,Defaulted,7,7.61,Home Renovation,Car,Low
+1840,185,73342,3/10/2024,Approved,1,8.76,Home Renovation,House,Low
+1841,308,407952,2/4/2021,Closed,6,11.34,Home Renovation,House,Medium
+1842,817,103914,10/19/2020,Rejected,9,9.51,Business Expansion,Car,High
+1843,668,169680,4/17/2021,Approved,9,8.65,Medical,Car,High
+1844,641,162025,7/21/2021,Rejected,2,10.17,Education,House,Medium
+1845,978,427660,4/5/2021,Defaulted,7,6.54,Education,None,Low
+1846,893,142531,2/11/2020,Closed,8,5.85,Education,Car,Low
+1847,105,140398,4/7/2020,Defaulted,10,8.33,Medical,None,High
+1848,817,468895,10/31/2024,Approved,3,5.65,Education,None,High
+1849,486,190142,2/2/2022,Closed,3,9.62,Education,None,Medium
+1850,237,356389,7/31/2021,Closed,4,7.09,Business Expansion,Car,High
+1851,13,175657,8/1/2023,Approved,6,5.18,Business Expansion,Car,High
+1852,748,387204,3/31/2023,Closed,2,10.59,Medical,House,Low
+1853,751,437273,9/13/2021,Closed,9,4.33,Education,None,Low
+1854,129,66063,1/18/2024,Defaulted,1,6.2,Business Expansion,None,High
+1855,343,349674,2/20/2023,Approved,9,5.54,Home Renovation,Car,Medium
+1856,60,304432,12/17/2023,Rejected,4,6.61,Education,None,Low
+1857,790,27802,5/6/2022,Defaulted,2,7.33,Home Renovation,House,Low
+1858,861,482172,2/11/2020,Defaulted,7,5.57,Education,House,Low
+1859,41,442348,9/1/2020,Approved,7,11.3,Education,House,High
+1860,446,72803,8/1/2021,Approved,4,4.97,Medical,Car,Low
+1861,450,41613,6/14/2023,Closed,6,9.27,Education,None,High
+1862,896,298663,8/4/2022,Defaulted,3,4.36,Education,None,Low
+1863,70,81740,5/2/2023,Rejected,1,8.98,Home Renovation,House,Low
+1864,100,277357,3/1/2022,Defaulted,3,5.87,Home Renovation,House,High
+1865,10,112406,1/30/2023,Defaulted,7,6.01,Medical,House,High
+1866,133,485956,4/5/2020,Closed,1,8.85,Home Renovation,None,Medium
+1867,411,184880,10/15/2021,Rejected,10,9.09,Business Expansion,Car,Low
+1868,327,100291,12/18/2021,Defaulted,3,7.61,Medical,None,High
+1869,417,143377,6/20/2023,Rejected,1,7.26,Medical,Car,High
+1870,359,384897,5/30/2022,Approved,5,4.8,Business Expansion,House,Low
+1871,181,124010,3/26/2024,Defaulted,7,8.17,Business Expansion,None,Medium
+1872,299,237597,7/17/2021,Approved,7,5.08,Medical,Car,High
+1873,31,126115,10/26/2022,Defaulted,3,11.13,Business Expansion,House,Low
+1874,975,169808,11/21/2022,Closed,10,9.94,Business Expansion,Car,Medium
+1875,531,107972,7/26/2020,Defaulted,7,7.99,Home Renovation,House,Medium
+1876,92,43873,4/17/2024,Closed,3,8.81,Medical,Car,Medium
+1877,227,43629,2/15/2021,Closed,8,7.51,Home Renovation,House,Medium
+1878,992,447828,12/26/2020,Defaulted,10,11.8,Business Expansion,Car,Low
+1879,137,231270,12/16/2020,Defaulted,3,7.19,Education,None,Low
+1880,884,12405,3/21/2021,Rejected,6,6.3,Medical,Car,Low
+1881,546,50867,3/10/2022,Rejected,1,3.56,Business Expansion,Car,Medium
+1882,17,157204,9/11/2024,Defaulted,10,9.98,Education,Car,Low
+1883,115,82493,3/22/2021,Closed,1,8.3,Home Renovation,None,Medium
+1884,771,126100,7/22/2022,Closed,3,5.79,Education,Car,High
+1885,537,464297,3/6/2023,Defaulted,5,5.41,Medical,Car,Medium
+1886,861,427641,3/7/2020,Closed,4,10.53,Home Renovation,House,Medium
+1887,505,203869,12/9/2019,Defaulted,1,6.98,Home Renovation,None,Medium
+1888,333,249674,6/22/2020,Defaulted,8,5.1,Home Renovation,None,Medium
+1889,474,181662,10/16/2023,Approved,4,6.88,Education,Car,Medium
+1890,658,358864,10/31/2021,Rejected,10,7.12,Education,House,High
+1891,163,136294,7/6/2024,Approved,8,6.45,Education,None,High
+1892,659,404147,3/12/2023,Approved,10,5.88,Home Renovation,House,Medium
+1893,115,345763,8/7/2021,Approved,4,9.93,Home Renovation,None,Low
+1894,449,207796,3/12/2023,Rejected,7,5.8,Home Renovation,None,High
+1895,531,212540,2/18/2023,Closed,10,7.74,Home Renovation,House,High
+1896,528,128745,8/12/2024,Closed,1,10.7,Home Renovation,Car,Low
+1897,233,39040,8/26/2023,Approved,4,7.53,Education,House,Medium
+1898,976,143874,1/9/2024,Approved,9,5.07,Business Expansion,House,Low
+1899,889,53501,6/30/2020,Closed,5,3.76,Education,None,Low
+1900,87,322745,9/10/2024,Approved,9,7.61,Education,Car,High
+1901,527,369848,3/23/2021,Approved,7,10.93,Business Expansion,Car,Medium
+1902,866,489131,10/6/2023,Defaulted,4,5.99,Business Expansion,Car,High
+1903,632,243325,9/6/2020,Rejected,5,9.84,Home Renovation,House,Medium
+1904,790,258577,9/9/2021,Approved,8,12.05,Education,House,Low
+1905,172,94806,12/27/2023,Rejected,1,11.92,Business Expansion,House,High
+1906,453,389004,3/5/2022,Approved,9,10.18,Education,House,Low
+1907,595,317542,6/9/2021,Rejected,8,5.6,Education,House,Medium
+1908,315,409796,4/14/2022,Closed,2,6.84,Business Expansion,House,High
+1909,849,128156,9/4/2020,Defaulted,6,11.17,Business Expansion,None,Low
+1910,251,377852,11/18/2021,Rejected,1,4.54,Business Expansion,House,Low
+1911,996,450762,9/29/2024,Approved,7,7.95,Business Expansion,None,Low
+1912,561,214122,11/9/2022,Defaulted,2,6.69,Medical,Car,High
+1913,661,408491,8/12/2023,Rejected,4,9.99,Education,House,Medium
+1914,355,266987,12/24/2019,Closed,5,9.65,Business Expansion,Car,Low
+1915,212,279207,12/30/2023,Closed,1,5.8,Home Renovation,Car,Low
+1916,263,75462,8/29/2022,Rejected,1,11.17,Education,Car,Low
+1917,858,257558,9/13/2020,Closed,9,7.8,Medical,House,Medium
+1918,429,135851,7/21/2024,Closed,7,6.13,Education,None,High
+1919,215,18320,10/1/2020,Rejected,4,5.16,Home Renovation,None,Low
+1920,511,463830,7/8/2023,Rejected,7,4.03,Education,None,High
+1921,891,303674,1/24/2020,Defaulted,7,9.98,Medical,Car,Low
+1922,929,408535,8/30/2023,Approved,9,8.1,Medical,None,Medium
+1923,652,130674,2/16/2021,Closed,8,7.7,Medical,Car,High
+1924,316,311178,6/19/2022,Defaulted,8,3.66,Education,Car,Low
+1925,81,413509,7/8/2024,Closed,8,9.42,Education,House,Medium
+1926,912,167839,3/21/2022,Closed,5,11.74,Education,None,High
+1927,673,399873,2/25/2021,Approved,9,7.6,Education,None,High
+1928,232,449254,9/13/2020,Approved,9,8.17,Medical,Car,Medium
+1929,925,165895,12/12/2022,Approved,9,11.35,Business Expansion,Car,Low
+1930,273,486474,5/20/2021,Approved,3,7.3,Business Expansion,House,High
+1931,253,260402,7/17/2023,Closed,3,3.7,Education,None,Medium
+1932,680,387103,12/5/2022,Approved,7,5.94,Medical,Car,High
+1933,136,457861,1/2/2022,Approved,7,4.79,Business Expansion,None,Medium
+1934,195,329779,11/6/2021,Closed,9,6.38,Education,House,High
+1935,926,165996,2/1/2021,Rejected,6,11.74,Business Expansion,House,Medium
+1936,678,113168,9/3/2021,Approved,2,4.28,Medical,Car,High
+1937,638,245691,8/14/2020,Rejected,2,10.58,Education,House,High
+1938,420,341673,4/20/2021,Approved,8,6.32,Home Renovation,None,Medium
+1939,257,97424,6/7/2023,Defaulted,2,9.13,Business Expansion,House,Low
+1940,720,311822,2/11/2020,Defaulted,6,10.19,Home Renovation,House,Medium
+1941,967,466753,12/21/2019,Approved,6,4.28,Medical,House,High
+1942,709,176780,2/22/2023,Approved,4,10.76,Education,None,High
+1943,578,215839,11/20/2024,Closed,7,4.47,Education,None,Low
+1944,381,368893,1/13/2020,Closed,9,4.8,Education,House,High
+1945,380,254600,7/1/2020,Rejected,8,8.9,Home Renovation,Car,Low
+1946,469,341779,4/12/2024,Rejected,4,5.05,Medical,Car,Medium
+1947,29,323854,6/11/2024,Rejected,8,6.05,Business Expansion,House,Medium
+1948,299,257947,8/5/2022,Closed,3,4.22,Medical,None,Medium
+1949,891,29310,7/25/2020,Rejected,7,8.2,Business Expansion,Car,Medium
+1950,955,76336,6/5/2020,Defaulted,1,9.38,Home Renovation,House,High
+1951,398,338547,7/29/2020,Closed,10,8.04,Home Renovation,House,Low
+1952,840,184628,2/22/2022,Defaulted,10,6.17,Medical,House,Medium
+1953,683,38832,9/10/2023,Closed,1,5.3,Education,None,Medium
+1954,39,319997,3/24/2023,Defaulted,8,5.33,Medical,Car,High
+1955,563,437349,12/14/2021,Approved,2,12.49,Medical,None,High
+1956,679,316522,5/4/2023,Closed,3,9,Business Expansion,House,High
+1957,776,264397,3/15/2020,Defaulted,2,10.21,Medical,House,High
+1958,128,411667,6/17/2023,Approved,6,9.3,Business Expansion,House,Low
+1959,947,368179,12/4/2023,Defaulted,6,10.36,Home Renovation,House,Low
+1960,817,62300,4/21/2020,Rejected,2,4.7,Education,Car,Medium
+1961,183,226854,6/9/2022,Closed,7,10.3,Education,None,High
+1962,602,192104,6/22/2024,Rejected,10,10.73,Home Renovation,Car,Low
+1963,807,245178,9/20/2020,Defaulted,4,8.96,Home Renovation,House,Medium
+1964,542,441426,7/8/2022,Closed,4,7.52,Business Expansion,Car,Low
+1965,756,205476,7/1/2024,Defaulted,4,7.65,Medical,House,Medium
+1966,898,377752,11/26/2024,Closed,10,7.97,Home Renovation,Car,Low
+1967,543,58009,1/26/2021,Closed,4,7.86,Home Renovation,House,High
+1968,125,321330,6/11/2023,Approved,3,12.38,Medical,Car,Medium
+1969,539,473920,2/3/2024,Approved,5,6.02,Home Renovation,House,High
+1970,685,291806,9/24/2022,Defaulted,5,11.48,Business Expansion,None,Low
+1971,936,341810,6/30/2023,Defaulted,5,9.51,Home Renovation,House,High
+1972,661,365661,2/6/2023,Rejected,4,5.94,Business Expansion,House,High
+1973,704,372163,9/14/2021,Closed,5,11.17,Home Renovation,Car,High
+1974,429,150145,10/4/2022,Rejected,8,7.95,Business Expansion,House,Low
+1975,693,288428,6/9/2023,Defaulted,10,4.61,Education,None,High
+1976,950,187647,3/31/2020,Defaulted,4,7.9,Business Expansion,House,Low
+1977,59,268921,3/22/2021,Approved,3,5.99,Business Expansion,None,Medium
+1978,952,215467,3/9/2023,Approved,7,11.28,Business Expansion,Car,Low
+1979,439,54332,10/25/2021,Approved,2,11.69,Medical,House,High
+1980,188,454689,6/23/2022,Closed,8,7.69,Business Expansion,None,Low
+1981,445,411771,12/13/2021,Approved,4,10.92,Business Expansion,None,Low
+1982,209,55046,2/7/2024,Closed,8,10.25,Medical,House,Medium
+1983,494,356160,5/27/2022,Rejected,10,8.74,Education,None,High
+1984,710,98007,7/24/2022,Defaulted,10,10.88,Education,None,Medium
+1985,219,173566,11/19/2024,Rejected,3,10.73,Business Expansion,House,Low
+1986,411,357598,6/14/2024,Closed,9,8.67,Medical,House,Medium
+1987,79,43576,10/5/2020,Approved,9,7.75,Education,House,Medium
+1988,355,145993,9/7/2021,Rejected,5,9.47,Education,None,Medium
+1989,620,111713,9/5/2023,Closed,2,9.87,Medical,None,Medium
+1990,888,193767,4/17/2022,Defaulted,3,4,Business Expansion,House,Medium
+1991,53,173326,12/15/2019,Rejected,7,4.75,Home Renovation,Car,High
+1992,384,210457,6/11/2023,Approved,5,4.03,Medical,House,Low
+1993,848,495054,8/5/2024,Closed,1,9.22,Home Renovation,House,Medium
+1994,938,15459,11/4/2024,Approved,1,12.24,Education,Car,Low
+1995,619,9088,4/8/2021,Closed,5,10.28,Business Expansion,None,Low
+1996,994,24856,8/5/2022,Defaulted,8,10.56,Business Expansion,House,Medium
+1997,384,426726,12/10/2023,Closed,3,4.73,Business Expansion,Car,High
+1998,568,470872,5/28/2023,Defaulted,8,4.57,Home Renovation,House,High
+1999,562,115983,12/22/2021,Closed,9,6.88,Education,Car,High
+2000,280,343117,1/21/2020,Defaulted,9,12.18,Medical,House,Medium
+2001,521,79320,5/1/2021,Rejected,1,10.98,Medical,None,High
+2002,254,337779,10/22/2024,Rejected,9,10.17,Business Expansion,Car,Medium
+2003,833,429329,1/12/2022,Approved,9,9.68,Home Renovation,House,Medium
+2004,371,211155,5/4/2023,Rejected,10,8.49,Business Expansion,Car,High
+2005,262,184845,11/15/2024,Closed,4,5.71,Home Renovation,House,Low
+2006,549,281386,5/19/2024,Defaulted,9,10.57,Home Renovation,House,Medium
+2007,183,293414,9/23/2020,Rejected,8,9.06,Education,House,Medium
+2008,888,351194,8/17/2020,Rejected,6,4.03,Home Renovation,Car,Low
+2009,661,230468,1/16/2024,Closed,9,7.06,Education,Car,Low
+2010,885,36547,12/8/2020,Approved,2,6.44,Medical,Car,Medium
+2011,993,412558,12/4/2022,Defaulted,5,7.4,Business Expansion,House,Medium
+2012,461,25207,6/22/2022,Approved,1,6.21,Medical,None,Medium
+2013,437,81590,6/14/2021,Approved,7,10.98,Home Renovation,Car,High
+2014,611,236493,9/15/2020,Closed,7,11.47,Education,None,Medium
+2015,166,285950,5/1/2021,Rejected,3,10.42,Home Renovation,House,Low
+2016,472,272458,6/25/2022,Defaulted,5,9.54,Home Renovation,Car,High
+2017,312,192477,7/26/2023,Rejected,10,7.11,Medical,House,Low
+2018,763,473076,6/30/2021,Closed,2,4.69,Education,House,Low
+2019,10,8605,12/18/2020,Approved,10,4.61,Medical,Car,Medium
+2020,894,230733,12/16/2021,Approved,6,7.63,Business Expansion,Car,High
+2021,22,445630,3/25/2024,Defaulted,6,9,Medical,Car,High
+2022,984,9415,3/14/2020,Defaulted,5,8.57,Medical,None,Medium
+2023,354,194375,11/7/2023,Closed,1,3.62,Home Renovation,House,High
+2024,584,434914,11/20/2021,Closed,1,10.9,Business Expansion,None,High
+2025,892,99771,3/10/2022,Closed,9,6.58,Education,Car,Medium
+2026,467,77497,8/8/2024,Closed,7,7.87,Education,House,Low
+2027,405,198385,5/31/2021,Approved,4,10.06,Home Renovation,Car,Low
+2028,619,476271,1/30/2020,Rejected,6,6.84,Education,None,Low
+2029,374,357812,4/5/2021,Rejected,7,5.48,Business Expansion,None,Medium
+2030,116,415109,3/14/2024,Approved,7,8.86,Education,None,Low
+2031,505,485196,9/20/2020,Rejected,4,8.98,Education,Car,Medium
+2032,412,312481,1/25/2024,Rejected,4,5.2,Business Expansion,House,Low
+2033,398,72547,10/4/2020,Defaulted,10,3.83,Medical,None,High
+2034,696,183078,8/6/2020,Approved,6,11.3,Business Expansion,Car,Low
+2035,358,283425,6/19/2021,Defaulted,9,6.96,Education,None,Low
+2036,385,433377,4/21/2022,Closed,4,6.82,Business Expansion,House,High
+2037,127,150074,2/24/2020,Closed,2,12.28,Home Renovation,None,Low
+2038,636,125504,9/7/2024,Defaulted,8,4.89,Home Renovation,House,Medium
+2039,729,279875,1/6/2023,Closed,6,9.14,Medical,None,Medium
+2040,73,444133,11/27/2023,Rejected,10,8.59,Education,House,Low
+2041,419,52907,9/11/2021,Defaulted,3,7.44,Medical,Car,High
+2042,77,292859,4/6/2024,Rejected,1,8.8,Medical,House,Medium
+2043,123,343492,9/7/2022,Closed,1,4.46,Business Expansion,None,Medium
+2044,797,470401,8/25/2022,Closed,2,3.91,Home Renovation,Car,Medium
+2045,21,399622,11/12/2021,Closed,7,4.4,Business Expansion,None,High
+2046,253,369184,5/2/2022,Approved,9,3.75,Business Expansion,House,Medium
+2047,100,184935,5/6/2021,Defaulted,3,12.06,Education,None,High
+2048,51,142130,12/14/2022,Approved,7,8.87,Home Renovation,House,Medium
+2049,623,241990,3/22/2021,Defaulted,6,9.16,Business Expansion,House,High
+2050,35,351473,12/4/2019,Defaulted,9,5.25,Business Expansion,None,Medium
+2051,13,18895,1/25/2022,Rejected,7,8.07,Medical,None,Medium
+2052,968,455065,12/11/2021,Approved,3,8.67,Business Expansion,Car,Medium
+2053,761,74648,2/8/2020,Closed,4,11.19,Education,Car,Medium
+2054,99,267701,12/10/2020,Defaulted,5,7.57,Education,House,High
+2055,657,497359,7/27/2022,Closed,4,5.52,Business Expansion,Car,High
+2056,396,25401,6/16/2022,Defaulted,3,3.96,Business Expansion,Car,Medium
+2057,177,302818,8/21/2023,Closed,10,9.4,Home Renovation,Car,Low
+2058,485,117245,3/18/2022,Approved,8,5.72,Business Expansion,None,High
+2059,594,69852,6/18/2023,Rejected,5,10.48,Medical,None,High
+2060,31,466370,1/19/2023,Closed,9,4.8,Education,None,Medium
+2061,738,22641,7/26/2022,Approved,9,8.46,Business Expansion,House,Low
+2062,677,328267,8/20/2023,Defaulted,7,6.23,Medical,House,High
+2063,654,431025,6/2/2020,Closed,8,3.95,Home Renovation,Car,High
+2064,547,281475,5/19/2023,Approved,3,9.76,Home Renovation,Car,High
+2065,775,148136,9/16/2020,Approved,10,3.61,Medical,None,Low
+2066,584,130181,11/21/2024,Approved,9,6.86,Medical,Car,Low
+2067,624,55334,8/19/2024,Approved,1,7.6,Business Expansion,Car,High
+2068,485,331138,6/23/2021,Approved,7,4.7,Business Expansion,House,Low
+2069,416,108874,10/30/2024,Approved,2,4.54,Education,None,Low
+2070,908,306164,1/13/2020,Closed,9,3.58,Business Expansion,Car,High
+2071,31,85515,10/3/2022,Rejected,8,12.12,Medical,None,Medium
+2072,121,154951,4/21/2022,Defaulted,3,3.55,Home Renovation,Car,High
+2073,606,45779,10/5/2020,Rejected,3,5.46,Home Renovation,None,High
+2074,545,335998,8/19/2020,Approved,1,4.68,Education,House,Medium
+2075,306,199795,11/8/2021,Rejected,3,4.17,Home Renovation,Car,Medium
+2076,178,35237,9/21/2020,Rejected,3,12.31,Medical,None,Low
+2077,114,433193,10/19/2020,Approved,8,11.33,Education,House,Medium
+2078,610,88584,3/25/2021,Closed,7,6.74,Home Renovation,House,Low
+2079,57,358999,2/28/2023,Rejected,1,6.48,Home Renovation,None,Low
+2080,522,424609,11/23/2020,Rejected,7,3.89,Home Renovation,House,Medium
+2081,130,478392,2/15/2022,Defaulted,5,10,Medical,Car,High
+2082,736,202357,7/14/2022,Rejected,5,3.87,Home Renovation,Car,Medium
+2083,572,455364,6/10/2023,Defaulted,9,5.27,Home Renovation,House,Low
+2084,715,96552,10/9/2024,Approved,8,9.23,Medical,None,Medium
+2085,816,140294,1/4/2022,Approved,6,11.39,Medical,House,Low
+2086,573,17200,7/11/2021,Rejected,7,11.29,Education,House,Low
+2087,96,333536,10/5/2022,Defaulted,6,4.13,Home Renovation,House,High
+2088,329,124415,9/25/2022,Rejected,8,5.85,Business Expansion,None,Low
+2089,637,163322,9/19/2022,Defaulted,1,10.2,Medical,None,Low
+2090,568,136735,5/22/2021,Rejected,5,7.89,Business Expansion,Car,Low
+2091,527,77863,12/15/2020,Defaulted,8,10.62,Medical,None,High
+2092,288,179849,8/8/2022,Closed,2,7.73,Home Renovation,None,Low
+2093,775,33650,5/13/2021,Closed,10,7.48,Medical,Car,High
+2094,483,334847,9/11/2022,Approved,4,8.24,Education,Car,Low
+2095,578,28435,1/12/2022,Defaulted,10,11.08,Home Renovation,None,High
+2096,865,283253,8/23/2022,Closed,4,9.62,Medical,House,High
+2097,89,491245,5/27/2022,Rejected,4,4.77,Home Renovation,House,Low
+2098,831,62446,8/31/2020,Defaulted,7,6.66,Business Expansion,None,Medium
+2099,753,202969,5/29/2020,Defaulted,1,11.87,Education,House,Medium
+2100,506,142983,4/28/2023,Closed,1,11,Medical,House,Low
+2101,833,449227,4/15/2023,Approved,4,12.37,Home Renovation,House,High
+2102,885,392487,4/19/2022,Rejected,9,11.71,Education,None,Low
+2103,299,255860,5/5/2020,Rejected,3,8.04,Education,House,High
+2104,705,386402,2/22/2021,Approved,5,8.31,Education,House,High
+2105,86,97855,9/28/2023,Closed,5,9.2,Medical,House,Low
+2106,104,375368,6/13/2020,Closed,8,8.46,Home Renovation,House,Medium
+2107,27,170151,9/19/2022,Defaulted,6,8.46,Education,None,Low
+2108,722,377408,8/6/2024,Rejected,3,5.95,Business Expansion,None,Low
+2109,371,206359,11/24/2022,Approved,10,7.33,Business Expansion,None,High
+2110,721,494494,8/6/2023,Approved,9,11.85,Home Renovation,Car,Low
+2111,469,56646,11/23/2024,Closed,3,7.57,Medical,None,Low
+2112,326,17029,4/20/2021,Approved,6,10.38,Business Expansion,Car,Low
+2113,566,122511,10/8/2021,Closed,2,6.72,Education,House,Low
+2114,909,248051,9/21/2024,Rejected,8,10.99,Medical,Car,Low
+2115,377,324966,2/23/2024,Closed,1,11.34,Home Renovation,House,Medium
+2116,656,71451,5/22/2022,Rejected,2,9.29,Home Renovation,None,High
+2117,904,157848,7/19/2024,Defaulted,9,8.18,Education,House,Medium
+2118,211,455471,10/27/2023,Defaulted,8,5.05,Business Expansion,House,High
+2119,839,116619,9/23/2022,Rejected,5,11.64,Business Expansion,House,Medium
+2120,502,276552,1/3/2021,Approved,5,12.36,Medical,House,Medium
+2121,684,259184,8/7/2023,Closed,2,10.8,Business Expansion,None,Low
+2122,52,35527,7/19/2024,Approved,10,11.06,Education,Car,Low
+2123,885,89079,6/7/2021,Approved,10,11.3,Education,Car,High
+2124,812,185522,10/24/2020,Rejected,2,4.76,Business Expansion,None,Low
+2125,757,157617,9/23/2023,Approved,3,7.46,Home Renovation,None,Low
+2126,390,39192,3/12/2024,Defaulted,3,10.61,Education,House,High
+2127,26,104665,2/25/2020,Approved,3,12.43,Home Renovation,House,Low
+2128,370,234793,2/16/2024,Approved,7,4.55,Home Renovation,House,Medium
+2129,555,345376,5/1/2024,Rejected,1,6.08,Home Renovation,None,Low
+2130,732,135205,4/18/2022,Defaulted,10,5.85,Home Renovation,Car,Low
+2131,966,152088,2/9/2021,Rejected,9,7.23,Home Renovation,None,Low
+2132,396,21762,3/30/2024,Rejected,7,11.37,Medical,Car,Medium
+2133,135,397372,6/3/2020,Closed,8,5.03,Medical,None,Low
+2134,776,367104,7/12/2020,Rejected,8,11.36,Education,House,High
+2135,174,163210,8/29/2023,Rejected,3,3.74,Home Renovation,Car,High
+2136,991,216569,2/19/2023,Closed,6,6.53,Medical,Car,Medium
+2137,422,67819,4/16/2023,Closed,9,9.91,Education,Car,High
+2138,477,55742,11/25/2020,Closed,9,12.27,Education,None,Low
+2139,990,40298,2/20/2020,Defaulted,1,8.9,Education,House,Medium
+2140,366,76462,1/14/2024,Closed,9,8.55,Business Expansion,None,Medium
+2141,840,174417,7/9/2021,Rejected,2,9.01,Home Renovation,None,Medium
+2142,436,385075,8/3/2020,Approved,4,7.19,Business Expansion,House,High
+2143,684,137838,6/22/2020,Rejected,6,5.54,Education,House,High
+2144,19,169625,7/11/2021,Defaulted,9,8.33,Education,Car,Low
+2145,486,302627,4/4/2020,Defaulted,1,8.9,Education,House,Medium
+2146,515,121045,6/25/2020,Approved,3,7.8,Home Renovation,Car,Low
+2147,381,214378,10/12/2020,Rejected,9,8.93,Medical,Car,Low
+2148,782,465878,2/29/2024,Closed,10,5.8,Medical,Car,Medium
+2149,394,343424,1/20/2021,Approved,1,6.4,Home Renovation,House,Medium
+2150,173,412170,7/17/2021,Rejected,2,11.77,Home Renovation,Car,High
+2151,586,91764,11/23/2020,Rejected,5,7.21,Home Renovation,Car,Low
+2152,892,248391,5/29/2020,Closed,2,7.37,Home Renovation,None,High
+2153,342,457570,9/25/2023,Defaulted,1,10.31,Education,Car,Medium
+2154,733,358479,11/11/2021,Defaulted,7,11.58,Education,Car,Medium
+2155,935,275041,12/10/2019,Rejected,9,8.59,Business Expansion,House,Low
+2156,46,493136,9/28/2023,Defaulted,1,8.44,Business Expansion,None,Medium
+2157,512,485177,7/23/2020,Closed,3,5.84,Home Renovation,House,High
+2158,24,365882,4/14/2020,Defaulted,4,11.56,Business Expansion,Car,Medium
+2159,298,237929,9/27/2020,Rejected,10,12.1,Home Renovation,House,High
+2160,615,107064,1/18/2022,Rejected,7,4.63,Business Expansion,None,Low
+2161,397,79346,9/16/2022,Approved,2,4.45,Business Expansion,None,Low
+2162,779,224371,11/3/2024,Closed,3,6.05,Medical,Car,High
+2163,563,477626,9/5/2024,Closed,5,4.47,Medical,House,Medium
+2164,267,256195,5/30/2024,Approved,2,6.64,Home Renovation,None,High
+2165,439,82907,2/8/2022,Closed,10,10.24,Medical,Car,High
+2166,79,465540,7/30/2020,Rejected,9,11.8,Education,House,Medium
+2167,266,468284,10/17/2024,Approved,9,10.95,Medical,House,Low
+2168,453,23900,2/5/2022,Closed,6,9.75,Medical,House,High
+2169,999,443984,3/15/2022,Closed,1,8.13,Medical,Car,Low
+2170,597,385601,3/1/2023,Approved,3,11.95,Home Renovation,Car,Medium
+2171,401,454095,5/18/2023,Approved,7,8.76,Medical,Car,Low
+2172,239,235786,8/27/2024,Closed,4,6.45,Business Expansion,Car,Medium
+2173,412,449087,11/1/2024,Closed,9,5.13,Home Renovation,House,High
+2174,149,354822,5/20/2024,Defaulted,1,5.74,Education,Car,Medium
+2175,111,239055,8/10/2020,Approved,5,11.88,Medical,None,Medium
+2176,927,73559,3/12/2023,Closed,4,10.22,Business Expansion,Car,Low
+2177,870,204054,2/4/2023,Approved,3,3.66,Education,None,Low
+2178,50,275050,1/2/2022,Defaulted,10,5.59,Education,None,High
+2179,351,31378,4/10/2021,Approved,2,5.51,Medical,Car,Low
+2180,775,325631,2/9/2020,Defaulted,4,3.72,Home Renovation,House,Medium
+2181,546,228022,1/2/2023,Defaulted,5,5.17,Education,House,Low
+2182,703,436138,4/22/2023,Defaulted,2,8.82,Business Expansion,Car,Low
+2183,284,241296,10/15/2020,Rejected,9,11.24,Education,House,Low
+2184,487,276853,4/24/2024,Approved,5,6.63,Medical,None,Medium
+2185,168,237934,6/14/2023,Defaulted,2,11.5,Education,None,High
+2186,93,8516,11/7/2024,Closed,2,5.01,Medical,House,Medium
+2187,208,290837,6/17/2022,Rejected,10,9.34,Medical,None,Medium
+2188,754,72383,10/28/2020,Approved,2,9.99,Business Expansion,House,Medium
+2189,500,212926,9/11/2022,Closed,8,4.48,Education,Car,Medium
+2190,361,201427,9/3/2023,Defaulted,3,10.61,Business Expansion,None,High
+2191,476,496986,9/6/2021,Approved,6,8.82,Education,Car,High
+2192,916,184118,6/21/2022,Rejected,1,8.76,Business Expansion,House,High
+2193,838,201228,1/23/2020,Closed,1,5.46,Business Expansion,None,Medium
+2194,976,405007,10/24/2020,Defaulted,4,8.6,Education,None,High
+2195,911,108239,1/15/2022,Defaulted,2,7.92,Medical,House,High
+2196,857,391252,3/13/2021,Approved,2,5.47,Business Expansion,House,High
+2197,439,119660,10/11/2020,Approved,3,9.42,Medical,House,Medium
+2198,444,390094,12/14/2022,Rejected,6,6.96,Home Renovation,None,High
+2199,556,329888,3/11/2024,Rejected,9,4.53,Education,Car,High
+2200,862,258265,12/11/2023,Closed,4,9.73,Education,House,Medium
+2201,855,219548,1/30/2024,Approved,6,4.22,Business Expansion,None,Medium
+2202,541,157213,2/3/2024,Closed,3,6.39,Medical,Car,Low
+2203,217,112483,5/25/2022,Rejected,1,5.9,Education,None,High
+2204,835,168412,6/13/2020,Closed,3,9.18,Education,Car,Medium
+2205,380,192916,11/17/2022,Rejected,2,7.48,Education,Car,High
+2206,541,86700,12/3/2019,Defaulted,7,11.67,Education,Car,Medium
+2207,650,280915,6/5/2024,Rejected,2,8.27,Education,Car,High
+2208,827,490305,2/8/2024,Approved,7,6.72,Education,House,Low
+2209,629,294263,9/10/2020,Closed,7,10.12,Education,House,High
+2210,581,211634,9/28/2024,Defaulted,4,11.61,Medical,Car,Medium
+2211,618,353142,5/26/2024,Rejected,4,11.38,Medical,None,Medium
+2212,442,262439,8/1/2024,Closed,6,9.73,Business Expansion,None,High
+2213,543,363190,9/24/2020,Closed,2,3.82,Education,Car,Medium
+2214,120,418920,6/1/2022,Closed,2,3.58,Education,Car,Medium
+2215,692,369461,3/10/2020,Approved,1,10.69,Education,House,High
+2216,344,302254,10/17/2023,Rejected,4,6.71,Home Renovation,House,High
+2217,103,249649,6/26/2020,Rejected,4,9.67,Education,House,Medium
+2218,372,50668,7/10/2021,Approved,4,5.11,Home Renovation,Car,Medium
+2219,999,90038,11/30/2023,Approved,2,4.57,Home Renovation,None,High
+2220,176,126233,7/21/2022,Defaulted,10,3.57,Medical,Car,Medium
+2221,605,398220,11/26/2022,Defaulted,6,4.48,Education,None,High
+2222,156,116791,6/8/2020,Defaulted,7,6.66,Business Expansion,None,Low
+2223,1000,362936,5/22/2022,Rejected,5,10.21,Business Expansion,None,High
+2224,576,165989,1/17/2022,Approved,7,9.41,Home Renovation,None,Low
+2225,883,373447,7/29/2020,Defaulted,7,3.63,Medical,Car,Low
+2226,170,72289,3/21/2020,Closed,7,4.33,Education,House,Low
+2227,633,188169,11/4/2024,Approved,2,8.06,Business Expansion,Car,Medium
+2228,729,93699,11/24/2024,Defaulted,9,8.07,Medical,Car,Medium
+2229,971,163251,3/15/2021,Defaulted,7,5.83,Business Expansion,None,High
+2230,826,61024,8/16/2020,Closed,6,4.97,Home Renovation,Car,Medium
+2231,396,342929,7/8/2022,Defaulted,5,11.16,Home Renovation,House,Medium
+2232,821,448314,5/23/2020,Closed,10,7.85,Home Renovation,House,High
+2233,626,103736,11/27/2024,Approved,8,5.8,Home Renovation,House,Low
+2234,334,460552,6/14/2020,Rejected,10,5.69,Education,Car,High
+2235,239,89123,5/16/2022,Approved,8,11.96,Medical,Car,Low
+2236,746,37401,9/12/2020,Closed,7,6.14,Medical,Car,High
+2237,89,123705,3/25/2022,Approved,1,9.94,Medical,None,Medium
+2238,835,376560,5/23/2022,Defaulted,2,10.84,Home Renovation,None,High
+2239,763,35252,12/22/2023,Approved,7,9.5,Education,Car,High
+2240,828,129480,1/4/2024,Approved,9,5.28,Education,Car,Low
+2241,425,220003,9/10/2020,Rejected,8,9.84,Medical,Car,Low
+2242,178,42003,8/22/2024,Rejected,3,4.71,Business Expansion,Car,Low
+2243,79,320749,10/31/2020,Closed,9,7.19,Medical,None,Low
+2244,113,218400,3/23/2021,Defaulted,3,11.24,Business Expansion,None,High
+2245,728,370113,1/31/2023,Closed,9,7.14,Business Expansion,Car,Low
+2246,573,319613,2/16/2021,Defaulted,5,9.62,Medical,None,Medium
+2247,378,158025,9/17/2024,Closed,1,11.98,Education,None,Medium
+2248,717,203894,5/13/2022,Defaulted,7,11.77,Education,Car,High
+2249,689,393601,5/8/2022,Rejected,5,11.69,Home Renovation,None,High
+2250,243,276797,1/7/2023,Rejected,8,5.15,Home Renovation,Car,Medium
+2251,109,381263,11/27/2021,Closed,2,11.31,Education,House,Low
+2252,498,29277,4/28/2021,Defaulted,8,4.69,Education,Car,Low
+2253,725,428195,7/31/2021,Defaulted,1,9,Business Expansion,House,Low
+2254,622,327393,2/26/2022,Approved,6,3.63,Business Expansion,House,High
+2255,356,366447,12/12/2021,Defaulted,7,6.28,Education,House,High
+2256,574,360213,8/6/2021,Closed,5,11.33,Education,None,Medium
+2257,263,131860,2/21/2020,Approved,9,10.44,Home Renovation,None,High
+2258,974,128780,7/9/2021,Rejected,10,7.3,Education,Car,High
+2259,597,57218,10/30/2024,Approved,1,9.37,Home Renovation,Car,High
+2260,794,380643,2/28/2022,Closed,6,11.8,Education,House,Medium
+2261,637,431803,11/12/2022,Rejected,7,4.61,Medical,Car,High
+2262,302,463973,5/13/2023,Defaulted,1,9.51,Education,House,High
+2263,960,351539,4/27/2024,Approved,7,8.79,Education,House,High
+2264,759,8045,8/29/2022,Defaulted,3,3.81,Medical,Car,High
+2265,419,125450,3/20/2022,Approved,4,8.6,Business Expansion,None,Medium
+2266,439,266450,5/8/2020,Closed,2,12.39,Business Expansion,House,Low
+2267,680,271133,8/3/2023,Approved,7,11.1,Education,Car,Low
+2268,108,308503,5/20/2024,Closed,5,10.64,Education,Car,Medium
+2269,465,5816,9/18/2024,Approved,4,7.43,Home Renovation,Car,High
+2270,732,270065,12/17/2019,Defaulted,6,4.59,Education,House,Low
+2271,538,116274,11/10/2022,Defaulted,2,8.25,Education,Car,Medium
+2272,528,345612,8/30/2022,Rejected,3,9.51,Home Renovation,Car,Low
+2273,406,351725,1/11/2020,Approved,2,9.77,Business Expansion,Car,Medium
+2274,197,386251,5/7/2021,Approved,6,3.69,Medical,None,Medium
+2275,548,152592,1/5/2024,Approved,1,6.68,Education,Car,Low
+2276,575,303281,10/17/2023,Approved,7,4.72,Business Expansion,Car,Low
+2277,879,112548,8/5/2023,Closed,4,5.44,Business Expansion,None,Medium
+2278,620,204909,5/22/2022,Rejected,8,10.24,Business Expansion,None,High
+2279,340,284195,7/1/2023,Closed,2,3.6,Medical,None,Low
+2280,699,348045,10/31/2024,Approved,7,6.9,Medical,House,Low
+2281,267,235198,4/13/2022,Closed,4,11.91,Medical,House,High
+2282,791,79785,1/10/2020,Closed,7,11.19,Business Expansion,Car,Low
+2283,115,403057,5/7/2024,Rejected,3,5.55,Home Renovation,House,Medium
+2284,557,293034,5/24/2020,Defaulted,7,5.03,Medical,None,Low
+2285,806,268334,1/16/2024,Rejected,7,10.39,Business Expansion,Car,High
+2286,639,453163,4/14/2022,Approved,2,9.81,Home Renovation,House,Low
+2287,955,169087,12/6/2023,Approved,7,12.18,Medical,None,Low
+2288,81,8318,12/26/2019,Approved,6,6.36,Education,House,Low
+2289,872,63671,7/10/2024,Approved,10,5.13,Business Expansion,Car,Low
+2290,63,77100,9/30/2022,Closed,10,7.44,Medical,House,Medium
+2291,152,106886,7/28/2021,Defaulted,10,11.82,Business Expansion,House,Medium
+2292,326,31555,1/19/2020,Closed,1,11.41,Business Expansion,None,High
+2293,834,295729,12/31/2019,Defaulted,10,7.26,Business Expansion,None,Low
+2294,59,43264,2/20/2024,Defaulted,4,12.39,Home Renovation,None,Medium
+2295,674,193365,10/30/2023,Closed,7,10.78,Business Expansion,House,High
+2296,868,423591,11/3/2020,Defaulted,8,3.96,Education,House,High
+2297,538,456390,11/17/2022,Defaulted,5,3.54,Business Expansion,House,Low
+2298,507,450852,2/24/2021,Closed,9,5.16,Education,None,Low
+2299,862,198448,2/3/2020,Closed,1,8.2,Education,Car,High
+2300,633,42533,9/4/2020,Approved,10,11.5,Business Expansion,Car,Low
+2301,531,255192,4/23/2022,Approved,3,8,Medical,Car,Low
+2302,699,52149,5/21/2021,Approved,3,10.21,Home Renovation,Car,Low
+2303,128,360211,5/13/2021,Defaulted,5,5.37,Business Expansion,None,High
+2304,357,170507,12/27/2021,Approved,2,5.49,Business Expansion,House,High
+2305,231,179275,4/21/2022,Closed,8,10.18,Medical,None,Low
+2306,335,246089,7/27/2023,Closed,10,8.89,Business Expansion,House,Medium
+2307,507,82009,9/14/2024,Approved,10,4.79,Education,None,Low
+2308,838,217350,5/10/2021,Defaulted,7,7.51,Business Expansion,House,Low
+2309,967,261420,8/28/2024,Closed,8,5.25,Education,Car,Medium
+2310,964,360610,1/5/2020,Closed,5,8.77,Education,Car,Low
+2311,354,208001,11/11/2024,Closed,3,7.1,Medical,None,Medium
+2312,176,215113,3/9/2020,Defaulted,8,10.43,Home Renovation,Car,Medium
+2313,26,75184,5/8/2021,Approved,2,11.72,Business Expansion,House,Low
+2314,845,244620,1/17/2022,Approved,1,7.43,Home Renovation,None,High
+2315,341,438097,3/31/2022,Defaulted,4,5.87,Medical,None,Low
+2316,305,187905,6/8/2020,Approved,6,8.77,Business Expansion,House,Low
+2317,579,339063,4/11/2020,Defaulted,7,4.06,Business Expansion,House,Medium
+2318,283,350487,11/14/2024,Closed,6,5.71,Home Renovation,None,Medium
+2319,76,256166,4/24/2022,Closed,6,10.1,Home Renovation,None,High
+2320,455,214399,2/10/2024,Rejected,8,3.98,Medical,None,High
+2321,243,79447,8/19/2020,Defaulted,7,7.84,Business Expansion,None,Low
+2322,196,100341,5/3/2023,Rejected,3,11.34,Medical,House,Medium
+2323,147,105685,6/2/2022,Closed,8,7.55,Business Expansion,Car,Medium
+2324,696,84905,10/24/2020,Approved,5,8.55,Home Renovation,Car,Medium
+2325,229,241765,3/12/2023,Closed,3,6.7,Medical,None,Low
+2326,914,471153,10/4/2024,Approved,1,5.13,Business Expansion,Car,High
+2327,144,136654,5/27/2022,Approved,6,4.24,Home Renovation,Car,High
+2328,950,30379,4/2/2021,Rejected,6,6.6,Education,House,Medium
+2329,971,12164,2/7/2022,Closed,10,8.75,Home Renovation,None,Medium
+2330,626,228678,8/6/2020,Rejected,10,3.94,Business Expansion,None,Low
+2331,764,252497,7/19/2022,Approved,6,4.09,Education,Car,Medium
+2332,90,332785,7/16/2024,Closed,1,4.83,Medical,House,High
+2333,170,71988,10/11/2023,Rejected,5,12.02,Business Expansion,None,Low
+2334,766,482886,2/19/2023,Rejected,7,5.5,Home Renovation,Car,Low
+2335,77,76137,3/21/2020,Approved,6,9.67,Home Renovation,Car,High
+2336,662,303824,4/1/2020,Approved,3,7.57,Medical,None,Low
+2337,556,19167,6/5/2020,Rejected,4,11.57,Education,Car,High
+2338,561,260776,7/31/2023,Approved,1,11.14,Business Expansion,House,Low
+2339,278,461052,1/25/2022,Closed,8,6.26,Medical,Car,High
+2340,147,300722,6/11/2023,Closed,5,9.32,Home Renovation,House,Medium
+2341,940,201369,9/29/2024,Approved,5,11.63,Education,None,Low
+2342,105,439779,8/15/2022,Approved,10,10.57,Home Renovation,House,Medium
+2343,194,25514,6/1/2024,Approved,8,6.59,Medical,None,Low
+2344,109,226048,2/11/2021,Closed,1,4.25,Home Renovation,House,High
+2345,155,348383,10/27/2022,Defaulted,5,10.48,Education,Car,High
+2346,943,317289,4/11/2024,Approved,6,3.78,Education,House,High
+2347,33,197535,1/30/2022,Rejected,2,12.07,Business Expansion,None,Low
+2348,270,31165,8/20/2022,Rejected,6,9.57,Medical,Car,Low
+2349,54,138109,9/3/2020,Rejected,4,3.81,Business Expansion,Car,Low
+2350,256,289077,8/17/2024,Defaulted,4,10.46,Education,Car,Low
+2351,4,421491,5/8/2020,Defaulted,7,12.34,Business Expansion,Car,Low
+2352,225,215069,3/13/2021,Closed,2,8.97,Medical,House,High
+2353,283,298094,10/30/2024,Defaulted,5,5.04,Business Expansion,None,High
+2354,623,146055,8/29/2024,Defaulted,9,10.74,Medical,None,Low
+2355,648,246303,10/14/2023,Rejected,8,10.83,Medical,House,High
+2356,110,356725,3/24/2024,Approved,7,8.67,Education,Car,High
+2357,670,411567,3/24/2024,Closed,4,6.12,Business Expansion,None,High
+2358,272,340551,3/23/2021,Closed,4,8.45,Education,House,High
+2359,188,94054,6/25/2022,Rejected,9,8.8,Business Expansion,House,Low
+2360,484,380325,6/13/2022,Defaulted,6,5.58,Medical,Car,Medium
+2361,768,487495,6/17/2022,Rejected,3,7.92,Home Renovation,House,Medium
+2362,773,152956,7/28/2023,Rejected,5,9.05,Home Renovation,House,High
+2363,782,241003,10/5/2020,Approved,3,5.13,Education,Car,Low
+2364,995,30648,7/16/2024,Closed,2,9.22,Education,None,Medium
+2365,250,121977,9/3/2021,Rejected,7,11.69,Home Renovation,Car,Low
+2366,235,439538,7/6/2020,Closed,8,9.5,Business Expansion,House,Low
+2367,200,482797,8/28/2024,Defaulted,1,7.54,Home Renovation,None,High
+2368,305,306285,7/20/2023,Defaulted,6,10.89,Home Renovation,House,Medium
+2369,310,206008,10/6/2024,Approved,5,9.87,Business Expansion,Car,High
+2370,415,436206,10/7/2021,Defaulted,2,11.7,Education,Car,High
+2371,116,325269,7/3/2020,Closed,7,5.72,Business Expansion,None,High
+2372,710,445121,12/4/2020,Closed,8,5.08,Medical,House,High
+2373,722,312264,3/7/2024,Rejected,8,5.76,Education,None,High
+2374,482,474380,5/29/2023,Closed,1,10.15,Education,House,Low
+2375,630,450814,2/26/2022,Approved,6,3.54,Business Expansion,House,High
+2376,421,181756,6/10/2023,Approved,1,8.75,Business Expansion,None,High
+2377,512,91370,11/2/2021,Defaulted,10,6.51,Home Renovation,Car,Medium
+2378,755,398676,3/2/2022,Approved,8,3.69,Education,None,Medium
+2379,285,370516,1/27/2021,Approved,8,11.65,Home Renovation,None,Medium
+2380,60,330642,1/26/2024,Rejected,9,8.71,Home Renovation,None,Medium
+2381,37,139169,1/17/2023,Closed,1,5.5,Medical,Car,Low
+2382,948,144627,3/16/2020,Closed,9,3.67,Education,Car,High
+2383,313,200071,12/19/2022,Closed,9,7.92,Home Renovation,Car,High
+2384,847,75982,5/25/2021,Defaulted,3,7.76,Home Renovation,Car,Low
+2385,967,111527,7/15/2023,Closed,5,6.69,Business Expansion,None,Medium
+2386,844,376794,4/18/2021,Closed,7,5.3,Business Expansion,House,Medium
+2387,670,231619,8/2/2021,Approved,1,8.36,Home Renovation,None,Low
+2388,791,407144,8/6/2023,Defaulted,2,11.71,Education,House,Low
+2389,588,104084,11/2/2023,Closed,7,3.65,Medical,Car,Low
+2390,764,173363,2/3/2021,Defaulted,10,6.99,Medical,None,High
+2391,92,192561,7/15/2023,Rejected,10,11.38,Business Expansion,House,High
+2392,350,241965,6/2/2023,Approved,4,10.37,Home Renovation,House,Medium
+2393,973,69977,12/24/2020,Closed,1,10.85,Business Expansion,None,Low
+2394,658,14903,7/1/2023,Defaulted,2,5.55,Medical,House,High
+2395,121,33231,10/14/2023,Defaulted,3,10.33,Home Renovation,None,High
+2396,487,424164,11/12/2022,Defaulted,9,11.07,Medical,House,Medium
+2397,962,439108,1/22/2022,Closed,9,8.1,Medical,Car,Medium
+2398,144,347644,3/9/2020,Closed,4,7.58,Home Renovation,None,High
+2399,65,126076,5/15/2021,Rejected,5,11.08,Home Renovation,House,High
+2400,186,302296,9/11/2023,Approved,1,11.57,Education,None,Low
+2401,416,133654,7/13/2020,Defaulted,7,11.26,Business Expansion,Car,High
+2402,14,464942,8/27/2022,Closed,8,5.23,Education,None,High
+2403,175,320690,4/10/2022,Closed,9,6.47,Medical,None,High
+2404,237,493440,5/27/2023,Approved,4,8.49,Medical,None,High
+2405,313,324579,9/13/2023,Defaulted,4,5.22,Home Renovation,House,High
+2406,611,402454,9/8/2022,Rejected,1,3.78,Medical,Car,Low
+2407,768,365909,2/1/2022,Defaulted,7,11.17,Business Expansion,House,Medium
+2408,155,450483,11/25/2020,Defaulted,4,9.51,Home Renovation,House,Medium
+2409,515,401880,1/18/2020,Rejected,9,4.73,Business Expansion,Car,Low
+2410,6,271257,12/5/2023,Approved,3,8.59,Business Expansion,Car,High
+2411,703,49716,11/5/2022,Rejected,8,7.06,Education,None,Low
+2412,918,317566,10/7/2023,Closed,10,5.48,Home Renovation,None,High
+2413,680,357943,8/25/2022,Rejected,1,12.43,Home Renovation,Car,High
+2414,602,175268,5/18/2023,Closed,9,8.29,Medical,Car,Low
+2415,283,104951,3/10/2023,Approved,2,10.21,Business Expansion,None,Low
+2416,38,239169,9/15/2023,Rejected,7,6.95,Home Renovation,None,Low
+2417,795,474773,8/2/2021,Approved,7,9.72,Education,House,High
+2418,228,159168,7/26/2023,Rejected,2,5.8,Medical,Car,Low
+2419,907,385860,6/5/2021,Approved,8,8.3,Education,Car,Medium
+2420,937,451815,7/13/2023,Defaulted,6,4.53,Medical,House,High
+2421,589,44175,8/18/2024,Approved,8,8.19,Home Renovation,Car,Medium
+2422,804,215825,10/7/2022,Approved,2,12.14,Business Expansion,Car,High
+2423,339,149275,7/26/2024,Closed,3,5.62,Medical,House,High
+2424,616,249912,7/29/2021,Closed,5,9.07,Medical,House,Low
+2425,641,173701,3/20/2020,Closed,9,11.36,Business Expansion,House,Low
+2426,934,291637,2/18/2023,Defaulted,7,10.38,Education,Car,Medium
+2427,721,418659,6/26/2022,Closed,2,8.56,Home Renovation,None,Low
+2428,77,252713,1/27/2024,Rejected,7,4.07,Home Renovation,House,Low
+2429,233,50114,3/19/2024,Approved,8,4.66,Business Expansion,None,Medium
+2430,491,71288,12/27/2019,Rejected,9,5.54,Medical,House,Medium
+2431,494,59510,2/18/2022,Approved,6,9.02,Business Expansion,None,Low
+2432,80,434648,3/9/2023,Closed,5,4.05,Education,Car,Medium
+2433,634,296749,5/7/2023,Approved,1,8.02,Home Renovation,Car,Medium
+2434,967,249468,7/6/2023,Rejected,6,8.25,Business Expansion,Car,Medium
+2435,251,473745,5/25/2024,Approved,6,7.18,Education,House,Medium
+2436,112,36086,1/13/2023,Rejected,6,3.77,Business Expansion,House,High
+2437,968,27665,9/19/2024,Closed,5,7.76,Medical,Car,Medium
+2438,733,440227,4/18/2022,Rejected,5,5.94,Business Expansion,None,Low
+2439,614,215985,6/8/2024,Closed,5,7.39,Business Expansion,House,Low
+2440,181,422154,4/21/2020,Approved,3,5.28,Business Expansion,Car,Medium
+2441,786,426572,11/27/2021,Defaulted,1,9.24,Home Renovation,House,Medium
+2442,849,41911,3/22/2021,Closed,1,6.49,Home Renovation,House,Low
+2443,205,482751,7/24/2022,Rejected,9,12.35,Education,Car,Medium
+2444,144,103005,10/7/2021,Approved,6,10.27,Business Expansion,Car,Medium
+2445,672,23965,1/28/2020,Approved,1,6.16,Home Renovation,None,Low
+2446,43,316569,11/3/2023,Closed,4,7.04,Education,Car,Low
+2447,954,31782,5/8/2024,Rejected,5,5.29,Home Renovation,Car,Medium
+2448,773,180740,8/12/2023,Approved,2,7.16,Education,None,High
+2449,286,164835,3/18/2022,Rejected,1,10.02,Education,Car,High
+2450,585,12860,9/24/2021,Approved,8,6.01,Home Renovation,Car,Medium
+2451,585,92108,8/15/2021,Rejected,7,10.59,Medical,None,Low
+2452,438,431238,6/6/2022,Rejected,4,3.56,Business Expansion,Car,Low
+2453,360,199900,5/23/2024,Defaulted,6,8.01,Education,House,Low
+2454,103,334183,12/7/2020,Approved,3,4.21,Education,None,Low
+2455,93,405388,2/16/2023,Closed,2,4.78,Home Renovation,None,High
+2456,411,101293,11/28/2020,Approved,3,9.81,Education,House,Low
+2457,659,330714,9/26/2023,Defaulted,7,10.27,Education,House,Medium
+2458,590,331296,6/13/2024,Defaulted,1,5.83,Education,House,High
+2459,387,168939,7/21/2023,Defaulted,7,12.1,Business Expansion,Car,Low
+2460,15,182105,12/9/2023,Defaulted,3,11.77,Education,House,Medium
+2461,352,338443,9/5/2024,Closed,8,5.94,Education,House,Medium
+2462,31,403180,11/12/2020,Defaulted,7,8.62,Home Renovation,None,Low
+2463,521,124850,1/26/2024,Closed,1,8.82,Home Renovation,Car,Medium
+2464,17,122199,10/10/2024,Closed,9,5.94,Medical,House,Low
+2465,422,483808,6/13/2024,Rejected,6,11.3,Education,Car,High
+2466,66,227220,3/5/2022,Defaulted,5,10.38,Home Renovation,House,High
+2467,936,367024,1/25/2020,Approved,10,5.9,Medical,None,Low
+2468,172,191497,10/15/2023,Rejected,4,10.82,Home Renovation,Car,Low
+2469,50,46770,12/11/2022,Approved,2,7.86,Education,Car,Low
+2470,90,285014,1/9/2023,Approved,10,11.52,Home Renovation,Car,High
+2471,932,422127,7/24/2024,Defaulted,4,6.42,Education,None,Low
+2472,893,71771,1/22/2021,Approved,4,9.25,Education,House,High
+2473,527,55853,5/10/2024,Approved,8,10.88,Business Expansion,House,Low
+2474,439,213111,2/7/2022,Rejected,10,9.95,Home Renovation,House,Medium
+2475,689,260076,11/7/2023,Rejected,6,11.21,Medical,None,High
+2476,125,312826,7/25/2020,Defaulted,3,10.01,Business Expansion,None,Low
+2477,51,99791,4/4/2023,Closed,4,12.32,Medical,Car,Low
+2478,824,82981,11/20/2022,Approved,10,5.38,Education,House,Medium
+2479,175,47746,4/12/2021,Approved,3,6.28,Education,House,Low
+2480,853,36529,7/28/2022,Closed,6,11.46,Business Expansion,Car,Medium
+2481,371,403667,4/30/2020,Approved,9,7.96,Medical,House,Low
+2482,640,362063,12/30/2021,Rejected,8,7.79,Medical,None,Medium
+2483,457,433718,6/18/2022,Defaulted,6,7.42,Education,Car,High
+2484,682,401761,11/17/2020,Closed,10,7.84,Business Expansion,Car,Medium
+2485,977,474561,6/21/2020,Rejected,1,9.12,Home Renovation,None,Low
+2486,256,106227,5/12/2023,Approved,9,4.81,Home Renovation,House,Medium
+2487,158,108632,4/19/2023,Rejected,6,8.74,Medical,House,Low
+2488,788,275450,1/31/2022,Rejected,4,5.52,Education,House,Low
+2489,751,431341,10/6/2022,Rejected,4,10.59,Business Expansion,House,Medium
+2490,614,497811,12/1/2023,Closed,10,4.94,Education,House,High
+2491,419,417184,11/13/2020,Defaulted,4,4.25,Medical,Car,High
+2492,432,210568,6/15/2024,Closed,5,12.24,Education,Car,High
+2493,556,387759,8/20/2024,Defaulted,1,6.02,Medical,None,High
+2494,561,432230,1/24/2021,Approved,2,6.15,Business Expansion,Car,Low
+2495,3,264254,8/14/2020,Defaulted,9,4.01,Home Renovation,House,Low
+2496,385,253745,10/31/2023,Defaulted,10,12.27,Business Expansion,House,High
+2497,23,96126,4/9/2020,Defaulted,6,7.34,Medical,None,Medium
+2498,159,281773,10/20/2023,Rejected,7,10.93,Education,None,Medium
+2499,192,18806,5/17/2024,Defaulted,4,8.55,Home Renovation,Car,High
+2500,158,220307,11/24/2024,Closed,3,11.83,Education,None,Medium
+2501,483,151085,9/19/2022,Closed,10,3.6,Home Renovation,Car,Low
+2502,312,93632,3/25/2022,Defaulted,3,6.05,Home Renovation,Car,High
+2503,730,22744,4/29/2022,Rejected,8,6.46,Business Expansion,House,Medium
+2504,705,468712,8/23/2023,Defaulted,10,4.56,Education,House,Medium
+2505,990,102111,1/12/2021,Rejected,10,3.91,Medical,House,Low
+2506,235,168065,12/16/2023,Closed,7,4.08,Business Expansion,None,Medium
+2507,183,302353,11/9/2021,Rejected,6,6.92,Home Renovation,House,Low
+2508,657,180168,10/3/2024,Approved,2,7.45,Home Renovation,Car,Medium
+2509,910,246434,6/2/2021,Rejected,10,4.5,Business Expansion,House,High
+2510,669,419818,3/15/2021,Defaulted,1,8.89,Home Renovation,House,Medium
+2511,934,69693,7/3/2020,Approved,1,5.06,Home Renovation,Car,Low
+2512,844,242443,9/28/2022,Rejected,2,4.62,Business Expansion,None,High
+2513,49,106023,9/14/2023,Closed,1,6.72,Business Expansion,None,High
+2514,858,426467,6/17/2021,Approved,8,11.41,Education,None,Low
+2515,60,128805,9/22/2022,Approved,7,8.88,Business Expansion,Car,Low
+2516,750,117140,5/10/2024,Closed,8,5.83,Education,Car,Medium
+2517,668,42948,6/2/2021,Defaulted,6,4.85,Business Expansion,House,Medium
+2518,889,256680,10/24/2020,Defaulted,5,8.74,Home Renovation,House,Low
+2519,452,146773,7/3/2020,Defaulted,3,6.24,Education,Car,Low
+2520,719,232604,8/2/2021,Defaulted,7,5.63,Home Renovation,House,Medium
+2521,458,39985,5/14/2022,Rejected,9,3.69,Education,Car,Medium
+2522,628,199063,11/14/2023,Closed,5,7.76,Education,None,Low
+2523,822,443024,2/1/2023,Rejected,3,7.58,Business Expansion,None,Medium
+2524,690,435091,6/6/2022,Approved,10,8.12,Education,House,Low
+2525,398,443408,8/12/2022,Defaulted,6,11.08,Home Renovation,None,Low
+2526,394,131490,10/8/2022,Rejected,10,5.44,Home Renovation,House,High
+2527,739,316729,10/11/2021,Approved,5,9.96,Home Renovation,None,Medium
+2528,998,346677,12/20/2022,Rejected,8,7.44,Home Renovation,None,Low
+2529,1,393741,8/20/2021,Defaulted,3,11.64,Business Expansion,None,Low
+2530,578,133023,5/24/2020,Approved,10,7.44,Business Expansion,Car,High
+2531,684,322999,7/1/2024,Defaulted,3,10.49,Home Renovation,House,Low
+2532,335,348122,12/21/2023,Approved,8,9.05,Home Renovation,House,High
+2533,52,248176,11/10/2020,Rejected,5,11.97,Education,Car,Medium
+2534,334,251714,5/25/2022,Rejected,3,11.27,Business Expansion,None,Low
+2535,635,245636,1/19/2022,Defaulted,4,8.82,Business Expansion,None,High
+2536,121,12062,12/19/2019,Defaulted,4,7.93,Education,House,Low
+2537,263,340658,7/27/2021,Rejected,6,10.66,Business Expansion,Car,Low
+2538,160,240251,12/30/2023,Approved,6,10.62,Education,Car,High
+2539,394,39295,3/9/2023,Rejected,9,5.05,Education,None,Medium
+2540,205,493873,9/16/2022,Rejected,10,9.09,Education,None,High
+2541,234,426183,10/18/2020,Defaulted,10,11.52,Home Renovation,None,Medium
+2542,872,269056,11/8/2021,Defaulted,2,4.47,Education,House,High
+2543,693,245427,9/16/2023,Closed,3,9.41,Home Renovation,None,Medium
+2544,886,421005,2/26/2024,Defaulted,2,4.14,Home Renovation,None,Medium
+2545,43,292439,4/11/2021,Approved,10,3.52,Education,Car,Low
+2546,190,134146,4/23/2022,Defaulted,6,8.61,Education,Car,Low
+2547,742,62818,3/11/2022,Rejected,10,3.53,Education,None,Low
+2548,86,297678,2/19/2022,Closed,3,7.69,Medical,Car,High
+2549,875,8607,8/31/2024,Rejected,5,5.31,Home Renovation,House,High
+2550,27,484789,10/11/2021,Closed,4,3.63,Education,Car,Medium
+2551,229,259539,11/27/2024,Approved,9,11.37,Medical,None,High
+2552,331,371293,1/18/2022,Defaulted,9,4.01,Medical,None,Medium
+2553,616,33789,11/6/2024,Approved,7,10.3,Home Renovation,None,Medium
+2554,540,179626,5/13/2024,Closed,9,9.99,Business Expansion,House,High
+2555,734,78439,7/6/2024,Approved,4,5.21,Business Expansion,House,Low
+2556,566,386320,3/31/2024,Approved,5,5.38,Education,None,Low
+2557,149,244754,9/26/2023,Defaulted,1,10.92,Home Renovation,None,High
+2558,780,99201,11/17/2020,Approved,6,5.78,Home Renovation,Car,Low
+2559,202,470726,8/15/2020,Approved,10,8.79,Home Renovation,Car,High
+2560,403,144672,2/19/2021,Defaulted,5,5.03,Home Renovation,House,Medium
+2561,253,43599,7/26/2022,Rejected,6,9.38,Medical,House,High
+2562,786,231925,5/13/2024,Closed,10,8.17,Home Renovation,House,Low
+2563,757,73361,1/19/2022,Rejected,4,9.28,Business Expansion,Car,Low
+2564,211,392839,3/13/2022,Rejected,4,4.88,Home Renovation,None,High
+2565,697,197839,6/25/2024,Approved,8,10.25,Business Expansion,House,High
+2566,676,299046,11/18/2022,Approved,10,5.59,Education,Car,Medium
+2567,199,171803,6/22/2024,Defaulted,6,6.67,Medical,House,High
+2568,794,108993,2/8/2023,Closed,7,11.31,Business Expansion,House,High
+2569,965,246401,8/6/2023,Closed,10,10.53,Medical,House,High
+2570,249,498775,11/24/2022,Rejected,8,9.14,Home Renovation,House,Medium
+2571,763,432586,11/7/2021,Approved,7,6.48,Business Expansion,Car,Medium
+2572,286,488058,11/29/2023,Closed,7,10.05,Education,Car,High
+2573,71,384495,7/28/2020,Closed,7,7.5,Home Renovation,None,High
+2574,241,160250,10/8/2023,Defaulted,7,4.56,Business Expansion,House,Medium
+2575,563,479328,5/18/2024,Defaulted,6,9.71,Education,None,Low
+2576,639,418378,3/22/2020,Rejected,2,11.39,Business Expansion,House,Low
+2577,449,140327,9/28/2024,Defaulted,1,4.38,Medical,House,Low
+2578,184,401419,4/11/2024,Approved,6,7.21,Medical,House,Medium
+2579,593,472461,6/22/2023,Defaulted,4,8.28,Medical,None,Medium
+2580,303,103811,8/3/2021,Closed,4,12.02,Home Renovation,House,Low
+2581,731,394363,4/3/2024,Closed,6,11.6,Business Expansion,House,Low
+2582,729,13054,8/20/2021,Defaulted,1,10.38,Education,House,Medium
+2583,679,119615,9/2/2024,Rejected,5,4.16,Medical,Car,High
+2584,295,11518,9/14/2023,Approved,8,10.33,Home Renovation,Car,Medium
+2585,726,225964,1/26/2020,Approved,6,6.26,Medical,None,Medium
+2586,254,169995,3/31/2022,Defaulted,10,6.22,Home Renovation,Car,High
+2587,857,396436,10/7/2020,Closed,9,4.86,Medical,None,Medium
+2588,267,134533,9/6/2021,Rejected,9,12.23,Education,House,Low
+2589,50,372794,6/6/2021,Approved,2,12.24,Home Renovation,Car,Medium
+2590,312,340823,4/10/2022,Closed,1,6.93,Home Renovation,House,Medium
+2591,2,59765,5/11/2020,Closed,7,5.83,Education,Car,Medium
+2592,236,337836,9/7/2024,Rejected,1,9.8,Education,House,Medium
+2593,749,191853,11/25/2024,Rejected,6,6.52,Business Expansion,Car,Low
+2594,588,294030,7/27/2021,Closed,1,6.38,Education,None,Medium
+2595,111,240222,12/26/2020,Approved,4,8.14,Medical,Car,Low
+2596,598,28165,10/31/2024,Approved,5,11.09,Business Expansion,House,High
+2597,373,102372,9/25/2021,Defaulted,5,6.98,Education,Car,Medium
+2598,340,166006,5/22/2022,Approved,9,8.43,Medical,None,Medium
+2599,598,50085,9/17/2020,Approved,8,6.56,Medical,Car,Medium
+2600,744,118280,5/15/2020,Closed,8,9.55,Business Expansion,Car,High
+2601,604,98551,4/4/2020,Approved,4,12.17,Education,None,High
+2602,770,453782,1/3/2023,Defaulted,1,3.51,Education,Car,Medium
+2603,567,443362,2/14/2022,Closed,3,12.47,Business Expansion,House,Medium
+2604,71,456754,9/13/2023,Rejected,5,4.23,Home Renovation,Car,High
+2605,349,384240,5/23/2023,Rejected,8,8.78,Education,House,Medium
+2606,732,197213,7/19/2024,Approved,5,10.28,Education,Car,Medium
+2607,176,317541,9/2/2021,Approved,3,10.49,Home Renovation,Car,High
+2608,238,208383,12/1/2022,Defaulted,3,9.58,Education,House,High
+2609,796,25838,10/14/2022,Defaulted,3,4.4,Home Renovation,House,Low
+2610,164,253534,7/25/2020,Closed,7,11.23,Business Expansion,None,Low
+2611,447,165489,4/3/2021,Closed,10,7.91,Business Expansion,House,Low
+2612,719,228097,8/7/2022,Closed,9,9.94,Medical,Car,High
+2613,450,373057,6/27/2022,Defaulted,1,9.84,Medical,None,Medium
+2614,403,193822,6/15/2022,Approved,3,11.8,Business Expansion,Car,Medium
+2615,834,70977,9/10/2024,Approved,6,6.54,Business Expansion,None,Medium
+2616,652,29316,9/6/2021,Closed,2,9.81,Education,House,Medium
+2617,70,327341,2/6/2024,Defaulted,9,12.24,Medical,None,Low
+2618,416,91930,3/24/2023,Rejected,8,9.59,Business Expansion,None,Medium
+2619,928,483652,8/8/2022,Rejected,7,6.19,Medical,None,Low
+2620,594,120837,6/9/2024,Approved,7,11.34,Education,House,Low
+2621,372,36066,8/4/2020,Rejected,9,10.86,Home Renovation,House,Low
+2622,87,286776,3/31/2021,Rejected,6,8.03,Medical,None,Medium
+2623,879,451413,3/5/2021,Rejected,10,7.85,Education,None,Medium
+2624,497,343874,8/26/2023,Closed,6,12.32,Home Renovation,House,Medium
+2625,860,227687,4/29/2024,Closed,7,6.45,Education,Car,Low
+2626,535,12470,12/14/2022,Rejected,4,4.35,Business Expansion,House,Medium
+2627,395,238788,4/3/2022,Rejected,5,6.04,Business Expansion,Car,Medium
+2628,639,495641,3/3/2022,Rejected,10,10.45,Business Expansion,House,Low
+2629,874,166121,2/17/2021,Defaulted,9,4.89,Business Expansion,Car,Low
+2630,519,254643,12/25/2023,Approved,9,8.76,Medical,Car,High
+2631,542,74622,2/16/2022,Rejected,1,5.24,Medical,None,Medium
+2632,591,213369,12/5/2022,Approved,4,10.99,Home Renovation,None,Medium
+2633,867,404346,3/6/2021,Closed,8,4.82,Medical,House,High
+2634,615,106496,1/9/2023,Closed,9,5.86,Education,Car,Low
+2635,303,477104,5/23/2022,Approved,6,7.52,Home Renovation,None,Low
+2636,710,30422,11/1/2020,Approved,7,6.85,Business Expansion,House,Low
+2637,316,441747,4/7/2024,Approved,4,5.06,Business Expansion,Car,Medium
+2638,639,37271,5/1/2021,Closed,1,9.19,Education,Car,Low
+2639,969,384363,11/2/2021,Defaulted,6,5.2,Medical,None,Medium
+2640,560,431161,10/6/2022,Rejected,7,7,Medical,Car,Medium
+2641,228,472891,4/26/2023,Approved,7,10.67,Business Expansion,Car,Medium
+2642,365,420334,6/29/2023,Closed,7,10.38,Medical,Car,High
+2643,785,36419,12/8/2023,Rejected,6,11.29,Business Expansion,None,Low
+2644,56,116512,8/24/2022,Closed,8,3.57,Medical,Car,Low
+2645,336,16303,2/2/2024,Closed,7,7.82,Business Expansion,Car,High
+2646,384,465353,4/11/2023,Rejected,10,6.17,Home Renovation,None,Medium
+2647,52,420687,6/24/2021,Closed,2,12.34,Business Expansion,House,High
+2648,584,118280,5/31/2021,Rejected,2,11.13,Education,None,High
+2649,147,301972,6/11/2023,Defaulted,4,11.34,Business Expansion,None,Medium
+2650,977,47293,10/28/2021,Defaulted,8,6.92,Business Expansion,House,Medium
+2651,376,116653,2/27/2020,Rejected,8,10.91,Medical,Car,Medium
+2652,50,18313,7/18/2021,Approved,8,8,Business Expansion,None,Medium
+2653,834,234246,10/13/2022,Closed,1,8.26,Education,House,High
+2654,707,216176,10/27/2021,Defaulted,4,5.48,Home Renovation,None,High
+2655,607,387060,1/4/2024,Rejected,8,5.87,Business Expansion,Car,Medium
+2656,93,9953,12/7/2020,Rejected,7,11.33,Education,None,Low
+2657,593,237174,8/2/2020,Defaulted,7,5.88,Home Renovation,Car,Low
+2658,832,419388,11/26/2024,Closed,2,12.41,Home Renovation,House,Low
+2659,999,235683,8/13/2023,Defaulted,4,8.61,Medical,House,Medium
+2660,470,143751,11/25/2021,Closed,9,9.99,Home Renovation,None,High
+2661,18,140139,1/18/2023,Rejected,4,9.26,Education,None,Low
+2662,877,439369,5/29/2020,Closed,10,8.7,Medical,None,High
+2663,519,499409,10/9/2020,Defaulted,7,7.26,Home Renovation,None,Low
+2664,988,244500,1/2/2024,Approved,10,3.62,Education,None,Low
+2665,64,319951,6/17/2021,Defaulted,10,6.94,Medical,House,High
+2666,207,166835,11/2/2021,Approved,9,7.36,Business Expansion,House,High
+2667,492,122926,7/25/2020,Closed,8,11.46,Education,None,High
+2668,335,375540,10/16/2020,Defaulted,2,3.75,Medical,Car,Medium
+2669,82,24366,11/26/2023,Approved,4,8.02,Education,None,High
+2670,128,30578,4/12/2024,Approved,8,9.21,Education,House,Low
+2671,261,309919,2/3/2020,Defaulted,10,5.12,Home Renovation,Car,Medium
+2672,433,142530,10/30/2020,Rejected,2,10.19,Education,None,High
+2673,517,49719,2/22/2023,Rejected,5,12.12,Education,House,Medium
+2674,313,440489,1/15/2021,Closed,10,7.03,Home Renovation,House,Low
+2675,769,176666,1/17/2024,Closed,7,7.01,Home Renovation,None,High
+2676,706,267399,10/16/2023,Approved,8,10.8,Education,Car,Low
+2677,214,58263,4/18/2023,Closed,5,6.91,Home Renovation,None,High
+2678,357,189635,8/2/2022,Closed,3,4.27,Education,House,High
+2679,398,365025,12/10/2020,Rejected,8,4.05,Education,Car,Low
+2680,350,87004,12/7/2020,Rejected,6,8.08,Business Expansion,None,High
+2681,553,210131,12/6/2023,Defaulted,9,11.68,Business Expansion,Car,High
+2682,135,353625,11/3/2022,Rejected,10,8.96,Home Renovation,None,Medium
+2683,690,156033,2/4/2022,Approved,6,8.64,Education,Car,Low
+2684,311,423971,12/3/2021,Approved,9,4.93,Home Renovation,House,Medium
+2685,129,432840,4/23/2024,Closed,10,8.9,Business Expansion,Car,Low
+2686,177,140410,2/26/2021,Rejected,5,11.43,Medical,Car,Medium
+2687,187,276537,12/18/2021,Defaulted,1,12.43,Medical,Car,Medium
+2688,912,240037,6/28/2021,Closed,6,5.08,Home Renovation,House,Medium
+2689,269,253439,8/25/2024,Approved,5,8.66,Business Expansion,House,Medium
+2690,625,13429,8/13/2021,Rejected,7,6.51,Home Renovation,Car,Low
+2691,268,472529,9/13/2020,Approved,2,4.16,Medical,House,Low
+2692,255,494785,12/15/2021,Defaulted,7,8.48,Education,None,High
+2693,838,15622,8/10/2024,Approved,2,7.9,Home Renovation,Car,High
+2694,499,147450,11/30/2021,Rejected,10,10.42,Medical,House,High
+2695,433,70997,5/16/2023,Defaulted,9,8.8,Education,House,Medium
+2696,273,440126,12/26/2020,Closed,8,10.78,Home Renovation,Car,Medium
+2697,70,496637,4/9/2022,Approved,10,8.46,Business Expansion,Car,High
+2698,347,492279,8/7/2020,Closed,2,4.6,Business Expansion,None,Medium
+2699,43,266876,2/19/2023,Rejected,8,8.77,Home Renovation,House,Medium
+2700,719,92298,1/29/2024,Approved,9,12.04,Home Renovation,Car,Low
+2701,690,418339,1/15/2022,Closed,7,12.33,Medical,House,Medium
+2702,178,367892,3/20/2024,Defaulted,5,12.25,Home Renovation,None,Medium
+2703,323,457432,10/18/2024,Approved,5,6.59,Home Renovation,None,Medium
+2704,983,450290,12/25/2020,Approved,8,12.22,Education,Car,Low
+2705,241,371847,6/9/2021,Approved,5,9.49,Business Expansion,Car,Low
+2706,223,284997,1/29/2024,Rejected,7,5.55,Business Expansion,House,Medium
+2707,662,406438,5/2/2021,Rejected,1,6.24,Medical,Car,Low
+2708,276,91097,10/18/2022,Defaulted,2,8.66,Home Renovation,None,Low
+2709,546,288535,9/11/2023,Approved,4,10.07,Education,Car,Low
+2710,596,350069,2/24/2024,Rejected,7,11.75,Medical,Car,Low
+2711,50,467207,4/18/2021,Closed,9,5.58,Education,None,High
+2712,444,342828,3/28/2020,Closed,3,3.76,Medical,None,High
+2713,974,16453,2/14/2021,Approved,7,11.75,Medical,None,High
+2714,575,310257,11/27/2020,Rejected,4,7.51,Home Renovation,House,High
+2715,852,161002,9/18/2021,Rejected,7,7.51,Home Renovation,None,Low
+2716,539,436612,6/1/2020,Approved,9,6.38,Medical,Car,Medium
+2717,444,340586,10/19/2020,Closed,8,7.87,Home Renovation,House,Medium
+2718,110,171155,3/27/2021,Approved,9,10.78,Business Expansion,None,Low
+2719,599,174417,3/29/2021,Rejected,4,9.49,Medical,None,High
+2720,569,450658,7/3/2020,Defaulted,9,6.92,Medical,House,High
+2721,588,316010,4/4/2020,Approved,1,8.46,Education,House,Low
+2722,121,177632,8/13/2021,Closed,2,3.95,Education,House,Low
+2723,166,291471,6/17/2020,Rejected,9,5.95,Home Renovation,None,Low
+2724,813,187093,6/14/2022,Rejected,6,4.06,Business Expansion,House,Medium
+2725,125,87609,8/9/2023,Defaulted,2,9.02,Medical,House,Medium
+2726,568,181825,1/30/2022,Closed,9,4.33,Education,Car,Medium
+2727,757,307617,2/17/2023,Approved,6,10.91,Business Expansion,House,Low
+2728,564,275003,1/15/2020,Rejected,10,4.95,Business Expansion,House,High
+2729,339,318768,11/24/2021,Closed,6,5.46,Medical,Car,High
+2730,269,101964,10/4/2024,Approved,1,12.12,Medical,Car,Medium
+2731,443,417419,9/16/2020,Approved,8,9.61,Medical,None,High
+2732,213,111117,8/19/2020,Closed,10,8.71,Education,House,Medium
+2733,843,104404,1/15/2021,Closed,7,8.05,Business Expansion,House,High
+2734,720,453429,6/12/2023,Closed,5,6,Medical,House,Low
+2735,431,476597,1/11/2024,Approved,4,8.6,Education,None,Medium
+2736,211,453155,6/26/2022,Approved,2,6.54,Business Expansion,Car,Medium
+2737,582,356764,8/31/2023,Defaulted,10,5.62,Business Expansion,House,Medium
+2738,508,170825,4/29/2020,Defaulted,10,11.66,Medical,House,Low
+2739,761,365715,7/30/2022,Defaulted,7,12.25,Business Expansion,House,Medium
+2740,389,187085,12/21/2021,Closed,2,9.69,Medical,None,High
+2741,911,250883,7/24/2022,Closed,2,9.05,Business Expansion,House,High
+2742,129,51722,3/10/2022,Approved,6,7.63,Education,Car,Medium
+2743,498,79789,5/8/2020,Closed,2,11.26,Medical,House,Medium
+2744,45,368629,5/15/2020,Approved,5,9.3,Education,Car,Medium
+2745,684,129945,2/14/2022,Closed,4,3.62,Business Expansion,None,Low
+2746,164,260696,3/16/2021,Approved,5,3.68,Home Renovation,Car,Medium
+2747,758,447529,3/9/2024,Rejected,6,7.24,Medical,Car,Low
+2748,467,151355,5/14/2022,Closed,3,5.46,Medical,House,Low
+2749,542,297147,9/7/2023,Closed,5,9.15,Business Expansion,Car,Medium
+2750,356,224058,6/8/2020,Rejected,3,9.18,Home Renovation,None,High
+2751,816,82658,2/26/2020,Rejected,5,4.04,Medical,Car,Medium
+2752,502,333696,1/27/2022,Rejected,4,4.98,Business Expansion,Car,Medium
+2753,288,255792,11/11/2024,Approved,1,4,Home Renovation,House,High
+2754,591,492625,12/29/2022,Rejected,9,8.06,Home Renovation,None,Medium
+2755,300,64047,12/11/2019,Rejected,10,6.33,Education,None,Medium
+2756,782,239037,10/24/2022,Defaulted,3,5.38,Home Renovation,Car,Low
+2757,414,108297,7/16/2022,Closed,3,7.58,Education,None,High
+2758,295,335975,12/20/2019,Rejected,2,12.21,Medical,None,Medium
+2759,1,42217,6/28/2024,Closed,2,4.26,Medical,House,Low
+2760,524,321465,3/28/2024,Defaulted,2,11.6,Education,None,Medium
+2761,219,144509,8/13/2022,Approved,7,5.26,Business Expansion,House,Low
+2762,561,494592,12/7/2021,Closed,7,5.82,Education,Car,High
+2763,468,266613,4/3/2022,Closed,9,5.9,Home Renovation,House,Medium
+2764,178,39646,1/25/2024,Rejected,3,10.24,Home Renovation,House,Low
+2765,691,133198,11/21/2022,Defaulted,3,11.34,Medical,House,Medium
+2766,234,134345,4/13/2020,Rejected,1,3.86,Medical,House,Low
+2767,868,475047,8/18/2023,Approved,3,4.58,Medical,Car,Medium
+2768,501,287544,4/28/2022,Approved,3,3.56,Education,Car,Low
+2769,647,9123,8/20/2023,Approved,5,5.12,Medical,House,Low
+2770,810,381994,4/10/2020,Closed,9,8.17,Home Renovation,Car,Low
+2771,277,97917,1/29/2020,Closed,5,7.57,Home Renovation,House,Medium
+2772,175,310399,5/31/2020,Rejected,8,3.69,Home Renovation,None,High
+2773,633,464658,7/18/2023,Approved,10,11.53,Education,House,High
+2774,67,397508,11/19/2024,Defaulted,7,5.96,Business Expansion,House,Low
+2775,946,132844,2/24/2021,Defaulted,2,8.51,Business Expansion,House,Medium
+2776,181,110833,3/4/2022,Approved,7,8.82,Medical,Car,High
+2777,546,181471,12/5/2019,Defaulted,4,4.27,Education,House,Medium
+2778,796,428639,9/19/2023,Defaulted,3,7.75,Business Expansion,Car,Medium
+2779,501,407648,7/9/2021,Approved,4,8.87,Business Expansion,House,Low
+2780,64,46658,8/25/2020,Approved,2,8.51,Medical,House,High
+2781,83,293793,6/16/2023,Rejected,8,6.71,Business Expansion,House,High
+2782,259,347809,12/26/2021,Closed,8,7.65,Business Expansion,Car,Medium
+2783,315,277220,8/26/2023,Defaulted,8,6.71,Education,Car,Low
+2784,897,464778,9/22/2022,Approved,3,4.51,Business Expansion,House,Medium
+2785,668,74029,9/22/2024,Defaulted,1,7.15,Business Expansion,None,High
+2786,16,437582,8/19/2024,Approved,3,7.05,Business Expansion,Car,Low
+2787,179,460235,9/12/2024,Closed,4,9.82,Medical,House,Low
+2788,132,408059,10/1/2023,Defaulted,2,4.45,Medical,House,Low
+2789,401,33109,9/20/2024,Rejected,8,5.65,Home Renovation,House,Medium
+2790,282,132397,12/2/2019,Rejected,9,7.48,Education,None,Low
+2791,428,278302,8/19/2021,Closed,5,11.49,Business Expansion,Car,Low
+2792,263,454181,7/21/2024,Defaulted,9,4.78,Home Renovation,Car,Low
+2793,471,397859,7/2/2021,Closed,5,3.92,Home Renovation,House,Low
+2794,817,142924,6/11/2021,Defaulted,10,9.18,Business Expansion,House,High
+2795,611,345479,5/20/2021,Closed,8,8.45,Education,None,Medium
+2796,881,151841,7/18/2023,Closed,2,5.71,Education,Car,Medium
+2797,980,271585,1/5/2020,Rejected,5,11.19,Medical,Car,Medium
+2798,505,101490,6/13/2021,Approved,3,9.47,Business Expansion,Car,High
+2799,371,82695,6/14/2021,Approved,5,9.92,Education,Car,High
+2800,820,232436,12/13/2022,Approved,5,5.86,Home Renovation,House,High
+2801,841,494247,10/29/2024,Rejected,1,8.74,Business Expansion,Car,Medium
+2802,148,272049,2/25/2022,Approved,7,9.35,Business Expansion,Car,High
+2803,377,70212,1/29/2024,Rejected,10,4.44,Home Renovation,Car,Medium
+2804,726,93701,11/3/2020,Closed,10,6.84,Medical,House,Low
+2805,985,189006,4/13/2023,Approved,5,9.71,Home Renovation,None,High
+2806,136,477013,11/16/2022,Rejected,1,4.54,Business Expansion,Car,Medium
+2807,634,494200,10/15/2024,Defaulted,10,9.05,Medical,Car,Medium
+2808,379,148238,9/5/2021,Closed,9,8.68,Business Expansion,None,High
+2809,422,390249,10/28/2023,Approved,2,10.6,Home Renovation,Car,Medium
+2810,543,426573,10/6/2020,Approved,9,6.11,Business Expansion,None,Medium
+2811,418,166236,11/27/2024,Closed,2,9.32,Medical,None,Medium
+2812,261,70034,12/8/2023,Rejected,5,8.57,Business Expansion,House,Low
+2813,985,174764,12/18/2019,Approved,8,6.69,Education,Car,Medium
+2814,78,175986,3/14/2022,Closed,1,9.23,Medical,House,Low
+2815,308,394086,2/6/2021,Closed,3,7.33,Business Expansion,None,High
+2816,536,151151,12/21/2023,Closed,2,10.05,Business Expansion,None,Medium
+2817,147,19419,1/24/2022,Approved,5,7.19,Medical,None,Medium
+2818,708,342932,3/29/2024,Defaulted,9,4.96,Education,House,High
+2819,669,327592,6/16/2020,Closed,2,8.8,Medical,Car,Low
+2820,520,149881,6/29/2023,Defaulted,1,4.74,Medical,None,Medium
+2821,613,206342,5/11/2024,Closed,4,12.02,Medical,House,High
+2822,982,475051,10/27/2024,Approved,6,6.35,Home Renovation,None,Low
+2823,641,325018,3/27/2024,Approved,9,8.65,Medical,House,High
+2824,11,185327,7/9/2023,Closed,9,5.32,Home Renovation,House,High
+2825,837,35420,6/1/2024,Closed,4,11.9,Education,None,Medium
+2826,38,481532,5/12/2022,Closed,1,8.14,Medical,House,Low
+2827,183,73927,12/13/2023,Approved,7,3.67,Home Renovation,House,Low
+2828,9,135396,6/30/2022,Rejected,10,6.71,Business Expansion,Car,Medium
+2829,491,468641,8/4/2021,Approved,7,11.36,Home Renovation,House,Medium
+2830,913,407606,12/5/2022,Closed,3,10.02,Business Expansion,Car,Medium
+2831,491,91779,9/21/2023,Approved,4,5.78,Business Expansion,Car,High
+2832,330,17150,6/10/2021,Defaulted,9,6.23,Medical,House,Low
+2833,668,141941,2/4/2023,Rejected,7,11.19,Medical,None,Low
+2834,767,259487,6/22/2021,Rejected,2,9.28,Education,House,Medium
+2835,320,146867,11/5/2022,Approved,8,6.5,Education,None,High
+2836,950,440109,2/9/2021,Defaulted,1,8.71,Education,House,Low
+2837,575,326421,3/23/2022,Closed,5,11.37,Home Renovation,Car,Low
+2838,634,400971,3/29/2020,Approved,4,9.69,Business Expansion,House,Low
+2839,721,48488,7/25/2022,Defaulted,3,4.26,Home Renovation,House,High
+2840,43,127459,10/13/2023,Approved,2,7.42,Education,Car,Low
+2841,744,39850,7/26/2020,Approved,10,12.02,Business Expansion,None,Low
+2842,789,166413,4/4/2022,Defaulted,1,10.73,Business Expansion,House,Low
+2843,219,98592,3/20/2024,Rejected,1,7.31,Business Expansion,None,Low
+2844,494,79301,5/15/2021,Closed,5,12.2,Home Renovation,None,Medium
+2845,597,463552,7/8/2024,Closed,10,8.13,Home Renovation,Car,Medium
+2846,278,202194,5/30/2021,Closed,10,4.78,Home Renovation,None,High
+2847,655,265180,3/16/2022,Approved,3,7.73,Home Renovation,None,Low
+2848,830,363493,4/2/2021,Defaulted,4,5.97,Home Renovation,None,High
+2849,327,23846,1/27/2023,Closed,1,5.42,Medical,None,High
+2850,928,175118,3/25/2024,Rejected,1,6.5,Business Expansion,Car,High
+2851,760,94231,6/9/2022,Closed,3,8.15,Education,Car,Low
+2852,824,319833,5/12/2024,Approved,4,8.55,Education,Car,Low
+2853,921,88707,2/28/2020,Rejected,3,10.8,Home Renovation,House,High
+2854,411,204324,7/27/2021,Defaulted,7,5.98,Business Expansion,None,Medium
+2855,171,42663,10/25/2021,Closed,10,8.52,Business Expansion,None,High
+2856,89,241201,1/3/2024,Approved,7,3.76,Education,House,Low
+2857,737,55247,4/27/2023,Approved,5,6.38,Home Renovation,Car,Medium
+2858,478,77252,10/16/2022,Approved,3,7.72,Education,None,Medium
+2859,755,110949,7/22/2022,Closed,10,8.9,Business Expansion,House,Low
+2860,594,293749,11/19/2022,Rejected,2,4.26,Business Expansion,House,High
+2861,246,273503,11/26/2021,Rejected,6,5.38,Business Expansion,None,Low
+2862,17,265450,8/31/2023,Defaulted,3,4.26,Business Expansion,None,Medium
+2863,639,359255,4/29/2020,Defaulted,7,11.22,Medical,House,Low
+2864,43,401673,5/8/2022,Approved,7,11.32,Medical,Car,High
+2865,669,421445,1/27/2021,Rejected,10,5.32,Home Renovation,Car,Low
+2866,524,332838,10/25/2023,Defaulted,1,4.21,Home Renovation,None,Low
+2867,468,367111,7/17/2021,Approved,6,10.14,Home Renovation,Car,High
+2868,138,490499,6/30/2021,Approved,8,4.49,Medical,House,Low
+2869,779,296805,3/31/2024,Closed,3,4.4,Business Expansion,None,Medium
+2870,871,214634,5/1/2021,Closed,4,8.38,Medical,Car,Low
+2871,741,339136,1/12/2021,Approved,10,3.79,Business Expansion,None,High
+2872,365,139336,8/18/2023,Closed,4,11.18,Home Renovation,Car,High
+2873,151,112780,2/14/2024,Closed,3,4.76,Education,Car,Medium
+2874,395,388274,11/12/2022,Rejected,7,10.18,Home Renovation,None,High
+2875,619,139297,12/23/2020,Closed,2,9.83,Business Expansion,Car,High
+2876,111,322918,8/10/2020,Rejected,10,6.74,Education,None,Medium
+2877,741,409065,8/29/2023,Closed,7,11.75,Business Expansion,House,Low
+2878,866,293724,2/8/2023,Rejected,6,11.07,Business Expansion,Car,High
+2879,80,171034,5/21/2024,Defaulted,2,5.29,Business Expansion,None,High
+2880,727,83694,9/8/2023,Closed,8,7.02,Home Renovation,Car,High
+2881,508,477086,11/28/2023,Defaulted,3,7.7,Home Renovation,Car,Low
+2882,383,396335,10/4/2020,Rejected,9,5.67,Home Renovation,Car,High
+2883,175,481837,9/25/2024,Rejected,4,9.48,Home Renovation,None,Low
+2884,945,465174,12/8/2021,Approved,4,8.44,Medical,House,High
+2885,283,77539,12/16/2022,Defaulted,4,7.86,Medical,Car,Low
+2886,709,176884,10/17/2022,Closed,3,10.76,Education,None,Low
+2887,681,457211,2/18/2020,Rejected,3,6.16,Business Expansion,None,High
+2888,731,48938,4/9/2020,Closed,8,10.77,Education,House,High
+2889,131,369940,8/9/2020,Rejected,6,8.13,Business Expansion,House,Low
+2890,649,228896,4/22/2023,Closed,4,6.73,Home Renovation,House,Low
+2891,994,445142,4/22/2021,Closed,7,7.11,Medical,House,Medium
+2892,368,107121,6/29/2021,Defaulted,4,8.15,Medical,None,Medium
+2893,707,285789,4/19/2020,Approved,6,8.22,Education,Car,Medium
+2894,465,244581,2/19/2020,Approved,8,9.34,Home Renovation,None,Low
+2895,979,328286,12/22/2022,Closed,6,3.84,Home Renovation,House,Low
+2896,602,296436,7/15/2021,Rejected,3,12.38,Education,Car,High
+2897,219,233448,4/10/2024,Rejected,1,11.17,Home Renovation,Car,Medium
+2898,550,236757,3/11/2024,Rejected,9,7.6,Education,House,High
+2899,465,492000,2/18/2022,Closed,1,8.34,Business Expansion,House,Medium
+2900,356,32176,12/4/2021,Defaulted,9,11.46,Education,Car,Low
+2901,953,138126,2/1/2020,Defaulted,5,5.71,Education,Car,Low
+2902,485,353044,6/26/2022,Rejected,2,9.17,Home Renovation,Car,Medium
+2903,731,162435,4/11/2023,Rejected,2,8.38,Education,None,Low
+2904,582,493851,12/19/2023,Approved,8,4.44,Business Expansion,Car,Low
+2905,583,88992,1/26/2022,Approved,2,5.26,Home Renovation,House,Medium
+2906,647,441797,10/25/2022,Approved,7,3.87,Business Expansion,None,High
+2907,228,65904,1/29/2021,Rejected,6,7.13,Business Expansion,Car,Low
+2908,30,250312,10/14/2020,Approved,9,9.07,Medical,House,High
+2909,443,332265,9/25/2020,Approved,5,11.87,Home Renovation,None,Low
+2910,138,146623,10/29/2023,Defaulted,1,8.69,Education,None,Low
+2911,133,204760,2/9/2022,Closed,4,8.98,Home Renovation,Car,Medium
+2912,720,368772,11/14/2021,Rejected,7,7.28,Home Renovation,Car,Low
+2913,10,224865,8/10/2020,Rejected,7,3.77,Home Renovation,Car,Low
+2914,984,47864,7/9/2022,Defaulted,1,4.34,Medical,House,High
+2915,102,125698,7/29/2022,Approved,3,9.88,Education,House,Low
+2916,537,187074,9/2/2021,Closed,4,4.09,Medical,Car,Medium
+2917,994,388591,9/8/2022,Rejected,6,4.09,Medical,Car,Medium
+2918,703,106743,4/2/2021,Defaulted,6,8.99,Business Expansion,Car,Medium
+2919,618,138973,5/24/2023,Defaulted,8,7.11,Medical,House,High
+2920,710,382829,1/9/2020,Rejected,9,7.43,Medical,House,Low
+2921,8,76931,8/28/2022,Rejected,4,11.67,Medical,Car,High
+2922,860,239028,3/19/2020,Closed,2,10.02,Home Renovation,House,Low
+2923,455,182414,4/26/2024,Defaulted,9,5.34,Medical,None,Low
+2924,372,319987,11/3/2021,Defaulted,8,6.1,Medical,None,Low
+2925,102,115020,7/7/2024,Defaulted,6,3.75,Business Expansion,None,High
+2926,306,447734,3/29/2021,Closed,2,7.94,Home Renovation,None,Low
+2927,111,441154,9/24/2020,Closed,10,9.72,Home Renovation,None,Low
+2928,471,341277,9/5/2021,Approved,8,6.68,Home Renovation,House,Medium
+2929,363,468925,2/11/2023,Approved,8,7.84,Education,Car,High
+2930,330,35745,3/25/2022,Closed,2,7.85,Education,House,Medium
+2931,998,117578,3/21/2024,Closed,5,4.53,Medical,None,Medium
+2932,535,23696,5/10/2021,Approved,6,7.83,Business Expansion,None,Low
+2933,162,124848,6/18/2021,Rejected,1,4.7,Business Expansion,Car,High
+2934,556,384021,8/14/2021,Closed,4,11.05,Medical,Car,High
+2935,237,351375,6/7/2021,Closed,7,6.93,Education,None,High
+2936,622,312585,7/6/2021,Defaulted,4,6.61,Home Renovation,Car,High
+2937,728,178431,12/24/2022,Defaulted,4,9.92,Home Renovation,Car,Medium
+2938,283,222800,2/6/2020,Rejected,5,9.17,Education,House,Low
+2939,523,215937,9/24/2020,Approved,7,6.42,Medical,House,Medium
+2940,839,333196,3/29/2020,Defaulted,4,5.05,Business Expansion,None,Low
+2941,154,65319,12/26/2019,Approved,8,5.41,Education,None,High
+2942,554,166252,2/3/2020,Rejected,9,8.83,Home Renovation,House,Low
+2943,968,354663,8/15/2024,Rejected,4,5.44,Home Renovation,House,Low
+2944,169,77137,7/13/2020,Approved,4,11.41,Business Expansion,Car,High
+2945,882,121977,11/13/2023,Approved,10,11.4,Medical,Car,High
+2946,565,409879,8/20/2022,Approved,6,5,Education,House,Medium
+2947,565,416691,6/19/2022,Rejected,9,10.54,Business Expansion,None,Medium
+2948,578,182773,10/27/2022,Approved,8,5.1,Business Expansion,Car,Low
+2949,520,397205,4/26/2022,Rejected,9,7.96,Business Expansion,None,Low
+2950,222,231692,12/26/2021,Approved,10,3.77,Education,None,Low
+2951,490,322145,10/11/2023,Rejected,2,7.59,Home Renovation,Car,Low
+2952,239,149568,9/21/2022,Approved,5,5.35,Home Renovation,House,Low
+2953,559,403403,7/16/2022,Closed,9,4.01,Education,Car,Medium
+2954,829,146194,2/16/2022,Approved,2,6.92,Home Renovation,House,High
+2955,488,256962,12/31/2022,Closed,6,10.87,Medical,Car,High
+2956,732,165137,6/7/2023,Approved,5,6.21,Home Renovation,Car,Medium
+2957,99,8158,8/19/2024,Closed,4,8.51,Home Renovation,House,Low
+2958,518,200769,3/1/2023,Approved,8,3.88,Education,House,Medium
+2959,740,256500,9/29/2024,Rejected,3,9.18,Medical,None,Medium
+2960,726,260609,9/8/2023,Rejected,10,11.29,Home Renovation,Car,High
+2961,907,402211,3/15/2024,Closed,7,5.49,Medical,None,Low
+2962,623,48593,5/8/2024,Rejected,4,9.34,Home Renovation,Car,Low
+2963,874,415568,10/8/2020,Approved,3,5.62,Medical,None,Medium
+2964,786,288422,1/27/2023,Approved,4,10.59,Business Expansion,House,High
+2965,917,188257,11/14/2020,Approved,8,10.36,Business Expansion,None,Medium
+2966,74,357988,7/27/2024,Rejected,6,5.87,Education,Car,Low
+2967,195,228807,10/15/2024,Defaulted,3,4.78,Medical,House,Low
+2968,873,138559,12/8/2020,Approved,1,6.12,Education,None,High
+2969,987,478439,2/23/2022,Approved,2,3.92,Education,Car,High
+2970,636,6627,5/31/2023,Defaulted,2,9.56,Home Renovation,None,Medium
+2971,225,206218,3/25/2024,Defaulted,3,7.13,Education,None,Medium
+2972,909,118370,4/18/2022,Closed,10,12.27,Home Renovation,House,High
+2973,424,300922,7/31/2023,Closed,5,5.28,Home Renovation,Car,Low
+2974,399,351467,5/6/2023,Defaulted,6,9.55,Education,House,Medium
+2975,19,200735,11/10/2024,Approved,2,11.27,Medical,House,High
+2976,527,361543,5/16/2020,Approved,9,5.33,Business Expansion,Car,High
+2977,563,383538,3/21/2020,Approved,5,9.86,Education,Car,Medium
+2978,85,229429,8/5/2020,Approved,1,8.87,Education,Car,Medium
+2979,381,420388,10/4/2020,Defaulted,2,5.23,Education,None,Low
+2980,615,290217,5/20/2024,Closed,1,9.06,Medical,None,Medium
+2981,574,57385,10/25/2024,Defaulted,2,11.3,Home Renovation,House,Low
+2982,442,67189,10/18/2020,Closed,9,9.83,Home Renovation,Car,High
+2983,810,449714,3/9/2022,Rejected,2,12,Business Expansion,None,Medium
+2984,706,249172,7/31/2020,Closed,1,6.77,Education,None,High
+2985,304,171854,12/6/2023,Defaulted,4,4.19,Education,House,Low
+2986,68,242370,7/25/2021,Rejected,9,4.5,Home Renovation,Car,Low
+2987,161,251447,4/2/2024,Approved,8,7.15,Business Expansion,Car,High
+2988,556,37417,11/15/2024,Closed,5,11.18,Education,None,High
+2989,657,307211,2/18/2023,Closed,7,7.11,Business Expansion,Car,High
+2990,318,53922,3/16/2020,Defaulted,8,6.37,Home Renovation,House,High
+2991,145,431757,2/27/2021,Closed,7,7.18,Business Expansion,None,Low
+2992,891,298195,8/5/2020,Defaulted,8,11.34,Home Renovation,House,High
+2993,668,140973,2/14/2022,Approved,10,3.67,Business Expansion,House,High
+2994,472,128785,1/15/2023,Rejected,10,11.3,Home Renovation,Car,Medium
+2995,141,14559,3/15/2021,Rejected,10,6.2,Home Renovation,Car,Low
+2996,27,85170,6/12/2022,Rejected,8,5.33,Business Expansion,None,High
+2997,147,365238,5/21/2021,Closed,4,3.83,Business Expansion,House,Low
+2998,672,6375,8/17/2022,Rejected,4,5.77,Business Expansion,House,Medium
+2999,669,358124,7/24/2023,Approved,10,7.38,Education,House,High
+3000,437,207680,8/29/2021,Defaulted,4,4.82,Education,Car,High
